@@ -43,6 +43,10 @@ function slugify(value) {
     .slice(0, 80);
 }
 
+function taipeiDate() {
+  return new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString().slice(0, 10);
+}
+
 async function fetchJson(url) {
   const response = await fetch(url, { headers: githubHeaders() });
   if (!response.ok) throw new Error(`GitHub API ${response.status} for ${url}`);
@@ -173,6 +177,29 @@ function handRaiseCounterRecommendation() {
   };
 }
 
+function learningPortfolioAiCoachRecommendation() {
+  return {
+    name: "學習歷程自述 AI 教練",
+    description:
+      "以 AGENTS.md 將 AI 代理人設定成學習歷程自述教練，引導高中生盤點經驗、整理反思並連結目標校系。",
+    educatorSummary:
+      "這是一份可放入 Google Antigravity 2.0 專案根目錄的 AGENTS.md 規則檔，會把 AI 代理人設定成學習歷程自述教練。它透過五階段流程協助學生盤點經驗、回顧歷程、整理亮點、連結未來與修整表達，強調不代寫、不編造、不誇大，適合教師或輔導人員用來陪伴學生準備備審資料與自述初稿。",
+    educationLevels: ["高中", "成人教育/教師研習"],
+    useCases: [
+      "高中生準備大學個人申請、推甄或備審資料時整理自述素材",
+      "教師或輔導人員建立一致的學習歷程訪談與回饋流程",
+      "協助學生把多元表現、學習計畫與目標校系需求連結起來"
+    ],
+    cautions: [
+      "工具定位是引導與回饋，不應替學生代寫可直接提交的內容",
+      "所有經驗細節需由學生本人提供，避免編造或誇大",
+      "完成版本仍建議交由指導教師或輔導老師審閱"
+    ],
+    install:
+      "下載或複製本專案後，在 Google Antigravity 2.0 建立新專案，將 AGENTS.md 放在專案資料夾最外層，再開啟新對話並描述申請科系或備審需求。"
+  };
+}
+
 async function existingEntriesByRepo() {
   const entries = new Map();
   try {
@@ -211,6 +238,9 @@ function buildEntry(repo, repoData, readme) {
   const recommendation = (() => {
     if (repo === "chichingleetw/audience-analysis") return audienceAnalysisRecommendation();
     if (repo === "chichingleetw/hand-raise-counter") return handRaiseCounterRecommendation();
+    if (repo === "chichingleetw/learning-portfolio-ai-coach") {
+      return learningPortfolioAiCoachRecommendation();
+    }
     return genericRecommendation(repo, repoData, readme);
   })();
 
@@ -222,7 +252,7 @@ function buildEntry(repo, repoData, readme) {
       (repo === "chichingleetw/audience-analysis"
         ? "下載或 clone 專案後，建議用 python3 -m http.server 8000 啟動本機 HTTP server，再開啟 聽眾分析.html。使用前需準備可用攝影機與支援影像輸入的 API key。"
         : "請依 GitHub README 的安裝與啟動說明操作，並先在測試環境確認權限、資料與瀏覽器相容性。"),
-    submittedAt: new Date().toISOString().slice(0, 10)
+    submittedAt: taipeiDate()
   };
 
   return normalizeEntry(entry, `list.txt:${repo}`);
