@@ -1,5 +1,7 @@
 import catalog from "../data/catalog.generated.json";
 
+const educationLevelOrder = ["中小學", "高中", "大學", "研究"];
+
 export type CatalogEntry = {
   name: string;
   description: string;
@@ -36,4 +38,11 @@ export const tags = Array.from(new Set(entries.flatMap((entry) => entry.tags))).
 
 export const educationLevels = Array.from(
   new Set(entries.flatMap((entry) => entry.educationLevels))
-).sort((a, b) => a.localeCompare(b));
+).sort((a, b) => {
+  const aIndex = educationLevelOrder.indexOf(a);
+  const bIndex = educationLevelOrder.indexOf(b);
+  if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
+  if (aIndex !== -1) return -1;
+  if (bIndex !== -1) return 1;
+  return a.localeCompare(b);
+});

@@ -147,23 +147,13 @@ function formatDate(value: string) {
                   </ul>
                 </div>
 
-                <div class="meta">
-                  <span>{entry.language}</span>
-                  <span>{entry.license}</span>
-                  <span>更新 {formatDate(entry.lastPushedAt || entry.submittedAt)}</span>
-                </div>
-
-                <div class="tags">
-                  {entry.tags.map((tag) => <span>{tag}</span>)}
-                </div>
-
                 <details>
                   <summary>啟動或安裝方式</summary>
                   <p>{entry.install}</p>
                 </details>
 
                 <div class="links">
-                  <a href={entry.repoUrl} target="_blank" rel="noreferrer">原始碼</a>
+                  <a href={entry.repoUrl} target="_blank" rel="noreferrer">原始出處</a>
                   {entry.homepage ? <a href={entry.homepage} target="_blank" rel="noreferrer">網站</a> : null}
                 </div>
               </article>

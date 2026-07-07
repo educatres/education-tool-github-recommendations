@@ -6,6 +6,7 @@ import { normalizeEntry, parseCatalogYaml, stringifyCatalogYaml } from "./catalo
 const listPath = path.resolve("list.txt");
 const catalogDir = path.resolve("catalog");
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
+const allowedEducationLevels = ["中小學", "高中", "大學", "研究"];
 
 function githubHeaders() {
   const headers = {
@@ -33,6 +34,32 @@ function parseRepo(value) {
   } catch {
     return { unsupported: trimmed };
   }
+}
+
+function parseEducationLevels(value) {
+  return [
+    ...new Set(
+      value
+        .split(/[、,，\s]+/)
+        .map((item) => item.trim())
+        .filter((item) => allowedEducationLevels.includes(item))
+    )
+  ];
+}
+
+function parseListItem(line) {
+  const trimmed = line.trim();
+  if (!trimmed || trimmed.startsWith("#")) return null;
+
+  const [repoValue, ...levelParts] = trimmed.split(/\s+/);
+  const parsed = parseRepo(repoValue);
+  if (!parsed) return null;
+  if (typeof parsed === "object" && parsed.unsupported) return parsed;
+
+  return {
+    repo: parsed,
+    educationLevels: parseEducationLevels(levelParts.join(" "))
+  };
 }
 
 function slugify(value) {
@@ -89,11 +116,10 @@ function firstParagraph(readme) {
 function inferEducationLevels(text) {
   const levels = [];
   const candidates = [
-    ["國小", /國小|小學|elementary/i],
-    ["國中", /國中|初中|middle school|junior high/i],
+    ["中小學", /國小|小學|國中|初中|elementary|middle school|junior high/i],
     ["高中", /高中|高職|high school|secondary/i],
     ["大學", /大學|college|university|高教/i],
-    ["成人教育/教師研習", /教師|研習|成人|professional development|workshop/i]
+    ["研究", /研究|研究所|研究生|graduate|research/i]
   ];
 
   for (const [label, pattern] of candidates) {
@@ -101,12 +127,12 @@ function inferEducationLevels(text) {
   }
 
   if (/課堂|classroom|教學|lecture|聽眾|audience/i.test(text)) {
-    for (const level of ["高中", "大學", "成人教育/教師研習"]) {
+    for (const level of ["高中", "大學"]) {
       if (!levels.includes(level)) levels.push(level);
     }
   }
 
-  return levels.length > 0 ? levels : ["國中", "高中", "大學"];
+  return levels.length > 0 ? levels : ["中小學", "高中", "大學"];
 }
 
 function genericRecommendation(repo, repoData, readme) {
@@ -140,7 +166,7 @@ function audienceAnalysisRecommendation() {
       "透過瀏覽器鏡頭與視覺模型觀察課堂整體專注趨勢，協助教師掌握聽眾狀態。",
     educatorSummary:
       "這是一個單檔網頁工具，可在課堂中定時擷取畫面並呼叫支援 Responses API 的視覺模型，估算總人數、疑似不專心人數、手機使用比例與趨勢。它適合做為教師調整課堂節奏、觀察群體參與狀態與課後反思的輔助資料，不應用於個人評分、紀律處分或身分辨識。",
-    educationLevels: ["高中", "大學", "成人教育/教師研習"],
+    educationLevels: ["高中", "大學"],
     useCases: [
       "大型課堂或講座中快速掌握整體注意力變化",
       "教師研習時示範 AI 視覺模型在教學觀察上的可能性",
@@ -161,7 +187,7 @@ function handRaiseCounterRecommendation() {
       "透過瀏覽器鏡頭與視覺模型統計現場聽眾人數、舉手人數與舉手比例，協助教師掌握互動回應。",
     educatorSummary:
       "這是一個可直接在瀏覽器開啟的單頁工具，可連接攝影機並呼叫視覺模型 API，手動或定時統計現場聽眾總人數、舉手人數與比例。它適合在講座、課堂提問、即時投票或大型活動中快速掌握群體回應，但仍應把結果視為輔助觀察資料，而非個別學生表現判定。",
-    educationLevels: ["國中", "高中", "大學", "成人教育/教師研習"],
+    educationLevels: ["中小學", "高中", "大學"],
     useCases: [
       "課堂提問後快速估計整體舉手回應比例",
       "講座或工作坊中投影全螢幕儀表板，輔助主持人掌握互動狀況",
@@ -184,7 +210,7 @@ function learningPortfolioAiCoachRecommendation() {
       "以 AGENTS.md 將 AI 代理人設定成學習歷程自述教練，引導高中生盤點經驗、整理反思並連結目標校系。",
     educatorSummary:
       "這是一份可放入 Google Antigravity 2.0 專案根目錄的 AGENTS.md 規則檔，會把 AI 代理人設定成學習歷程自述教練。它透過五階段流程協助學生盤點經驗、回顧歷程、整理亮點、連結未來與修整表達，強調不代寫、不編造、不誇大，適合教師或輔導人員用來陪伴學生準備備審資料與自述初稿。",
-    educationLevels: ["高中", "成人教育/教師研習"],
+    educationLevels: ["高中"],
     useCases: [
       "高中生準備大學個人申請、推甄或備審資料時整理自述素材",
       "教師或輔導人員建立一致的學習歷程訪談與回饋流程",
@@ -234,7 +260,7 @@ function dynamicRepoFields(repo, repoData) {
   };
 }
 
-function buildEntry(repo, repoData, readme) {
+function buildEntry(repo, repoData, readme, manualEducationLevels = []) {
   const recommendation = (() => {
     if (repo === "chichingleetw/audience-analysis") return audienceAnalysisRecommendation();
     if (repo === "chichingleetw/hand-raise-counter") return handRaiseCounterRecommendation();
@@ -247,6 +273,8 @@ function buildEntry(repo, repoData, readme) {
   const entry = {
     ...recommendation,
     ...dynamicRepoFields(repo, repoData),
+    educationLevels:
+      manualEducationLevels.length > 0 ? manualEducationLevels : recommendation.educationLevels,
     install:
       recommendation.install ||
       (repo === "chichingleetw/audience-analysis"
@@ -260,23 +288,24 @@ function buildEntry(repo, repoData, readme) {
 
 async function main() {
   const raw = await fs.readFile(listPath, "utf8");
-  const repos = [];
+  const listItems = [];
   const unsupported = [];
 
   for (const line of raw.split(/\r?\n/)) {
-    const parsed = parseRepo(line);
+    const parsed = parseListItem(line);
     if (!parsed) continue;
     if (typeof parsed === "object" && parsed.unsupported) {
       unsupported.push(parsed.unsupported);
       continue;
     }
-    if (!repos.includes(parsed)) repos.push(parsed);
+    if (!listItems.some((item) => item.repo === parsed.repo)) listItems.push(parsed);
   }
 
   await fs.mkdir(catalogDir, { recursive: true });
   const existing = await existingEntriesByRepo();
 
-  for (const repo of repos) {
+  for (const item of listItems) {
+    const { repo, educationLevels } = item;
     const repoData = await fetchJson(`https://api.github.com/repos/${repo}`);
     const readme = await fetchReadme(repo);
     const current = existing.get(repo);
@@ -284,11 +313,12 @@ async function main() {
       ? normalizeEntry(
           {
             ...current.entry,
-            ...dynamicRepoFields(repo, repoData)
+            ...dynamicRepoFields(repo, repoData),
+            ...(educationLevels.length > 0 ? { educationLevels } : {})
           },
           path.relative(process.cwd(), current.filePath)
         )
-      : buildEntry(repo, repoData, readme);
+      : buildEntry(repo, repoData, readme, educationLevels);
     const filePath = current?.filePath || path.join(catalogDir, `${slugify(repo.split("/")[1])}.yaml`);
     await fs.writeFile(filePath, stringifyCatalogYaml(entry));
     console.log(`Imported ${repo} -> ${path.relative(process.cwd(), filePath)}`);
@@ -298,7 +328,7 @@ async function main() {
     console.warn(`Unsupported list item skipped: ${item}`);
   }
 
-  if (repos.length === 0) {
+  if (listItems.length === 0) {
     console.warn("No GitHub repositories found in list.txt.");
   }
 }
