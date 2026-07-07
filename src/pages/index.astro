@@ -4,18 +4,6 @@ import "../styles/global.css";
 
 const totalStars = entries.reduce((sum, entry) => sum + entry.stars, 0);
 const totalRepos = entries.length;
-const lastUpdated = entries
-  .map((entry) => entry.lastPushedAt || entry.submittedAt)
-  .sort((a, b) => b.localeCompare(a))[0];
-
-function formatDate(value: string) {
-  if (!value) return "尚無資料";
-  return new Intl.DateTimeFormat("zh-Hant", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  }).format(new Date(value));
-}
 ---
 
 <!doctype html>
@@ -160,7 +148,6 @@ function formatDate(value: string) {
 
       <footer class="siteFooter">
         <span>資料來源：list.txt 與 GitHub API</span>
-        <span>最近同步：{lastUpdated ? formatDate(lastUpdated) : "尚無資料"}</span>
       </footer>
     </main>
 
