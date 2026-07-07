@@ -23,5 +23,5 @@ cautions:
 language: Unknown
 install: |
   下載或複製本專案後，在 Google Antigravity 2.0 建立新專案，將 AGENTS.md 放在專案資料夾最外層，再開啟新對話並描述申請科系或備審需求。
-license: Unspecified
+license: MIT
 submittedAt: "2026-07-08"

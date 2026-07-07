@@ -1,5 +1,5 @@
 ---
-import { educationLevels, entries, tags } from "../lib/catalog";
+import { educationLevels, entries } from "../lib/catalog";
 import "../styles/global.css";
 
 const totalStars = entries.reduce((sum, entry) => sum + entry.stars, 0);
@@ -58,20 +58,13 @@ function formatDate(value: string) {
       <section class="toolbar" aria-label="推薦清單控制項">
         <label class="search">
           <span>搜尋</span>
-          <input id="search" type="search" placeholder="工具、用途、階段、標籤" autocomplete="off" />
+          <input id="search" type="search" placeholder="工具、用途、階段" autocomplete="off" />
         </label>
         <label>
           <span>教育階段</span>
           <select id="level">
             <option value="">全部</option>
             {educationLevels.map((level) => <option value={level}>{level}</option>)}
-          </select>
-        </label>
-        <label>
-          <span>標籤</span>
-          <select id="tag">
-            <option value="">全部</option>
-            {tags.map((tag) => <option value={tag}>{tag}</option>)}
           </select>
         </label>
         <label>
@@ -97,12 +90,11 @@ function formatDate(value: string) {
                 class="card"
                 data-name={entry.name.toLowerCase()}
                 data-description={`${entry.description} ${entry.educatorSummary}`.toLowerCase()}
-                data-search={`${entry.name} ${entry.description} ${entry.educatorSummary} ${entry.educationLevels.join(" ")} ${entry.useCases.join(" ")} ${entry.cautions.join(" ")} ${entry.install} ${entry.tags.join(" ")} ${entry.language} ${entry.authorGitHub}`.toLowerCase()}
+                data-search={`${entry.name} ${entry.description} ${entry.educatorSummary} ${entry.educationLevels.join(" ")} ${entry.useCases.join(" ")} ${entry.cautions.join(" ")} ${entry.install} ${entry.language} ${entry.authorGitHub}`.toLowerCase()}
                 data-author={entry.authorName.toLowerCase()}
                 data-github={entry.authorGitHub.toLowerCase()}
                 data-language={entry.language}
                 data-levels={entry.educationLevels.join(",")}
-                data-tags={entry.tags.join(",")}
                 data-use-cases={entry.useCases.join(" ").toLowerCase()}
                 data-stars={entry.stars}
                 data-updated={entry.lastPushedAt || entry.submittedAt}
@@ -162,7 +154,7 @@ function formatDate(value: string) {
         }
         <div class="noResults" id="noResults" hidden>
           <h2>沒有符合條件的工具</h2>
-          <p>試著改用較短的關鍵字，或切回全部教育階段與標籤。</p>
+          <p>試著改用較短的關鍵字，或切回全部教育階段。</p>
         </div>
       </section>
 
@@ -185,7 +177,6 @@ function formatDate(value: string) {
       const controls = {
         search: requiredElement<HTMLInputElement>("#search"),
         level: requiredElement<HTMLSelectElement>("#level"),
-        tag: requiredElement<HTMLSelectElement>("#tag"),
         sort: requiredElement<HTMLSelectElement>("#sort")
       };
 
@@ -196,7 +187,6 @@ function formatDate(value: string) {
       function matches(card: HTMLElement) {
         const query = controls.search.value.trim().toLowerCase();
         const level = controls.level.value;
-        const tag = controls.tag.value;
         const haystack = [
           data(card, "search"),
           data(card, "name"),
@@ -205,14 +195,12 @@ function formatDate(value: string) {
           data(card, "github"),
           data(card, "language").toLowerCase(),
           data(card, "levels"),
-          data(card, "tags"),
           data(card, "useCases")
         ].join(" ");
 
         return (
           (!query || haystack.includes(query)) &&
-          (!level || data(card, "levels").split(",").includes(level)) &&
-          (!tag || data(card, "tags").split(",").includes(tag))
+          (!level || data(card, "levels").split(",").includes(level))
         );
       }
 
@@ -234,7 +222,9 @@ function formatDate(value: string) {
         noResults.hidden = cards.length === 0 || visible.length > 0;
       }
 
-      Object.values(controls).forEach((control) => control.addEventListener("input", render));
+      controls.search.addEventListener("input", render);
+      controls.level.addEventListener("change", render);
+      controls.sort.addEventListener("change", render);
       render();
     </script>
   </body>
