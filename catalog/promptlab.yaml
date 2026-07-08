@@ -25,6 +25,6 @@ cautions:
   - AI 回答仍需人工判讀與查證，適合做為思考輔助而非唯一資料來源
 language: Unknown
 install: |
-  可依 README 連結進入線上版本使用。若要自行部署或改作課堂版本，請先閱讀 GitHub 專案內容並在測試環境確認權限、資料處理與瀏覽器相容性。
+  可依 README 連結進入線上版本使用：https://air.cgu.edu.tw/workspace3/PromptLab/。若要自行部署或改作課堂版本，請先閱讀 GitHub 專案內容並在測試環境確認權限、資料處理與瀏覽器相容性。
 license: MIT
 submittedAt: "2026-07-08"
