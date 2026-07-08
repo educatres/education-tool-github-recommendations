@@ -109,12 +109,12 @@
     ],
     "language": "Unknown",
     "install": "可依 README 連結進入線上版本使用。若要自行部署或改作課堂版本，請先閱讀 GitHub 專案內容並在測試環境確認權限、資料處理與瀏覽器相容性。",
-    "license": "Unspecified",
+    "license": "MIT",
     "submittedAt": "2026-07-08",
     "sourcePath": "catalog/promptlab.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-08T01:59:16Z",
+    "lastPushedAt": "2026-07-08T02:10:35Z",
     "repoUrl": "https://github.com/chichingleetw/promptLab",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -153,6 +153,46 @@
     "forks": 0,
     "lastPushedAt": "2026-07-07T22:29:00Z",
     "repoUrl": "https://github.com/chichingleetw/learning-portfolio-ai-coach",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "課堂單選作答系統",
+    "description": "純前端課堂單選作答工具，老師用 Google Sheet 管理題目與答案公布狀態，學生掃 QR code 作答。",
+    "educatorSummary": "這是一個適合部署在 GitHub Pages 的純前端課堂單選作答工具。老師可用 Google Sheet 管理題目、選項、開放狀態與答案公布狀態，再由老師頁產生學生網址與 QR code；學生用手機進入網頁後作答，姓名與作答紀錄只儲存在學生自己的瀏覽器 localStorage。它適合用於不需要登入、不需要集中保存答案的即時練習、課堂暖身、形成性檢核或公布答案後的自我訂正情境。",
+    "authorName": "chichingleetw",
+    "authorGitHub": "chichingleetw",
+    "repo": "chichingleetw/github-class-quiz-helper",
+    "homepage": "",
+    "tags": [
+      "education",
+      "teaching",
+      "github"
+    ],
+    "educationLevels": [
+      "中小學",
+      "高中",
+      "大學",
+      "研究"
+    ],
+    "useCases": [
+      "課堂暖身、概念檢核或單選題即時練習",
+      "老師用 Google Sheet 控制題目開放與答案公布節奏",
+      "學生掃 QR code 作答並在答案公布後自行查看結果"
+    ],
+    "cautions": [
+      "不會收集全班答案到雲端，老師無法看到全班答對率或個別答案",
+      "不適合正式考試、防作弊測驗或需要集中保存作答紀錄的情境",
+      "若公布前將 correctAnswer 寫在公開 CSV，懂技術的學生可能提前看到答案"
+    ],
+    "language": "JavaScript",
+    "install": "將專案部署到 GitHub Pages 後，用 Pages 網址開啟 teacher.html，貼上 Google Sheet 網址並產生學生網址與 QR code。Google Sheet 第一列需依 README 使用 questionId、questionText、optionA 到 optionF、active、answerRevealed、correctAnswer 等欄位；本機測試可直接使用 sample.csv 或 sample-revealed.csv。",
+    "license": "Unspecified",
+    "submittedAt": "2026-07-08",
+    "sourcePath": "catalog/github-class-quiz-helper.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-07-08T04:24:15Z",
+    "repoUrl": "https://github.com/chichingleetw/github-class-quiz-helper",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   }
 ]

@@ -2,3 +2,4 @@ https://github.com/chichingleetw/audience-analysis 中小學、高中、大學
 https://github.com/chichingleetw/hand-raise-counter 中小學、高中、大學、研究
 https://github.com/chichingleetw/learning-portfolio-ai-coach 高中
 https://github.com/chichingleetw/promptLab 中小學、高中、大學、研究
+https://github.com/chichingleetw/github-class-quiz-helper  中小學、高中、大學、研究

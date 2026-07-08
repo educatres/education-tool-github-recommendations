@@ -26,5 +26,5 @@ cautions:
 language: Unknown
 install: |
   可依 README 連結進入線上版本使用。若要自行部署或改作課堂版本，請先閱讀 GitHub 專案內容並在測試環境確認權限、資料處理與瀏覽器相容性。
-license: Unspecified
+license: MIT
 submittedAt: "2026-07-08"
