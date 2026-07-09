@@ -6,6 +6,7 @@ const requiredFields = [
   "authorGitHub",
   "repo",
   "homepage",
+  "launchUrl",
   "tags",
   "educationLevels",
   "useCases",
@@ -93,13 +94,14 @@ function unquote(value) {
 
 export function normalizeEntry(entry, sourcePath) {
   const errors = [];
-  for (const field of requiredFields) {
+  for (const field of requiredFields.filter((key) => key !== "launchUrl")) {
     if (!(field in entry)) errors.push(`${field}: required`);
   }
 
   const normalized = {
     ...entry,
     homepage: entry.homepage || "",
+    launchUrl: entry.launchUrl || "",
     tags: Array.isArray(entry.tags)
       ? [...new Set(entry.tags.map((tag) => String(tag).trim().toLowerCase()).filter(Boolean))]
       : [],
@@ -123,6 +125,9 @@ export function normalizeEntry(entry, sourcePath) {
     errors.push("repo: must use owner/name");
   }
   if (normalized.homepage && !isUrl(normalized.homepage)) errors.push("homepage: must be a URL or blank");
+  if (normalized.launchUrl && !isUrl(normalized.launchUrl)) {
+    errors.push("launchUrl: must be a URL or blank");
+  }
   if (normalized.tags.length < 1 || normalized.tags.length > 8) {
     errors.push("tags: must contain 1-8 tags");
   }

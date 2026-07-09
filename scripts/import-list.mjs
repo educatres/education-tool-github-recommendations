@@ -6,7 +6,7 @@ import { normalizeEntry, parseCatalogYaml, stringifyCatalogYaml } from "./catalo
 const listPath = path.resolve("list.txt");
 const catalogDir = path.resolve("catalog");
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
-const allowedEducationLevels = ["中小學", "高中", "大學", "研究"];
+const allowedEducationLevels = ["不限領域", "中小學", "高中", "大學", "研究"];
 
 function githubHeaders() {
   const headers = {
@@ -51,14 +51,16 @@ function parseListItem(line) {
   const trimmed = line.trim();
   if (!trimmed || trimmed.startsWith("#")) return null;
 
-  const [repoValue, ...levelParts] = trimmed.split(/\s+/);
+  const columns = line.split("\t").map((part) => part.trim());
+  const [repoValue = "", levelValue = "", launchUrl = ""] = columns;
   const parsed = parseRepo(repoValue);
   if (!parsed) return null;
   if (typeof parsed === "object" && parsed.unsupported) return parsed;
 
   return {
     repo: parsed,
-    educationLevels: parseEducationLevels(levelParts.join(" "))
+    educationLevels: parseEducationLevels(levelValue),
+    launchUrl
   };
 }
 
@@ -249,6 +251,7 @@ function dynamicRepoFields(repo, repoData) {
     authorGitHub: repo.split("/")[0],
     repo,
     homepage: repoData.homepage || "",
+    launchUrl: "",
     tags: [
       "education",
       "teaching",
@@ -260,7 +263,7 @@ function dynamicRepoFields(repo, repoData) {
   };
 }
 
-function buildEntry(repo, repoData, readme, manualEducationLevels = []) {
+function buildEntry(repo, repoData, readme, manualEducationLevels = [], launchUrl = "") {
   const recommendation = (() => {
     if (repo === "chichingleetw/audience-analysis") return audienceAnalysisRecommendation();
     if (repo === "chichingleetw/hand-raise-counter") return handRaiseCounterRecommendation();
@@ -273,6 +276,7 @@ function buildEntry(repo, repoData, readme, manualEducationLevels = []) {
   const entry = {
     ...recommendation,
     ...dynamicRepoFields(repo, repoData),
+    launchUrl,
     educationLevels:
       manualEducationLevels.length > 0 ? manualEducationLevels : recommendation.educationLevels,
     install:
@@ -305,7 +309,7 @@ async function main() {
   const existing = await existingEntriesByRepo();
 
   for (const item of listItems) {
-    const { repo, educationLevels } = item;
+    const { repo, educationLevels, launchUrl } = item;
     const repoData = await fetchJson(`https://api.github.com/repos/${repo}`);
     const readme = await fetchReadme(repo);
     const current = existing.get(repo);
@@ -314,11 +318,12 @@ async function main() {
           {
             ...current.entry,
             ...dynamicRepoFields(repo, repoData),
+            launchUrl,
             ...(educationLevels.length > 0 ? { educationLevels } : {})
           },
           path.relative(process.cwd(), current.filePath)
         )
-      : buildEntry(repo, repoData, readme, educationLevels);
+      : buildEntry(repo, repoData, readme, educationLevels, launchUrl);
     const filePath = current?.filePath || path.join(catalogDir, `${slugify(repo.split("/")[1])}.yaml`);
     await fs.writeFile(filePath, stringifyCatalogYaml(entry));
     console.log(`Imported ${repo} -> ${path.relative(process.cwd(), filePath)}`);

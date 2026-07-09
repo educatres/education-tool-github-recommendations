@@ -30,6 +30,7 @@ try {
     authorGitHub: await ask("GitHub username"),
     repo: await ask("Repository (owner/name)"),
     homepage: await ask("Homepage URL, leave blank if none"),
+    launchUrl: await ask("Launch URL, leave blank if none"),
     tags: (await ask("Tags, comma separated", "tool, learning"))
       .split(",")
       .map((tag) => tag.trim())

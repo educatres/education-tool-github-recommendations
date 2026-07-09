@@ -6,15 +6,13 @@ authorName: chichingleetw
 authorGitHub: chichingleetw
 repo: chichingleetw/hand-raise-counter
 homepage: 
+launchUrl: 
 tags:
   - education
   - teaching
   - github
 educationLevels:
-  - 中小學
-  - 高中
-  - 大學
-  - 研究
+  - 不限領域
 useCases:
   - 課堂提問後快速估計整體舉手回應比例
   - 講座或工作坊中投影全螢幕儀表板，輔助主持人掌握互動狀況

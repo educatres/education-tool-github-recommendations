@@ -22,11 +22,11 @@ npm run build
 
 ## list.txt 格式
 
-每行放一個 GitHub repository，可使用完整網址或 `owner/repo`：
+每行使用 tab 分隔欄位。第一欄是 GitHub repository，可使用完整網址或 `owner/repo`；第二欄是教育階段分類；第三欄選填，填入可直接使用工具的網站：
 
 ```text
-https://github.com/chichingleetw/audience-analysis
-openai/openai-cookbook
+https://github.com/chichingleetw/audience-analysis	中小學、高中
+openai/openai-cookbook	不限領域	https://example.com/tool/
 ```
 
 空行與 `#` 開頭註解會被忽略。v1 僅支援 GitHub repository；非 GitHub 網址會略過並顯示警告。
@@ -44,6 +44,7 @@ authorName: chichingleetw
 authorGitHub: chichingleetw
 repo: chichingleetw/audience-analysis
 homepage:
+launchUrl:
 tags:
   - education
   - teaching

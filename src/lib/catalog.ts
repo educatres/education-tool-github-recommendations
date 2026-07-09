@@ -1,6 +1,6 @@
 import catalog from "../data/catalog.generated.json";
 
-const educationLevelOrder = ["中小學", "高中", "大學", "研究"];
+const educationLevelOrder = ["不限領域", "中小學", "高中", "大學", "研究"];
 
 export type CatalogEntry = {
   name: string;
@@ -10,6 +10,7 @@ export type CatalogEntry = {
   authorGitHub: string;
   repo: string;
   homepage: string;
+  launchUrl: string;
   tags: string[];
   educationLevels: string[];
   useCases: string[];

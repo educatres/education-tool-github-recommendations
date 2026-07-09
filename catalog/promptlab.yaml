@@ -6,15 +6,13 @@ authorName: chichingleetw
 authorGitHub: chichingleetw
 repo: chichingleetw/promptLab
 homepage: 
+launchUrl: https://air.cgu.edu.tw/workspace3/PromptLab/
 tags:
   - education
   - teaching
   - github
 educationLevels:
-  - 中小學
-  - 高中
-  - 大學
-  - 研究
+  - 不限領域
 useCases:
   - AI 素養課程中練習提示語設計、追問與修正
   - 跨領域探究或專題研究時協助學生拆解問題與補充條件

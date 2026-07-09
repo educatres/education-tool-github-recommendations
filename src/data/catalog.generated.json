@@ -7,16 +7,14 @@
     "authorGitHub": "chichingleetw",
     "repo": "chichingleetw/hand-raise-counter",
     "homepage": "",
+    "launchUrl": "",
     "tags": [
       "education",
       "teaching",
       "github"
     ],
     "educationLevels": [
-      "中小學",
-      "高中",
-      "大學",
-      "研究"
+      "不限領域"
     ],
     "useCases": [
       "課堂提問後快速估計整體舉手回應比例",
@@ -47,6 +45,7 @@
     "authorGitHub": "chichingleetw",
     "repo": "chichingleetw/audience-analysis",
     "homepage": "",
+    "launchUrl": "",
     "tags": [
       "education",
       "teaching",
@@ -54,8 +53,7 @@
     ],
     "educationLevels": [
       "中小學",
-      "高中",
-      "大學"
+      "高中"
     ],
     "useCases": [
       "大型課堂或講座中快速掌握整體注意力變化",
@@ -79,6 +77,44 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
+    "name": "Classroom Timer tzk",
+    "description": "一套為教室投影、電子白板與觸控裝置設計的純前端計時工具。無須登入、後端或網路 API，可直接在瀏覽器中使用。",
+    "educatorSummary": "一套為教室投影、電子白板與觸控裝置設計的純前端計時工具。無須登入、後端或網路 API，可直接在瀏覽器中使用。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-timer-tzk",
+    "homepage": "",
+    "launchUrl": "https://kisaraki.github.io/classroom-timer-tzk/",
+    "tags": [
+      "education",
+      "teaching",
+      "github"
+    ],
+    "educationLevels": [
+      "不限領域"
+    ],
+    "useCases": [
+      "課前評估工具功能是否符合課程需求",
+      "作為課堂活動、教學管理或學習輔助的候選工具",
+      "搭配 GitHub README 與原始碼了解部署方式"
+    ],
+    "cautions": [
+      "正式使用前請先小規模測試",
+      "若涉及學生資料或影像，需確認同意、隱私與校內規範",
+      "GitHub stars 僅作為社群參考，不代表教學品質保證"
+    ],
+    "language": "JavaScript",
+    "install": "請依 GitHub README 的安裝與啟動說明操作，並先在測試環境確認權限、資料與瀏覽器相容性。",
+    "license": "MIT",
+    "submittedAt": "2026-07-09",
+    "sourcePath": "catalog/classroom-timer-tzk.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-07-09T10:56:21Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-timer-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
+  },
+  {
     "name": "Prompt Lab",
     "description": "以提問能力為核心的 AI 素養學習工具，引導學生拆解問題、設定情境、比較回答並修正提示語。",
     "educatorSummary": "Prompt Lab 是一套以「提問能力」為核心的 AI 素養學習工具，專為課堂教學與學生自主探究而設計。它引導學生練習拆解問題、設定情境、補充條件、比較答案並逐步修正提示語，讓學生從單純把問題交給 AI，進一步學會引導 AI 協助思考。教師可將它用於 AI 素養課程、跨領域探究、寫作訓練、專題研究或邏輯思辨活動，帶學生討論問題是否明確、條件是否足夠，以及 AI 回答是否合理。",
@@ -86,16 +122,14 @@
     "authorGitHub": "chichingleetw",
     "repo": "chichingleetw/promptLab",
     "homepage": "",
+    "launchUrl": "https://air.cgu.edu.tw/workspace3/PromptLab/",
     "tags": [
       "education",
       "teaching",
       "github"
     ],
     "educationLevels": [
-      "中小學",
-      "高中",
-      "大學",
-      "研究"
+      "不限領域"
     ],
     "useCases": [
       "AI 素養課程中練習提示語設計、追問與修正",
@@ -126,6 +160,7 @@
     "authorGitHub": "chichingleetw",
     "repo": "chichingleetw/learning-portfolio-ai-coach",
     "homepage": "",
+    "launchUrl": "",
     "tags": [
       "education",
       "teaching",
@@ -163,6 +198,7 @@
     "authorGitHub": "chichingleetw",
     "repo": "chichingleetw/github-class-quiz-helper",
     "homepage": "",
+    "launchUrl": "https://chichingleetw.github.io/github-class-quiz-helper/teacher.html",
     "tags": [
       "education",
       "teaching",

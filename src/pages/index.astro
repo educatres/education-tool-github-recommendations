@@ -4,11 +4,6 @@ import "../styles/global.css";
 
 const totalStars = entries.reduce((sum, entry) => sum + entry.stars, 0);
 const totalRepos = entries.length;
-const launchUrls: Record<string, string> = {
-  "chichingleetw/github-class-quiz-helper":
-    "https://chichingleetw.github.io/github-class-quiz-helper/teacher.html",
-  "chichingleetw/promptLab": "https://air.cgu.edu.tw/workspace3/PromptLab/"
-};
 ---
 
 <!doctype html>
@@ -139,9 +134,7 @@ const launchUrls: Record<string, string> = {
 
                 <div class="links">
                   <a href={entry.repoUrl} target="_blank" rel="noreferrer">原始出處</a>
-                  {launchUrls[entry.repo] ? (
-                    <a href={launchUrls[entry.repo]} target="_blank" rel="noreferrer">線上使用</a>
-                  ) : null}
+                  {entry.launchUrl ? <a href={entry.launchUrl} target="_blank" rel="noreferrer">線上使用</a> : null}
                   {entry.homepage ? <a href={entry.homepage} target="_blank" rel="noreferrer">網站</a> : null}
                 </div>
               </article>
