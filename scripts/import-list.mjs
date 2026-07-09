@@ -310,21 +310,16 @@ async function main() {
 
   for (const item of listItems) {
     const { repo, educationLevels, launchUrl } = item;
+    const current = existing.get(repo);
+    if (current) {
+      console.log(`Skipped existing ${repo} -> ${path.relative(process.cwd(), current.filePath)}`);
+      continue;
+    }
+
     const repoData = await fetchJson(`https://api.github.com/repos/${repo}`);
     const readme = await fetchReadme(repo);
-    const current = existing.get(repo);
-    const entry = current
-      ? normalizeEntry(
-          {
-            ...current.entry,
-            ...dynamicRepoFields(repo, repoData),
-            launchUrl,
-            ...(educationLevels.length > 0 ? { educationLevels } : {})
-          },
-          path.relative(process.cwd(), current.filePath)
-        )
-      : buildEntry(repo, repoData, readme, educationLevels, launchUrl);
-    const filePath = current?.filePath || path.join(catalogDir, `${slugify(repo.split("/")[1])}.yaml`);
+    const entry = buildEntry(repo, repoData, readme, educationLevels, launchUrl);
+    const filePath = path.join(catalogDir, `${slugify(repo.split("/")[1])}.yaml`);
     await fs.writeFile(filePath, stringifyCatalogYaml(entry));
     console.log(`Imported ${repo} -> ${path.relative(process.cwd(), filePath)}`);
   }

@@ -1,5 +1,43 @@
 [
   {
+    "name": "公用便條貼白板",
+    "description": "這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。",
+    "educatorSummary": "這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。",
+    "authorName": "chichingleetw",
+    "authorGitHub": "chichingleetw",
+    "repo": "chichingleetw/classboard",
+    "homepage": "",
+    "launchUrl": "https://chichingleetw.github.io/classboard/demo.html",
+    "tags": [
+      "education",
+      "teaching",
+      "github"
+    ],
+    "educationLevels": [
+      "不限領域"
+    ],
+    "useCases": [
+      "課前評估工具功能是否符合課程需求",
+      "作為課堂活動、教學管理或學習輔助的候選工具",
+      "搭配 GitHub README 與原始碼了解部署方式"
+    ],
+    "cautions": [
+      "正式使用前請先小規模測試",
+      "若涉及學生資料或影像，需確認同意、隱私與校內規範",
+      "GitHub stars 僅作為社群參考，不代表教學品質保證"
+    ],
+    "language": "JavaScript",
+    "install": "請依 GitHub README 的安裝與啟動說明操作，並先在測試環境確認權限、資料與瀏覽器相容性。",
+    "license": "MIT",
+    "submittedAt": "2026-07-09",
+    "sourcePath": "catalog/classboard.yaml",
+    "stars": 1,
+    "forks": 0,
+    "lastPushedAt": "2026-07-09T11:33:40Z",
+    "repoUrl": "https://github.com/chichingleetw/classboard",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
     "name": "聽眾舉手統計",
     "description": "透過瀏覽器鏡頭與視覺模型統計現場聽眾人數、舉手人數與舉手比例，協助教師掌握互動回應。",
     "educatorSummary": "這是一個可直接在瀏覽器開啟的單頁工具，可連接攝影機並呼叫視覺模型 API，手動或定時統計現場聽眾總人數、舉手人數與比例。它適合在講座、課堂提問、即時投票或大型活動中快速掌握群體回應，但仍應把結果視為輔助觀察資料，而非個別學生表現判定。",

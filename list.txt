@@ -4,3 +4,4 @@ https://github.com/chichingleetw/learning-portfolio-ai-coach	高中
 https://github.com/chichingleetw/promptLab	不限領域	https://air.cgu.edu.tw/workspace3/PromptLab/
 https://github.com/chichingleetw/github-class-quiz-helper	中小學、高中、大學	https://chichingleetw.github.io/github-class-quiz-helper/teacher.html
 https://github.com/kisaraki/classroom-timer-tzk	不限領域	https://kisaraki.github.io/classroom-timer-tzk/
+https://github.com/chichingleetw/classboard	不限領域	https://chichingleetw.github.io/classboard/demo.html
