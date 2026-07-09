@@ -93,8 +93,9 @@ h1 {
   top: 0;
   z-index: 2;
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) repeat(2, minmax(136px, 180px));
+  grid-template-columns: minmax(240px, 1fr) repeat(2, minmax(136px, 180px)) minmax(118px, auto);
   gap: 12px;
+  align-items: end;
   padding: 16px 0;
   background: rgba(247, 248, 251, 0.96);
   backdrop-filter: blur(10px);
@@ -120,10 +121,33 @@ select {
   font: inherit;
 }
 
+.toolbarButton {
+  min-height: 42px;
+  border: 1px solid #1769aa;
+  border-radius: 8px;
+  padding: 0 14px;
+  background: #1769aa;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
 input:focus,
-select:focus {
+select:focus,
+.toolbarButton:focus {
   border-color: #1769aa;
   outline: 3px solid rgba(23, 105, 170, 0.14);
+}
+
+.toolbarButton:hover {
+  background: #12598f;
+}
+
+.toolbarButton[aria-pressed="true"] {
+  border-color: #287056;
+  background: #287056;
 }
 
 .catalog {
@@ -148,6 +172,14 @@ select:focus {
   display: none;
 }
 
+.card.is-compact {
+  min-height: 0;
+}
+
+.card.is-compact:not(.is-expanded) .cardDetails {
+  display: none;
+}
+
 .cardTop,
 .identity,
 .links,
@@ -164,15 +196,6 @@ select:focus {
 .identity {
   min-width: 0;
   gap: 10px;
-}
-
-.identity img,
-.avatarFallback {
-  width: 42px;
-  height: 42px;
-  flex: 0 0 42px;
-  border-radius: 8px;
-  background: #e6edf2;
 }
 
 .identity h2 {
@@ -198,6 +221,11 @@ select:focus {
 
 .rating strong {
   font-size: 1.05rem;
+}
+
+.cardDetails {
+  display: grid;
+  gap: 14px;
 }
 
 .description,
@@ -259,18 +287,7 @@ select:focus {
   color: #24614c;
 }
 
-details {
-  border-top: 1px solid #edf1f5;
-  padding-top: 10px;
-}
-
-summary {
-  cursor: pointer;
-  color: #1769aa;
-  font-weight: 800;
-}
-
-details p {
+.install p {
   margin: 8px 0 0;
   color: #4a5963;
   white-space: pre-wrap;
@@ -281,19 +298,60 @@ details p {
   margin-top: auto;
 }
 
-.links a {
+.links a,
+.detailReveal {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   min-height: 36px;
   border-radius: 8px;
   padding: 0 12px;
-  background: #1769aa;
-  color: #ffffff;
+  border: 1px solid #bfd3e3;
+  background: #eef6fb;
+  color: #175985;
+  font: inherit;
   font-weight: 800;
 }
 
+.detailReveal {
+  display: none;
+  width: 42px;
+  flex: 0 0 42px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.card.is-compact .detailReveal {
+  display: inline-flex;
+}
+
+.card.is-expanded .detailReveal {
+  border-color: #b8d8c9;
+  background: #edf8f2;
+  color: #24614c;
+}
+
+.detailReveal:hover {
+  background: #dcecf7;
+}
+
+.detailReveal:focus {
+  outline: 3px solid rgba(23, 105, 170, 0.14);
+}
+
 .links a + a {
-  background: #287056;
+  border-color: #b8d8c9;
+  background: #edf8f2;
+  color: #24614c;
+}
+
+.links a:hover {
+  background: #dcecf7;
+}
+
+.links a + a:hover,
+.card.is-expanded .detailReveal:hover {
+  background: #dff1e7;
 }
 
 .empty,

@@ -63,6 +63,9 @@ const totalRepos = entries.length;
             <option value="updated">最近更新</option>
           </select>
         </label>
+        <button class="toolbarButton" id="toggleDetails" type="button" aria-pressed="false">
+          隱藏細節
+        </button>
       </section>
 
       <section class="catalog" id="catalog" aria-live="polite">
@@ -89,7 +92,6 @@ const totalRepos = entries.length;
               >
                 <div class="cardTop">
                   <div class="identity">
-                    {entry.avatarUrl ? <img src={entry.avatarUrl} alt="" loading="lazy" /> : <span class="avatarFallback" />}
                     <div>
                       <h2>{entry.name}</h2>
                       <a href={`https://github.com/${entry.authorGitHub}`} target="_blank" rel="noreferrer">
@@ -103,36 +105,47 @@ const totalRepos = entries.length;
                   </div>
                 </div>
 
-                <p class="description">{entry.description}</p>
-                <p class="summary">{entry.educatorSummary}</p>
+                <div class="cardDetails">
+                  <p class="description">{entry.description}</p>
+                  <p class="summary">{entry.educatorSummary}</p>
 
-                <div class="section">
-                  <h3>適用群體</h3>
-                  <div class="chips">
-                    {entry.educationLevels.map((level) => <span>{level}</span>)}
+                  <div class="section">
+                    <h3>適用群體</h3>
+                    <div class="chips">
+                      {entry.educationLevels.map((level) => <span>{level}</span>)}
+                    </div>
+                  </div>
+
+                  <div class="section">
+                    <h3>教學用途</h3>
+                    <ul>
+                      {entry.useCases.map((item) => <li>{item}</li>)}
+                    </ul>
+                  </div>
+
+                  <div class="section caution">
+                    <h3>導入注意</h3>
+                    <ul>
+                      {entry.cautions.map((item) => <li>{item}</li>)}
+                    </ul>
+                  </div>
+
+                  <div class="section install">
+                    <h3>啟動或安裝方式</h3>
+                    <p>{entry.install}</p>
                   </div>
                 </div>
 
-                <div class="section">
-                  <h3>教學用途</h3>
-                  <ul>
-                    {entry.useCases.map((item) => <li>{item}</li>)}
-                  </ul>
-                </div>
-
-                <div class="section caution">
-                  <h3>導入注意</h3>
-                  <ul>
-                    {entry.cautions.map((item) => <li>{item}</li>)}
-                  </ul>
-                </div>
-
-                <details>
-                  <summary>啟動或安裝方式</summary>
-                  <p>{entry.install}</p>
-                </details>
-
                 <div class="links">
+                  <button
+                    class="detailReveal"
+                    type="button"
+                    aria-expanded="false"
+                    aria-label={`展開 ${entry.name} 的細節`}
+                    title="展開細節"
+                  >
+                    ...
+                  </button>
                   <a href={entry.repoUrl} target="_blank" rel="noreferrer">原始出處</a>
                   {entry.launchUrl ? <a href={entry.launchUrl} target="_blank" rel="noreferrer">線上使用</a> : null}
                   {entry.homepage ? <a href={entry.homepage} target="_blank" rel="noreferrer">網站</a> : null}
@@ -165,7 +178,8 @@ const totalRepos = entries.length;
       const controls = {
         search: requiredElement<HTMLInputElement>("#search"),
         level: requiredElement<HTMLSelectElement>("#level"),
-        sort: requiredElement<HTMLSelectElement>("#sort")
+        sort: requiredElement<HTMLSelectElement>("#sort"),
+        toggleDetails: requiredElement<HTMLButtonElement>("#toggleDetails")
       };
 
       function data(card: HTMLElement, key: string): string {
@@ -210,9 +224,42 @@ const totalRepos = entries.length;
         noResults.hidden = cards.length === 0 || visible.length > 0;
       }
 
+      function syncCardExpandButton(card: HTMLElement) {
+        const button = card.querySelector<HTMLButtonElement>(".detailReveal");
+        if (!button) return;
+
+        const title = card.querySelector("h2")?.textContent?.trim() || "此工具";
+        const isExpanded = card.classList.contains("is-expanded");
+        button.setAttribute("aria-expanded", String(isExpanded));
+        button.setAttribute("aria-label", `${isExpanded ? "收合" : "展開"} ${title} 的細節`);
+        button.title = isExpanded ? "收合細節" : "展開細節";
+      }
+
+      function setCompactMode(isCompact: boolean) {
+        cards.forEach((card) => {
+          card.classList.toggle("is-compact", isCompact);
+          card.classList.remove("is-expanded");
+          syncCardExpandButton(card);
+        });
+
+        controls.toggleDetails.textContent = isCompact ? "展開細節" : "隱藏細節";
+        controls.toggleDetails.setAttribute("aria-pressed", String(isCompact));
+      }
+
       controls.search.addEventListener("input", render);
       controls.level.addEventListener("change", render);
       controls.sort.addEventListener("change", render);
+      controls.toggleDetails.addEventListener("click", () => {
+        const isCompact = !cards.every((card) => card.classList.contains("is-compact"));
+        setCompactMode(isCompact);
+      });
+      cards.forEach((card) => {
+        card.querySelector(".detailReveal")?.addEventListener("click", () => {
+          card.classList.toggle("is-expanded");
+          syncCardExpandButton(card);
+        });
+        syncCardExpandButton(card);
+      });
       render();
     </script>
   </body>
