@@ -1,5 +1,5 @@
 ---
-name: Classroom Lab tzk
+name: 探真拓知酷—自然組
 authorName: kisaraki
 authorGitHub: kisaraki
 repo: kisaraki/classroom-lab-tzk

@@ -1,5 +1,5 @@
 ---
-name: Classroom Timer tzk
+name: 探真拓知酷—通用工具 Classroom Timer tzk
 authorName: kisaraki
 authorGitHub: kisaraki
 repo: kisaraki/classroom-timer-tzk

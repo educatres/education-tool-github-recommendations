@@ -1,4 +1,4 @@
-name: Classroom Timer tzk
+name: 探真拓知酷—通用工具 Classroom Timer tzk
 description: 一套為教室投影、電子白板與觸控裝置設計的純前端計時工具。無須登入、後端或網路 API，可直接在瀏覽器中使用。
 educatorSummary: |
   一套為教室投影、電子白板與觸控裝置設計的純前端計時工具。無須登入、後端或網路 API，可直接在瀏覽器中使用。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。
