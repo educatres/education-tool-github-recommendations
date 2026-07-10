@@ -210,6 +210,19 @@ select:focus,
   font-size: 0.9rem;
 }
 
+.compactIntro {
+  display: none;
+  max-width: 56ch;
+  margin: 8px 0 0;
+  color: #36454f;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.card.is-compact:not(.is-expanded) .compactIntro {
+  display: block;
+}
+
 .rating {
   display: inline-flex;
   align-items: center;

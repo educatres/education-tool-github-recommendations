@@ -4,6 +4,12 @@ import "../styles/global.css";
 
 const totalStars = entries.reduce((sum, entry) => sum + entry.stars, 0);
 const totalRepos = entries.length;
+
+function compactIntro(value: string) {
+  const cleaned = value.replace(/\s+/g, " ").trim();
+  const sentences = cleaned.match(/[^。！？.!?]+[。！？.!?]?/g) ?? [cleaned];
+  return sentences.slice(0, 2).join("").trim();
+}
 ---
 
 <!doctype html>
@@ -97,6 +103,7 @@ const totalRepos = entries.length;
                       <a href={`https://github.com/${entry.authorGitHub}`} target="_blank" rel="noreferrer">
                         @{entry.authorGitHub}
                       </a>
+                      <p class="compactIntro">{compactIntro(entry.description)}</p>
                     </div>
                   </div>
                   <div class="rating" title="GitHub Stars">
