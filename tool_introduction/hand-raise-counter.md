@@ -1,0 +1,43 @@
+---
+name: 聽眾舉手統計
+authorName: chichingleetw
+authorGitHub: chichingleetw
+repo: chichingleetw/hand-raise-counter
+homepage:
+launchUrl:
+tags:
+  - education
+  - teaching
+  - github
+educationLevels:
+  - 不限領域
+language: HTML
+license: MIT
+submittedAt: "2026-07-07"
+---
+
+# 聽眾舉手統計
+
+## 簡短描述
+
+透過瀏覽器鏡頭與視覺模型統計現場聽眾人數、舉手人數與舉手比例，協助教師掌握互動回應。
+
+## 教育工作者摘要
+
+這是一個可直接在瀏覽器開啟的單頁工具，可連接攝影機並呼叫視覺模型 API，手動或定時統計現場聽眾總人數、舉手人數與比例。它適合在講座、課堂提問、即時投票或大型活動中快速掌握群體回應，但仍應把結果視為輔助觀察資料，而非個別學生表現判定。
+
+## 教學用途
+
+- 課堂提問後快速估計整體舉手回應比例
+- 講座或工作坊中投影全螢幕儀表板，輔助主持人掌握互動狀況
+- 比較不同活動段落的參與度變化，作為課後教學反思資料
+
+## 導入注意
+
+- 使用攝影機前需透明告知並取得必要同意
+- 統計結果可能受拍攝角度、遮擋與模型判斷影響，應以人工觀察輔助確認
+- API key 需由使用者自行保管，並確認影像傳輸符合校內資料保護規範
+
+## 啟動或安裝方式
+
+使用 Chrome 或 Edge 開啟 舉手統計.html，允許攝影機權限後選擇 API 服務並填入 API key 或 Bearer token。若直接開啟檔案遇到瀏覽器安全限制，可改用本機靜態伺服器提供檔案。

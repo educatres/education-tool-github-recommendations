@@ -1,0 +1,43 @@
+---
+name: Prompt Lab
+authorName: chichingleetw
+authorGitHub: chichingleetw
+repo: chichingleetw/promptLab
+homepage:
+launchUrl: https://air.cgu.edu.tw/workspace3/PromptLab/
+tags:
+  - education
+  - teaching
+  - github
+educationLevels:
+  - 不限領域
+language: Unknown
+license: MIT
+submittedAt: "2026-07-08"
+---
+
+# Prompt Lab
+
+## 簡短描述
+
+以提問能力為核心的 AI 素養學習工具，引導學生拆解問題、設定情境、比較回答並修正提示語。
+
+## 教育工作者摘要
+
+Prompt Lab 是一套以「提問能力」為核心的 AI 素養學習工具，專為課堂教學與學生自主探究而設計。它引導學生練習拆解問題、設定情境、補充條件、比較答案並逐步修正提示語，讓學生從單純把問題交給 AI，進一步學會引導 AI 協助思考。教師可將它用於 AI 素養課程、跨領域探究、寫作訓練、專題研究或邏輯思辨活動，帶學生討論問題是否明確、條件是否足夠，以及 AI 回答是否合理。
+
+## 教學用途
+
+- AI 素養課程中練習提示語設計、追問與修正
+- 跨領域探究或專題研究時協助學生拆解問題與補充條件
+- 寫作訓練或邏輯思辨活動中比較 AI 回答並檢查推論品質
+
+## 導入注意
+
+- 應要求學生保留自己的提問與修正歷程，避免只提交 AI 產出的答案
+- 若活動會輸入個人資料、作品或研究素材，需先確認隱私與校內資訊安全規範
+- AI 回答仍需人工判讀與查證，適合做為思考輔助而非唯一資料來源
+
+## 啟動或安裝方式
+
+可依 README 連結進入線上版本使用：https://air.cgu.edu.tw/workspace3/PromptLab/。若要自行部署或改作課堂版本，請先閱讀 GitHub 專案內容並在測試環境確認權限、資料處理與瀏覽器相容性。

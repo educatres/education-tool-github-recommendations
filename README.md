@@ -7,6 +7,7 @@
 ```bash
 npm install
 npm run import:list
+npm run sync:introductions
 npm run validate:catalog
 npm run enrich:catalog
 npm run dev
@@ -18,7 +19,25 @@ npm run dev
 npm run build
 ```
 
-`npm run build` 會自動執行 `import:list`、`validate:catalog` 與 `enrich:catalog`。
+`npm run build` 會自動執行 `import:list`、`sync:introductions`、`validate:catalog` 與 `enrich:catalog`。
+
+## Tool Introduction Markdown
+
+每個工具的推薦文字都放在 `tool_introduction/`，一個工具一個 Markdown 檔案。可直接修改下列區塊：
+
+- `簡短描述`
+- `教育工作者摘要`
+- `教學用途`
+- `導入注意`
+- `啟動或安裝方式`
+
+修改後執行：
+
+```bash
+npm run sync:introductions
+```
+
+同步腳本會把 Markdown 內容回寫到 `catalog/` 的 YAML，網站建置時也會自動同步一次。
 
 ## list.txt 格式
 

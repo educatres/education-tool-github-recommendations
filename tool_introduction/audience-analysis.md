@@ -1,0 +1,44 @@
+---
+name: 課堂聽眾專注度分析
+authorName: chichingleetw
+authorGitHub: chichingleetw
+repo: chichingleetw/audience-analysis
+homepage:
+launchUrl:
+tags:
+  - education
+  - teaching
+  - github
+educationLevels:
+  - 中小學
+  - 高中
+language: HTML
+license: MIT
+submittedAt: "2026-07-07"
+---
+
+# 課堂聽眾專注度分析
+
+## 簡短描述
+
+透過瀏覽器鏡頭與視覺模型觀察課堂整體專注趨勢，協助教師掌握聽眾狀態。
+
+## 教育工作者摘要
+
+這是一個單檔網頁工具，可在課堂中定時擷取畫面並呼叫支援 Responses API 的視覺模型，估算總人數、疑似不專心人數、手機使用比例與趨勢。它適合做為教師調整課堂節奏、觀察群體參與狀態與課後反思的輔助資料，不應用於個人評分、紀律處分或身分辨識。
+
+## 教學用途
+
+- 大型課堂或講座中快速掌握整體注意力變化
+- 教師研習時示範 AI 視覺模型在教學觀察上的可能性
+- 課後回顧不同教學段落的群體參與趨勢
+
+## 導入注意
+
+- 使用攝影機前需透明告知並取得必要同意
+- 分析結果僅供群體觀察參考，不應用於個人評分或懲處
+- 影像會送到使用者設定的 API endpoint，需確認資料保護與校內規範
+
+## 啟動或安裝方式
+
+下載或 clone 專案後，建議用 python3 -m http.server 8000 啟動本機 HTTP server，再開啟 聽眾分析.html。使用前需準備可用攝影機與支援影像輸入的 API key。

@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "import:list": "node scripts/import-list.mjs",
+    "sync:introductions": "node scripts/sync-tool-introductions.mjs",
     "new-entry": "node scripts/new-entry.mjs",
     "validate:catalog": "node scripts/validate-catalog.mjs",
     "enrich:catalog": "node scripts/enrich-catalog.mjs",
-    "prebuild": "node scripts/import-list.mjs && node scripts/validate-catalog.mjs && node scripts/enrich-catalog.mjs",
+    "prebuild": "node scripts/import-list.mjs && node scripts/sync-tool-introductions.mjs && node scripts/validate-catalog.mjs && node scripts/enrich-catalog.mjs",
     "build": "astro build",
     "dev": "astro dev",
     "preview": "astro preview",
