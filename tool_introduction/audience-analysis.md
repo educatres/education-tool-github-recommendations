@@ -4,7 +4,7 @@ authorName: chichingleetw
 authorGitHub: chichingleetw
 repo: chichingleetw/audience-analysis
 homepage:
-launchUrl:
+launchUrl: https://chichingleetw.github.io/audience-analysis/
 tags:
   - education
   - teaching

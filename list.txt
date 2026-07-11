@@ -1,4 +1,4 @@
-https://github.com/chichingleetw/audience-analysis	不限領域
+https://github.com/chichingleetw/audience-analysis	不限領域	https://chichingleetw.github.io/audience-analysis/
 https://github.com/chichingleetw/hand-raise-counter	不限領域	https://chichingleetw.github.io/hand-raise-counter/
 https://github.com/chichingleetw/learning-portfolio-ai-coach	高中
 https://github.com/chichingleetw/promptLab	不限領域	https://air.cgu.edu.tw/workspace3/PromptLab/
