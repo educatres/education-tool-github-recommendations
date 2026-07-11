@@ -1,0 +1,32 @@
+name: 參考資料檢查器 Reference Verifier
+description: 用於查核參考文獻真實性的 AI 協作 Skill，協助比對標題、作者、年份、期刊與 DOI 是否可信。
+educatorSummary: |
+  Reference Verifier 是一個 Codex / AI 協作 Skill，設計給研究者、研究生與教師用來檢查參考文獻清單是否混入 AI 幻覺文獻或書目欄位錯誤。使用者貼上參考文獻後，工具會先逐筆編號，再依選定資料庫比對標題、作者、年份、期刊與 DOI，並以「真實存在」、「資訊不完整 / 有出入」、「疑似不存在」整理結果。它適合研究方法、論文寫作、專題報告與文獻回顧課程，用來訓練學生誠實標示查核限制，而不是補造看似合理的引用資訊。
+authorName: chichingleetw
+authorGitHub: chichingleetw
+repo: chichingleetw/reference-verifier
+homepage: 
+launchUrl: 
+tags:
+  - education
+  - teaching
+  - github
+  - research
+  - citations
+  - verification
+  - ai-skill
+educationLevels:
+  - 研究
+useCases:
+  - 檢查 AI 生成報告或論文章節中的參考文獻是否包含幻覺文獻
+  - 在論文、研究計畫或專題報告送出前，逐筆核對引用清單與 DOI
+  - 搭配研究方法課程，示範如何判讀查無、欄位不一致與資料庫索引限制
+cautions:
+  - 查無結果不一定代表文獻不存在，可能是未索引、新刊、預印本、付費牆或冷門來源
+  - 標示為資訊不完整或有出入的條目，仍需研究者親自開啟 DOI、PubMed 或 Google Scholar 連結抽查
+  - 工具只能協助確認書目真實性與欄位一致性，不能替研究品質、論證強度或引用適切性背書
+language: Python
+install: |
+  將 reference-verifier/ 放到支援 Skills 的目錄中，例如 Claude 的 /mnt/skills/user/reference-verifier/、Antigravity 的 ~/.gemini/antigravity/skills/reference-verifier/，或專案內的 .agents/skills/reference-verifier/。使用時貼上參考文獻清單，選擇 PubMed、Google Scholar 或兩者皆用，再依需要指定摘要清單欄位。
+license: Unspecified
+submittedAt: "2026-07-11"
