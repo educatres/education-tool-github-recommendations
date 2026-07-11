@@ -1,0 +1,48 @@
+---
+name: 竹筷橋梁實驗室
+authorName: chichingleetw
+authorGitHub: chichingleetw
+repo: chichingleetw/chopstick-bridge-lab
+homepage:
+launchUrl: https://chichingleetw.github.io/chopstick-bridge-lab/
+tags:
+  - education
+  - teaching
+  - github
+  - stem
+  - mechanics
+  - bridge-design
+  - threejs
+  - simulation
+educationLevels:
+  - 中小學
+language: JavaScript
+license: Unspecified
+submittedAt: "2026-07-11"
+---
+
+# 竹筷橋梁實驗室
+
+## 簡短描述
+
+適合小學生的 3D 橋梁結構教學遊戲，讓學生用竹筷連接節點並測試橋梁承重與倒塌。
+
+## 教育工作者摘要
+
+竹筷橋梁實驗室是一個可部署到 GitHub Pages 的 3D 力學與橋梁結構教學遊戲。學生可以旋轉與縮放視角，點選兩個節點放置竹筷，從自由搭建或三角桁架橋、拱橋、斜張橋、吊橋等範本開始設計橋梁，再逐次或自動增加砝碼，觀察竹筷受力顏色、斷裂與橋梁倒塌判定。它適合用來建立「三角形較不易變形」、「斜撐能分散力量」、「橋中央常承受較大彎曲」等結構概念，也能銜接實體竹筷橋或紙橋的 STEM 挑戰。
+
+## 教學用途
+
+- 在自然科學、生活科技或 STEM 課程中引入力、變形、支撐與橋梁結構概念
+- 讓學生比較三角桁架、拱橋、斜張橋與吊橋在不同載重下的穩定性
+- 搭配實作活動，先用模擬器預測設計策略，再用竹筷、吸管或紙材製作實體橋梁測試
+
+## 導入注意
+
+- 模擬是簡化視覺化模型，受力數字與斷裂結果不應視為真實竹筷或工程結構精密數據
+- 建議讓學生每次只改變一個設計因素，例如斜撐位置、竹筷強度或橋面支撐，才容易比較結果
+- 若用於競賽或評量，應把觀察、假設、修改理由與反思納入評分，而不只看最大承重紀錄
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 線上版本。若要本機執行，因程式使用 JavaScript 模組，建議在專案根目錄執行 python3 -m http.server 8000，再用瀏覽器開啟 http://localhost:8000。部署到 GitHub Pages 時將 index.html、style.css 與 app.js 放在 repository 根目錄即可。
