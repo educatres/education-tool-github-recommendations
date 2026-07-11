@@ -4,7 +4,7 @@ authorName: chichingleetw
 authorGitHub: chichingleetw
 repo: chichingleetw/hand-raise-counter
 homepage:
-launchUrl:
+launchUrl: https://chichingleetw.github.io/hand-raise-counter/
 tags:
   - education
   - teaching

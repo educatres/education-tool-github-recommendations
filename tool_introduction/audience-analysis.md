@@ -10,8 +10,7 @@ tags:
   - teaching
   - github
 educationLevels:
-  - 中小學
-  - 高中
+  - 不限領域
 language: HTML
 license: MIT
 submittedAt: "2026-07-07"
