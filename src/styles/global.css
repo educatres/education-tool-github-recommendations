@@ -63,6 +63,14 @@ h1 {
   font-size: 1.03rem;
 }
 
+.intro p {
+  margin: 0;
+}
+
+.intro p + p {
+  margin-top: 10px;
+}
+
 .stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(78px, 1fr));
