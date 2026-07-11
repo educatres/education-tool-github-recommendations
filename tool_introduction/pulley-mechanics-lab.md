@@ -1,0 +1,48 @@
+---
+name: 滑輪救援隊：2D 力學實驗室
+authorName: chichingleetw
+authorGitHub: chichingleetw
+repo: chichingleetw/pulley-mechanics-lab
+homepage:
+launchUrl: https://chichingleetw.github.io/pulley-mechanics-lab/
+tags:
+  - education
+  - teaching
+  - github
+  - science
+  - mechanics
+  - physics
+  - simulation
+  - game-based-learning
+educationLevels:
+  - 中小學
+language: HTML
+license: NOASSERTION
+submittedAt: "2026-07-11"
+---
+
+# 滑輪救援隊：2D 力學實驗室
+
+## 簡短描述
+
+國中自然科取向的 2D 滑輪小遊戲，可比較定滑輪、動滑輪與滑輪組的省力效果和拉繩距離。
+
+## 教育工作者摘要
+
+滑輪救援隊是一個可直接部署到 GitHub Pages 的 2D 力學教學遊戲，使用 Canvas 呈現定滑輪、動滑輪與多種滑輪組的輪槽、連續繩路與承重繩段。學生可以切換 7 種滑輪配置，觀察理想機械利益、拉力、拉繩距離與功的即時計算，也能比較理想模式與真實摩擦模式下的差異。工具內含拉繩與重物上升動畫、力箭頭、預測題、任務關卡與生活故事，適合用來把「省力不省功」、「承重繩段越多拉力越小但要拉更長距離」等概念具體化。
+
+## 教學用途
+
+- 在國中自然科或力學單元中說明定滑輪、動滑輪與滑輪組的差異
+- 讓學生先預測拉力與拉繩距離，再用動畫與數值檢查機械利益概念
+- 搭配生活案例、救援情境或簡易滑輪實驗，討論摩擦造成的真實效率差異
+
+## 導入注意
+
+- 模擬採簡化模型，適合概念理解，不應作為精密工程或真實吊掛安全計算
+- 建議教師引導學生同時觀察拉力、距離與功，避免只留下「滑輪一定比較省力」的片面印象
+- 真實摩擦模式的結果仍是教學化估算，若延伸到實作實驗，需提醒學生注意器材安全與量測誤差
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 線上版本，也可以下載專案後直接開啟 index.html。若要用本機伺服器測試，可在專案根目錄執行 python3 -m http.server 8000，再用瀏覽器開啟 http://localhost:8000。部署時將全部檔案放在 GitHub repository 根目錄並啟用 Pages 即可。

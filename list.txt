@@ -21,3 +21,4 @@ https://github.com/kueilan/ExamPaperReviewingRobot	中小學、高中
 https://github.com/chichingleetw/reference-verifier	研究
 https://github.com/chichingleetw/paper-plane-wind-tunnel	中小學、高中	https://chichingleetw.github.io/paper-plane-wind-tunnel/
 https://github.com/chichingleetw/chopstick-bridge-lab	中小學	https://chichingleetw.github.io/chopstick-bridge-lab/
+https://github.com/chichingleetw/pulley-mechanics-lab	中小學	https://chichingleetw.github.io/pulley-mechanics-lab/

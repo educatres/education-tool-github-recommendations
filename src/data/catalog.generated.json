@@ -34,9 +34,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 37247,
-    "forks": 3037,
-    "lastPushedAt": "2026-07-08T14:40:54Z",
+    "stars": 37291,
+    "forks": 3043,
+    "lastPushedAt": "2026-07-11T08:28:59Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -75,8 +75,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 271,
-    "forks": 33,
+    "stars": 315,
+    "forks": 37,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
@@ -162,6 +162,48 @@
     "lastPushedAt": "2026-07-10T08:01:12Z",
     "repoUrl": "https://github.com/drpwchen/claude-paper-tools",
     "avatarUrl": "https://avatars.githubusercontent.com/u/55537221?v=4"
+  },
+  {
+    "name": "VoxPen Desktop 語墨桌面版",
+    "description": "系統匣語音轉文字桌面工具，可用全域快捷鍵聽寫並把轉錄與修飾後的文字自動貼到目前游標位置。",
+    "educatorSummary": "VoxPen Desktop 是一個 Windows 與 Linux 桌面語音轉文字工具，支援全域快捷鍵、按住聽寫或切換錄音、OpenAI/Groq Whisper/自訂 endpoint 的 STT 服務、LLM 文字修飾、翻譯模式與可搜尋轉錄歷史。它適合教師備課、回饋撰寫、課堂觀察筆記、會議紀錄草稿或學生以口述方式整理想法；BYOK 模式讓使用者自行提供 API key，但也需要事先確認語音資料、API 供應商與校內資安規範。",
+    "authorName": "soanseng",
+    "authorGitHub": "soanseng",
+    "repo": "soanseng/voxpen-desktop",
+    "homepage": "https://voxpen.app/",
+    "launchUrl": "",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "speech-to-text",
+      "transcription",
+      "desktop-app",
+      "accessibility"
+    ],
+    "educationLevels": [
+      "不限領域"
+    ],
+    "useCases": [
+      "教師用語音快速撰寫課後回饋、教案筆記或學習單初稿",
+      "學生以口述方式整理反思、構思作文、記錄專題討論重點",
+      "在輔助科技或無障礙情境中，降低長時間打字負擔並支援跨應用輸入"
+    ],
+    "cautions": [
+      "語音會送往使用者設定的 STT 或 LLM 服務，導入前需確認同意、隱私與資料保存規範",
+      "自動修飾可能改變原意，正式交付前仍需人工檢查內容與語氣",
+      "桌面版目前主要支援 Windows 與 Linux；Linux Wayland 自動貼上可能需要額外系統權限與 ydotool 設定"
+    ],
+    "language": "Rust",
+    "install": "可從 GitHub Releases 下載 Windows 安裝檔或 Linux AppImage/deb/native binary。若要從原始碼建置，需準備 Node.js LTS、pnpm、Rust stable 與 Tauri 相關系統相依套件，執行 pnpm install 後可用 cargo tauri dev 進行開發或 cargo tauri build 建置正式版本。",
+    "license": "MIT",
+    "submittedAt": "2026-07-11",
+    "sourcePath": "catalog/voxpen-desktop.yaml",
+    "stars": 4,
+    "forks": 1,
+    "lastPushedAt": "2026-05-11T08:08:48Z",
+    "repoUrl": "https://github.com/soanseng/voxpen-desktop",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4186736?v=4"
   },
   {
     "name": "ClassPop 課堂即時回答系統",
@@ -311,7 +353,7 @@
     "sourcePath": "catalog/hand-raise-counter.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-09T12:22:36Z",
+    "lastPushedAt": "2026-07-11T00:48:09Z",
     "repoUrl": "https://github.com/chichingleetw/hand-raise-counter",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -349,7 +391,7 @@
     "sourcePath": "catalog/audience-analysis.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-07T00:08:30Z",
+    "lastPushedAt": "2026-07-11T00:55:56Z",
     "repoUrl": "https://github.com/chichingleetw/audience-analysis",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -392,48 +434,6 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
-    "name": "VoxPen Desktop 語墨桌面版",
-    "description": "系統匣語音轉文字桌面工具，可用全域快捷鍵聽寫並把轉錄與修飾後的文字自動貼到目前游標位置。",
-    "educatorSummary": "VoxPen Desktop 是一個 Windows 與 Linux 桌面語音轉文字工具，支援全域快捷鍵、按住聽寫或切換錄音、OpenAI/Groq Whisper/自訂 endpoint 的 STT 服務、LLM 文字修飾、翻譯模式與可搜尋轉錄歷史。它適合教師備課、回饋撰寫、課堂觀察筆記、會議紀錄草稿或學生以口述方式整理想法；BYOK 模式讓使用者自行提供 API key，但也需要事先確認語音資料、API 供應商與校內資安規範。",
-    "authorName": "soanseng",
-    "authorGitHub": "soanseng",
-    "repo": "soanseng/voxpen-desktop",
-    "homepage": "https://voxpen.app/",
-    "launchUrl": "",
-    "tags": [
-      "education",
-      "teaching",
-      "github",
-      "speech-to-text",
-      "transcription",
-      "desktop-app",
-      "accessibility"
-    ],
-    "educationLevels": [
-      "不限領域"
-    ],
-    "useCases": [
-      "教師用語音快速撰寫課後回饋、教案筆記或學習單初稿",
-      "學生以口述方式整理反思、構思作文、記錄專題討論重點",
-      "在輔助科技或無障礙情境中，降低長時間打字負擔並支援跨應用輸入"
-    ],
-    "cautions": [
-      "語音會送往使用者設定的 STT 或 LLM 服務，導入前需確認同意、隱私與資料保存規範",
-      "自動修飾可能改變原意，正式交付前仍需人工檢查內容與語氣",
-      "桌面版目前主要支援 Windows 與 Linux；Linux Wayland 自動貼上可能需要額外系統權限與 ydotool 設定"
-    ],
-    "language": "Rust",
-    "install": "可從 GitHub Releases 下載 Windows 安裝檔或 Linux AppImage/deb/native binary。若要從原始碼建置，需準備 Node.js LTS、pnpm、Rust stable 與 Tauri 相關系統相依套件，執行 pnpm install 後可用 cargo tauri dev 進行開發或 cargo tauri build 建置正式版本。",
-    "license": "MIT",
-    "submittedAt": "2026-07-11",
-    "sourcePath": "catalog/voxpen-desktop.yaml",
-    "stars": 0,
-    "forks": 0,
-    "lastPushedAt": "",
-    "repoUrl": "https://github.com/soanseng/voxpen-desktop",
-    "avatarUrl": ""
-  },
-  {
     "name": "參考資料檢查器 Reference Verifier",
     "description": "用於查核參考文獻真實性的 AI 協作 Skill，協助比對標題、作者、年份、期刊與 DOI 是否可信。",
     "educatorSummary": "Reference Verifier 是一個 Codex / AI 協作 Skill，設計給研究者、研究生與教師用來檢查參考文獻清單是否混入 AI 幻覺文獻或書目欄位錯誤。使用者貼上參考文獻後，工具會先逐筆編號，再依選定資料庫比對標題、作者、年份、期刊與 DOI，並以「真實存在」、「資訊不完整 / 有出入」、「疑似不存在」整理結果。它適合研究方法、論文寫作、專題報告與文獻回顧課程，用來訓練學生誠實標示查核限制，而不是補造看似合理的引用資訊。",
@@ -471,7 +471,7 @@
     "sourcePath": "catalog/reference-verifier.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-11T04:28:49Z",
+    "lastPushedAt": "2026-07-11T04:55:08Z",
     "repoUrl": "https://github.com/chichingleetw/reference-verifier",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -512,9 +512,9 @@
     "sourcePath": "catalog/student-randomizer-grouping-tool.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-11T03:39:55Z",
     "repoUrl": "https://github.com/chichingleetw/student-randomizer-grouping-tool",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "學習歷程自述 AI 教練",
@@ -592,7 +592,7 @@
     "sourcePath": "catalog/exam-paper-reviewing-robot.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-11T03:49:00Z",
+    "lastPushedAt": "2026-07-11T05:50:44Z",
     "repoUrl": "https://github.com/kueilan/ExamPaperReviewingRobot",
     "avatarUrl": "https://avatars.githubusercontent.com/u/105831002?v=4"
   },
@@ -670,7 +670,7 @@
     "sourcePath": "catalog/classroom-lab-tzk.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-10T17:04:38Z",
+    "lastPushedAt": "2026-07-11T06:36:17Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -752,6 +752,49 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
+    "name": "滑輪救援隊：2D 力學實驗室",
+    "description": "國中自然科取向的 2D 滑輪小遊戲，可比較定滑輪、動滑輪與滑輪組的省力效果和拉繩距離。",
+    "educatorSummary": "滑輪救援隊是一個可直接部署到 GitHub Pages 的 2D 力學教學遊戲，使用 Canvas 呈現定滑輪、動滑輪與多種滑輪組的輪槽、連續繩路與承重繩段。學生可以切換 7 種滑輪配置，觀察理想機械利益、拉力、拉繩距離與功的即時計算，也能比較理想模式與真實摩擦模式下的差異。工具內含拉繩與重物上升動畫、力箭頭、預測題、任務關卡與生活故事，適合用來把「省力不省功」、「承重繩段越多拉力越小但要拉更長距離」等概念具體化。",
+    "authorName": "chichingleetw",
+    "authorGitHub": "chichingleetw",
+    "repo": "chichingleetw/pulley-mechanics-lab",
+    "homepage": "",
+    "launchUrl": "https://chichingleetw.github.io/pulley-mechanics-lab/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "science",
+      "mechanics",
+      "physics",
+      "simulation",
+      "game-based-learning"
+    ],
+    "educationLevels": [
+      "中小學"
+    ],
+    "useCases": [
+      "在國中自然科或力學單元中說明定滑輪、動滑輪與滑輪組的差異",
+      "讓學生先預測拉力與拉繩距離，再用動畫與數值檢查機械利益概念",
+      "搭配生活案例、救援情境或簡易滑輪實驗，討論摩擦造成的真實效率差異"
+    ],
+    "cautions": [
+      "模擬採簡化模型，適合概念理解，不應作為精密工程或真實吊掛安全計算",
+      "建議教師引導學生同時觀察拉力、距離與功，避免只留下「滑輪一定比較省力」的片面印象",
+      "真實摩擦模式的結果仍是教學化估算，若延伸到實作實驗，需提醒學生注意器材安全與量測誤差"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本，也可以下載專案後直接開啟 index.html。若要用本機伺服器測試，可在專案根目錄執行 python3 -m http.server 8000，再用瀏覽器開啟 http://localhost:8000。部署時將全部檔案放在 GitHub repository 根目錄並啟用 Pages 即可。",
+    "license": "NOASSERTION",
+    "submittedAt": "2026-07-11",
+    "sourcePath": "catalog/pulley-mechanics-lab.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-07-11T09:49:39Z",
+    "repoUrl": "https://github.com/chichingleetw/pulley-mechanics-lab",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
     "name": "竹筷橋梁實驗室",
     "description": "適合小學生的 3D 橋梁結構教學遊戲，讓學生用竹筷連接節點並測試橋梁承重與倒塌。",
     "educatorSummary": "竹筷橋梁實驗室是一個可部署到 GitHub Pages 的 3D 力學與橋梁結構教學遊戲。學生可以旋轉與縮放視角，點選兩個節點放置竹筷，從自由搭建或三角桁架橋、拱橋、斜張橋、吊橋等範本開始設計橋梁，再逐次或自動增加砝碼，觀察竹筷受力顏色、斷裂與橋梁倒塌判定。它適合用來建立「三角形較不易變形」、「斜撐能分散力量」、「橋中央常承受較大彎曲」等結構概念，也能銜接實體竹筷橋或紙橋的 STEM 挑戰。",
@@ -790,7 +833,7 @@
     "sourcePath": "catalog/chopstick-bridge-lab.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-11T07:51:42Z",
+    "lastPushedAt": "2026-07-11T08:04:42Z",
     "repoUrl": "https://github.com/chichingleetw/chopstick-bridge-lab",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -834,7 +877,7 @@
     "sourcePath": "catalog/paper-plane-wind-tunnel.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-11T07:20:18Z",
+    "lastPushedAt": "2026-07-11T07:29:47Z",
     "repoUrl": "https://github.com/chichingleetw/paper-plane-wind-tunnel",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -877,9 +920,9 @@
     "sourcePath": "catalog/gravity-slingshot-voyager-game.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-11T02:18:28Z",
     "repoUrl": "https://github.com/chichingleetw/gravity-slingshot-voyager-game",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "課堂單選作答系統",
