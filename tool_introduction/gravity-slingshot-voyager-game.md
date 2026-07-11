@@ -1,0 +1,48 @@
+---
+name: 航海家號：太陽系引力彈弓任務
+authorName: chichingleetw
+authorGitHub: chichingleetw
+repo: chichingleetw/gravity-slingshot-voyager-game
+homepage:
+launchUrl: https://chichingleetw.github.io/gravity-slingshot-voyager-game/
+tags:
+  - education
+  - teaching
+  - github
+  - physics
+  - astronomy
+  - game-based-learning
+  - simulation
+educationLevels:
+  - 中小學
+  - 高中
+language: HTML
+license: Unspecified
+submittedAt: "2026-07-11"
+---
+
+# 航海家號：太陽系引力彈弓任務
+
+## 簡短描述
+
+以航海家號外行星任務為情境的繁體中文太空飛行小遊戲，讓學生操作探測船體驗引力彈弓。
+
+## 教育工作者摘要
+
+這是一個單檔 HTML 製作的 2D 太空飛行遊戲，玩家從地球附近出發，依序靠近木星、土星、天王星、海王星與冥王星，練習用行星重力改變航向與速度。它把太陽系距離、時間、質量與速度壓縮成適合遊玩的尺度，不追求嚴格比例的天體力學模擬，而是協助學生直覺理解重力輔助、速度向量、軌道能量與有限燃料策略。
+
+## 教學用途
+
+- 在自然科學、地球科學或物理課中引入重力、軌道與太空任務路線概念
+- 讓學生透過遊戲嘗試不同掠飛角度，觀察加速、減速與軌跡彎折的差異
+- 搭配航海家、New Horizons、Cassini 等任務案例討論真實重力輔助的用途
+
+## 導入注意
+
+- 遊戲為教學化模型，距離、速度與天體尺度皆已簡化，不宜當作精確軌道模擬器
+- 學生可能一開始頻繁撞上行星或錯過航點，建議先用展示模式觀察路線再自由操作
+- 若延伸到真實任務資料，需補充單位、比例尺與參考系差異，避免把遊戲尺度誤認為實際數值
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 線上版本，也可以下載專案後用瀏覽器開啟 index.html。專案不需要安裝套件、不需要後端伺服器，也不需要網路連線即可在本機遊玩。

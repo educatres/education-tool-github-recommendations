@@ -15,3 +15,4 @@ https://github.com/EESJGong/scholar-skill	研究
 https://github.com/Imbad0202/academic-research-skills/tree/main	研究
 https://github.com/drpwchen/claude-paper-tools	研究
 https://github.com/soanseng/voxpen-desktop	不限領域
+https://github.com/chichingleetw/gravity-slingshot-voyager-game	中小學、高中	https://chichingleetw.github.io/gravity-slingshot-voyager-game/
