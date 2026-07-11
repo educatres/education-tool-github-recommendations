@@ -1,0 +1,33 @@
+name: 說人話 speak-human-tw
+description: 繁體中文台灣語境的去 AI 味改寫 Skill，協助找出 AI 寫作痕跡並提出更自然的改稿建議。
+educatorSummary: |
+  說人話 speak-human-tw 是一個給 Claude Code、Codex、Cursor 與其他 AI agent 使用的繁體中文改稿 Skill，核心目標不是代寫，而是校對已存在的文字，抓出 AI 常見寫作痕跡、中國用語、半形標點與過度模板化的表達。它內建 35 種以上 AI 中文寫作痕跡、台灣在地化用語檢查、保護清單與誤殺防護，並採取先列問題、再由作者決定是否套用的工作流。適合研究生、教師與學術寫作者用來檢查 AI 輔助撰寫後的摘要、報告、投稿信、研究推廣文或課程公告，但最後的立場、經驗與語氣仍應由作者本人補回。
+authorName: Raymondhou0917
+authorGitHub: Raymondhou0917
+repo: Raymondhou0917/speak-human-tw
+homepage: 
+launchUrl: 
+tags:
+  - education
+  - teaching
+  - github
+  - research
+  - writing
+  - ai-skill
+  - traditional-chinese
+  - humanizer
+educationLevels:
+  - 研究
+useCases:
+  - 在研究寫作或 AI 素養課程中示範如何辨識 AI 腔、模板句與空泛論述
+  - 協助學生檢查 AI 輔助生成的報告、摘要或簡報文字，保留事實並修正不自然表達
+  - 作為繁體中文台灣用語、標點與改稿流程的範例，討論人機協作中的作者責任
+cautions:
+  - 工具定位是校對與改稿建議，不應替學生或研究者產生不存在的經驗、立場或故事
+  - 去 AI 味不等於提高內容品質，事實查核、論證強度與研究倫理仍需另外檢查
+  - 改稿建議可能不符合作者個人風格，正式交付前應由作者逐條取捨與人工確認
+language: Markdown
+install: |
+  Claude Code 可將 repository clone 到 ~/.claude/skills/speak-human-tw；Codex 可 clone 專案後用 codex exec -C . 讀取 SKILL.md 並貼上要改寫的文字；Cursor 與其他平台可依 install/ 目錄文件設定。若只想先看問題不要直接改稿，可在指令中要求「先標問題不要改」。
+license: MIT
+submittedAt: "2026-07-11"
