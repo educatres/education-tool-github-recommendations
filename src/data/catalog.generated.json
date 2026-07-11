@@ -434,6 +434,47 @@
     "avatarUrl": ""
   },
   {
+    "name": "學生隨機抽籤與分組工具",
+    "description": "純靜態網頁版的學生抽籤與隨機分組工具，支援貼上名單、指定抽籤人數與依每組人數平均分組。",
+    "educatorSummary": "這是一個可直接部署到 GitHub Pages 的課堂管理小工具，教師可以貼上學生名單，使用換行、逗號、中文逗號、頓號、分號或 Tab 分隔姓名，並在頁面上看到有效學生人數與重複姓名提醒。它支援指定人數隨機抽籤、指定每組人數進行平均隨機分組，以及複製純文字結果，適合在課堂點名、活動分組、討論任務與臨時小組安排時快速使用。",
+    "authorName": "chichingleetw",
+    "authorGitHub": "chichingleetw",
+    "repo": "chichingleetw/student-randomizer-grouping-tool",
+    "homepage": "",
+    "launchUrl": "https://chichingleetw.github.io/student-randomizer-grouping-tool/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "classroom-management",
+      "grouping",
+      "randomizer"
+    ],
+    "educationLevels": [
+      "不限領域"
+    ],
+    "useCases": [
+      "課堂提問、報告順序或活動代表需要公平抽籤時快速產生名單",
+      "小組討論、實作任務或合作學習時依每組人數隨機分組",
+      "投影到教室螢幕，讓學生看見抽籤與分組結果，增加流程透明度"
+    ],
+    "cautions": [
+      "隨機分組不會自動考量學生關係、能力差異或特殊需求，正式活動前仍需教師判斷調整",
+      "若名單包含個資，建議避免在公開投影或錄影環境顯示完整姓名",
+      "重複姓名提醒可協助檢查輸入，但同名學生仍需用班級慣例自行區分"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本使用，也可以下載專案後用瀏覽器開啟 index.html。工具沒有後端與外部追蹤程式，學生名單只會在目前瀏覽器中處理。",
+    "license": "Unspecified",
+    "submittedAt": "2026-07-11",
+    "sourcePath": "catalog/student-randomizer-grouping-tool.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "",
+    "repoUrl": "https://github.com/chichingleetw/student-randomizer-grouping-tool",
+    "avatarUrl": ""
+  },
+  {
     "name": "學習歷程自述 AI 教練",
     "description": "以單一 AGENTS.md 將 Agentic AI 工具設定成學習歷程自述教練，引導高中生盤點經驗、整理反思並連結目標校系。",
     "educatorSummary": "這是一份可放入 Antigravity、Codex、Claude Code、Opencode 或其他 Agentic AI 工具專案根目錄的 AGENTS.md 規則檔，會把 AI 代理人設定成「學習歷程自述教練」。它以五階段流程協助高中生盤點經驗、回顧歷程、整理亮點、連結未來與修整表達，並內建不代寫、不編造、不誇大、追問空泛內容與建議教師審閱等治理原則。專案也整理 12 個常見學群的審查重點，協助學生把真實經驗對應到目標校系需求，適合教師或輔導人員用來建立穩定的備審陪伴流程。",

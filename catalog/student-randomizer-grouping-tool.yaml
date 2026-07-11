@@ -1,0 +1,31 @@
+name: 學生隨機抽籤與分組工具
+description: 純靜態網頁版的學生抽籤與隨機分組工具，支援貼上名單、指定抽籤人數與依每組人數平均分組。
+educatorSummary: |
+  這是一個可直接部署到 GitHub Pages 的課堂管理小工具，教師可以貼上學生名單，使用換行、逗號、中文逗號、頓號、分號或 Tab 分隔姓名，並在頁面上看到有效學生人數與重複姓名提醒。它支援指定人數隨機抽籤、指定每組人數進行平均隨機分組，以及複製純文字結果，適合在課堂點名、活動分組、討論任務與臨時小組安排時快速使用。
+authorName: chichingleetw
+authorGitHub: chichingleetw
+repo: chichingleetw/student-randomizer-grouping-tool
+homepage: 
+launchUrl: https://chichingleetw.github.io/student-randomizer-grouping-tool/
+tags:
+  - education
+  - teaching
+  - github
+  - classroom-management
+  - grouping
+  - randomizer
+educationLevels:
+  - 不限領域
+useCases:
+  - 課堂提問、報告順序或活動代表需要公平抽籤時快速產生名單
+  - 小組討論、實作任務或合作學習時依每組人數隨機分組
+  - 投影到教室螢幕，讓學生看見抽籤與分組結果，增加流程透明度
+cautions:
+  - 隨機分組不會自動考量學生關係、能力差異或特殊需求，正式活動前仍需教師判斷調整
+  - 若名單包含個資，建議避免在公開投影或錄影環境顯示完整姓名
+  - 重複姓名提醒可協助檢查輸入，但同名學生仍需用班級慣例自行區分
+language: HTML
+install: |
+  可直接開啟 GitHub Pages 線上版本使用，也可以下載專案後用瀏覽器開啟 index.html。工具沒有後端與外部追蹤程式，學生名單只會在目前瀏覽器中處理。
+license: Unspecified
+submittedAt: "2026-07-11"
