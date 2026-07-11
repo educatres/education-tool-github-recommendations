@@ -1,0 +1,47 @@
+---
+name: 審題機器人
+authorName: kueilan
+authorGitHub: kueilan
+repo: kueilan/ExamPaperReviewingRobot
+homepage:
+launchUrl:
+tags:
+  - education
+  - teaching
+  - github
+  - assessment
+  - exam-review
+  - ai-feedback
+educationLevels:
+  - 中小學
+  - 高中
+language: JavaScript
+license: Unspecified
+submittedAt: "2026-07-11"
+---
+
+# 審題機器人
+
+## 簡短描述
+
+可上傳考卷圖片或輸入題目資料，使用 Gemini 或 OpenAI 相容模型輔助教師檢查考題品質。
+
+## 教育工作者摘要
+
+審題機器人是一個前後端分離的 AI 輔助審題系統，前端提供考卷圖片上傳、AI 服務供應商選擇、API key 輸入與題目檢查表單，後端以 FastAPI 接收請求並呼叫 Google Gemini 或 OpenAI 相容 API。它適合教師在出卷後先做初步檢查，協助發現題意不清、答案設定、知識點對應、難度標示或整份考卷安排上的潛在問題；AI 回饋應作為第二讀者意見，最後仍需由命題教師與教研團隊判斷。
+
+## 教學用途
+
+- 教師上傳考卷圖片，快速取得整份試卷的初步審題意見
+- 針對單題輸入題目、答案、科目、知識點與難度，檢查題目是否清楚合理
+- 作為校內共備、命題審查或新手教師出題訓練時的輔助討論材料
+
+## 導入注意
+
+- AI 審題結果可能誤判或漏判，不能取代人工審題、專科教師判斷與正式試卷校對
+- 考卷圖片與題目內容會送往使用者選擇的 AI API，使用前需確認資料保護、考題保密與校內規範
+- API key 由使用者在前端輸入並隨請求送出，仍應避免在投影、截圖或共享環境中暴露金鑰
+
+## 啟動或安裝方式
+
+需分別啟動後端與前端。後端進入 backend 後安裝 requirements.txt，並以 python -m uvicorn main:app --host 0.0.0.0 --port 8000 啟動；前端進入 frontend 後執行 npm install 與 npm run dev，預設於 http://localhost:5173 使用。操作時在前端選擇 Gemini 或 OpenAI 相容服務，貼上自己的 API key，再上傳考卷圖片或填寫題目資料開始審題。

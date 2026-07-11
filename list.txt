@@ -17,3 +17,4 @@ https://github.com/drpwchen/claude-paper-tools	研究
 https://github.com/soanseng/voxpen-desktop	不限領域
 https://github.com/chichingleetw/gravity-slingshot-voyager-game	中小學、高中	https://chichingleetw.github.io/gravity-slingshot-voyager-game/
 https://github.com/chichingleetw/student-randomizer-grouping-tool	不限領域	https://chichingleetw.github.io/student-randomizer-grouping-tool/
+https://github.com/kueilan/ExamPaperReviewingRobot	中小學、高中
