@@ -1,0 +1,49 @@
+---
+name: 紙飛機風洞實驗室
+authorName: chichingleetw
+authorGitHub: chichingleetw
+repo: chichingleetw/paper-plane-wind-tunnel
+homepage:
+launchUrl: https://chichingleetw.github.io/paper-plane-wind-tunnel/
+tags:
+  - education
+  - teaching
+  - github
+  - physics
+  - aerodynamics
+  - threejs
+  - simulation
+  - game-based-learning
+educationLevels:
+  - 中小學
+  - 高中
+language: HTML
+license: Unspecified
+submittedAt: "2026-07-11"
+---
+
+# 紙飛機風洞實驗室
+
+## 簡短描述
+
+單頁 3D 紙飛機風洞教學小遊戲，讓學生調整風速、攻角、側風、翼寬與重心觀察飛行表現。
+
+## 教育工作者摘要
+
+紙飛機風洞實驗室是一個可直接部署到 GitHub Pages 的 Three.js 單頁互動工具，提供風洞觀察、自由飛行與任務挑戰模式。學生可以調整風速、攻角、側風、翼寬、重心與投擲速度，觀察彩色氣流、受力箭頭、飛行軌跡、升力、阻力、相對空速、滯空時間與飛行距離。它不追求專業 CFD 或工程級空氣動力精度，而是把升力、阻力、攻角、失速、相對風與重心配置轉成可操作、可比較的 STEM 探究活動。
+
+## 教學用途
+
+- 在自然科學、物理或 STEM 課程中引入升力、阻力、攻角、失速與相對風概念
+- 讓學生先在模擬器中單一變因調參，再摺紙飛機實測並比較預測與結果
+- 透過任務挑戰討論最遠距離、最長滯空、對抗側風與修復失速問題的設計策略
+
+## 導入注意
+
+- 模擬使用簡化物理與視覺化技巧，不應當作真實風洞、CFD 或工程設計分析工具
+- 建議要求學生每次只改變一個變因，否則不容易判讀哪個參數影響飛行結果
+- 若延伸到真實空氣動力公式，需補充單位、尺度、模型限制與紙飛機實測誤差來源
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 線上版本。若要本機執行，因專案使用 ES module import map 載入 Three.js，建議在專案根目錄執行 python3 -m http.server 8000，再用瀏覽器開啟 http://localhost:8000。專案沒有額外 build step，根目錄 index.html 可直接部署到 GitHub Pages。
