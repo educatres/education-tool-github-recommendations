@@ -34,8 +34,8 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 37383,
-    "forks": 3052,
+    "stars": 37401,
+    "forks": 3053,
     "lastPushedAt": "2026-07-12T00:42:22Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
@@ -75,7 +75,7 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 359,
+    "stars": 364,
     "forks": 42,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
@@ -118,7 +118,7 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 304,
+    "stars": 309,
     "forks": 43,
     "lastPushedAt": "2026-07-11T03:57:33Z",
     "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
@@ -287,6 +287,90 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
+    "name": "GPS 定位實驗室",
+    "description": "以 3D 地球、衛星與測距球面示範 GPS 定位概念，讓學生調整衛星位置與距離完成目標解算。",
+    "educatorSummary": "GPS 定位實驗室是 Classroom Lab tzk 工具集中的互動式 3D 地理與科學教具。學生可以在地球場景中調整衛星數量、經緯度與目標距離，觀察多個測距球面如何交會並推估目標位置。工具也提供半同步軌道、地球同步軌道與地球靜止軌道等教學內容，適合用來建立「定位需要多個距離約束」、「衛星幾何會影響解算」與「經緯度、海拔共同構成立體位置」等概念。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-lab-tzk",
+    "homepage": "",
+    "launchUrl": "https://kisaraki.github.io/classroom-lab-tzk/gps_3d/gps_3d.html",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "science",
+      "geography",
+      "gps",
+      "simulation"
+    ],
+    "educationLevels": [
+      "中小學"
+    ],
+    "useCases": [
+      "在地理、自然科學或科技課程中說明 GPS 定位與三維座標概念",
+      "讓學生調整衛星數量與位置，觀察測距球面交會對定位結果的影響",
+      "搭配地球同步軌道、衛星通訊或定位誤差主題進行跨域討論"
+    ],
+    "cautions": [
+      "模型是教育用視覺化，不代表真實 GPS 接收器的訊號處理、誤差校正與演算法細節",
+      "建議教師先示範一組可成功解算的衛星配置，再讓學生自由嘗試",
+      "若延伸到真實衛星定位，需補充大氣延遲、時鐘誤差、座標系與接收器限制"
+    ],
+    "language": "JavaScript",
+    "install": "可直接開啟 GitHub Pages 的 GPS 定位實驗室頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 gps_3d/gps_3d.html。",
+    "license": "MIT",
+    "submittedAt": "2026-07-12",
+    "sourcePath": "catalog/classroom-lab-gps-3d.yaml",
+    "stars": 1,
+    "forks": 0,
+    "lastPushedAt": "2026-07-12T06:08:20Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
+  },
+  {
+    "name": "三角函數實驗室",
+    "description": "用單位圓、Magic Hexagon 與六個週期波形探索廣義角、同界角與六種三角函數。",
+    "educatorSummary": "三角函數實驗室是 Classroom Lab tzk 的數學互動頁，學生可以拖曳單位圓上的點或用鍵盤改變廣義角，並在度度量與徑度量之間切換。工具同步顯示同界角公式、座標投影、sin、cos、tan、cot、sec、csc 的函數值、Magic Hexagon 關係與六張週期圖。它適合把單位圓定義、特殊角、倒數關係、平方關係與週期性整合在同一個可操作畫面中。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-lab-tzk",
+    "homepage": "",
+    "launchUrl": "https://kisaraki.github.io/classroom-lab-tzk/trigfun/trigfun.html",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "mathematics",
+      "trigonometry",
+      "unit-circle",
+      "simulation"
+    ],
+    "educationLevels": [
+      "中小學"
+    ],
+    "useCases": [
+      "在三角函數單元中說明單位圓、廣義角、同界角與徑度量",
+      "讓學生拖曳角度並觀察六個三角函數值與週期圖同步變化",
+      "搭配 Magic Hexagon 討論倒數關係與 sin^2θ + cos^2θ = 1 等恆等式"
+    ],
+    "cautions": [
+      "六種三角函數同時呈現資訊量較大，建議分階段引導學生觀察",
+      "分母為 0 時會出現未定義，需補充為何 tan、sec、cot、csc 在特定角度不存在",
+      "根號精確值只在特殊角才適合使用，鄰近角度應以近似值理解"
+    ],
+    "language": "JavaScript",
+    "install": "可直接開啟 GitHub Pages 的三角函數實驗室頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 trigfun/trigfun.html。",
+    "license": "MIT",
+    "submittedAt": "2026-07-12",
+    "sourcePath": "catalog/classroom-lab-trig-functions.yaml",
+    "stars": 1,
+    "forks": 0,
+    "lastPushedAt": "2026-07-12T06:08:20Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
+  },
+  {
     "name": "公用便條貼白板",
     "description": "這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。",
     "educatorSummary": "這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。",
@@ -323,6 +407,48 @@
     "lastPushedAt": "2026-07-12T01:23:00Z",
     "repoUrl": "https://github.com/educatres/classboard",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "拋體運動實驗室",
+    "description": "以互動式方格紙示範水平地表拋體運動，呈現初速分量、飛行時間、水平位移與最高點高度。",
+    "educatorSummary": "拋體運動實驗室是 Classroom Lab tzk 中的物理模擬頁，可調整初速、發射角與發射點高度，並以固定水平地表 y = 0 展示拋物線軌跡。工具會把 V0 分解為 Vx 與 Vy，並在解算結果區逐卡呈現水平初速度、垂直初速度、飛行時間、最高點時間、水平位移與最高點垂直位移。它適合讓學生連結公式、向量分解與動畫軌跡，理解水平等速與垂直等加速度如何共同形成拋體運動。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-lab-tzk",
+    "homepage": "",
+    "launchUrl": "https://kisaraki.github.io/classroom-lab-tzk/projectilemotion/projectilemotion.html",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "science",
+      "physics",
+      "projectile-motion",
+      "simulation"
+    ],
+    "educationLevels": [
+      "中小學"
+    ],
+    "useCases": [
+      "在國中自然科或高中物理入門中示範拋體運動的水平與垂直分解",
+      "讓學生改變初速、角度或發射高度，預測飛行時間、射程與最高點變化",
+      "搭配公式卡討論 v = v0 + at、x = v0t + 1/2at^2 與 v^2 = v0^2 + 2ax 的代入方式"
+    ],
+    "cautions": [
+      "模型採水平地表與理想化重力，不包含空氣阻力、風或真實投擲姿態",
+      "建議學生每次只改變一個參數，否則難以判讀初速、角度與高度的個別影響",
+      "公式推導仍需教師引導，避免學生只記結果卡而未理解水平與垂直方向的差異"
+    ],
+    "language": "JavaScript",
+    "install": "可直接開啟 GitHub Pages 的拋體運動實驗室頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 projectilemotion/projectilemotion.html。",
+    "license": "MIT",
+    "submittedAt": "2026-07-12",
+    "sourcePath": "catalog/classroom-lab-projectile-motion.yaml",
+    "stars": 1,
+    "forks": 0,
+    "lastPushedAt": "2026-07-12T06:08:20Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
     "name": "探真拓知酷—自然組",
@@ -398,6 +524,48 @@
     "forks": 0,
     "lastPushedAt": "2026-07-11T10:45:13Z",
     "repoUrl": "https://github.com/kisaraki/classroom-timer-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
+  },
+  {
+    "name": "數字系統研究室",
+    "description": "以同步面板展示同一個 32-bit 整數的十進位、十六進位、八進位與二進位表示。",
+    "educatorSummary": "數字系統研究室是 Classroom Lab tzk 的資訊與數學概念工具，使用四個同步面板呈現同一個 32-bit 整數在 10、16、8、2 進位中的表示方式。每個面板提供機械式撥盤、直接輸入、加一、減一、最大值與重設操作，並以 ERR、OVF、NEG 燈號提示輸入錯誤、溢位與負數狀態。它適合讓學生理解位值、進位轉換、unsigned 32-bit 與 two's complement 補數表示。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-lab-tzk",
+    "homepage": "",
+    "launchUrl": "https://kisaraki.github.io/classroom-lab-tzk/son/son.html",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "computer-science",
+      "number-systems",
+      "binary",
+      "simulation"
+    ],
+    "educationLevels": [
+      "中小學"
+    ],
+    "useCases": [
+      "在資訊科技或數學課中說明二進位、八進位、十六進位與十進位的轉換",
+      "讓學生操作同一數值在不同進位制中的同步變化，理解位值與分組",
+      "搭配負數補數、整數溢位與資料表示單元，討論電腦如何儲存整數"
+    ],
+    "cautions": [
+      "工具聚焦 32-bit 整數表示，不等同於所有程式語言或硬體平台的數值行為",
+      "初學者容易混淆 signed 與 unsigned，建議教師先用小數值與邊界值示範",
+      "溢位與補數概念較抽象，適合搭配紙筆換算或位元卡片活動加深理解"
+    ],
+    "language": "JavaScript",
+    "install": "可直接開啟 GitHub Pages 的數字系統研究室頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 son/son.html。",
+    "license": "MIT",
+    "submittedAt": "2026-07-12",
+    "sourcePath": "catalog/classroom-lab-number-systems.yaml",
+    "stars": 1,
+    "forks": 0,
+    "lastPushedAt": "2026-07-12T06:08:20Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
@@ -513,6 +681,90 @@
     "lastPushedAt": "2026-07-12T00:43:22Z",
     "repoUrl": "https://github.com/educatres/audience-analysis",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "軌道觀測站",
+    "description": "同步操作地日公轉、月地相位、月相事件與季節溫度的 3D 天文教學模型。",
+    "educatorSummary": "軌道觀測站是 Classroom Lab tzk 的天文與地球科學互動工具，日期範圍涵蓋 2025 至 2026 年，可用年月日選單、滑桿與按鈕同步控制地日場景、月地場景、月相、事件清單與季節溫度。工具以 Three.js 展示地軸傾角、近日點遠日點、二分二至、月相幾何、日月蝕樣本、流星雨與彗星教學動態，並以臺北為觀測基準呈現月相與季節訊號。它適合用來把抽象的軌道、月相、季節與觀測條件放在同一時間軸上比較。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-lab-tzk",
+    "homepage": "",
+    "launchUrl": "https://kisaraki.github.io/classroom-lab-tzk/ogo/ogo.html",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "science",
+      "astronomy",
+      "seasons",
+      "simulation"
+    ],
+    "educationLevels": [
+      "中小學"
+    ],
+    "useCases": [
+      "在自然科學或地球科學課程中說明地日公轉、地軸傾角、季節與月相",
+      "讓學生改變日期，觀察月相、日月蝕樣本、流星雨或彗星事件如何接近或遠離",
+      "搭配臺北與其他城市的季節溫度訊號，討論緯度、季節與資料模型限制"
+    ],
+    "cautions": [
+      "軌道、天體大小、距離、農曆與溫度都是教育模型，不代表精密天文曆或氣象預報",
+      "部分氣溫缺漏會透過 Open-Meteo 補值，教學時需說明資料來源與再分析或預報的限制",
+      "事件清單是樣本資料，適合概念教學，不應取代實際觀測前的天文台或氣象資訊查詢"
+    ],
+    "language": "JavaScript",
+    "install": "可直接開啟 GitHub Pages 的軌道觀測站頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 ogo/ogo.html。",
+    "license": "MIT",
+    "submittedAt": "2026-07-12",
+    "sourcePath": "catalog/classroom-lab-orbit-observatory.yaml",
+    "stars": 1,
+    "forks": 0,
+    "lastPushedAt": "2026-07-12T06:08:20Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
+  },
+  {
+    "name": "透鏡成像實驗室",
+    "description": "用互動式光線圖示範凸透鏡與凹透鏡成像，呈現焦距、物距、像距、放大率與成像性質。",
+    "educatorSummary": "透鏡成像實驗室是 Classroom Lab tzk 的光學教學頁，學生可以切換凸透鏡與凹透鏡，並用焦距倍數調整物距。畫面以 SVG 即時繪製光軸、焦點、物體、像的位置與三條主光線，實線與虛線分別表示實際光線與反向延長線，並以不同顏色呈現實像與虛像。右側面板同步顯示焦距、物距、像距、放大率、成像類型、方向與位置，適合用來把薄透鏡公式和光線作圖連在一起。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-lab-tzk",
+    "homepage": "",
+    "launchUrl": "https://kisaraki.github.io/classroom-lab-tzk/lens/lens.html",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "science",
+      "optics",
+      "lens",
+      "simulation"
+    ],
+    "educationLevels": [
+      "中小學"
+    ],
+    "useCases": [
+      "在光學單元中示範凸透鏡、凹透鏡與焦距位置對成像的影響",
+      "讓學生拖曽物距，觀察實像、虛像、正立、倒立與放大率如何改變",
+      "搭配實驗器材或作圖練習，檢查薄透鏡公式與三條主光線的對應關係"
+    ],
+    "cautions": [
+      "工具使用薄透鏡近似，不處理像差、厚透鏡、光圈大小或真實鏡片材質差異",
+      "當成像位置超出畫面時需引導學生依提示判讀方向，而不是誤以為沒有成像",
+      "建議搭配手繪光線圖活動，避免學生只看動畫而未掌握作圖邏輯"
+    ],
+    "language": "JavaScript",
+    "install": "可直接開啟 GitHub Pages 的透鏡成像實驗室頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 lens/lens.html。",
+    "license": "MIT",
+    "submittedAt": "2026-07-12",
+    "sourcePath": "catalog/classroom-lab-lens.yaml",
+    "stars": 1,
+    "forks": 0,
+    "lastPushedAt": "2026-07-12T06:08:20Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
     "name": "Prompt Lab",

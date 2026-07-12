@@ -1,0 +1,47 @@
+---
+name: 透鏡成像實驗室
+authorName: kisaraki
+authorGitHub: kisaraki
+repo: kisaraki/classroom-lab-tzk
+homepage:
+launchUrl: https://kisaraki.github.io/classroom-lab-tzk/lens/lens.html
+tags:
+  - education
+  - teaching
+  - github
+  - science
+  - optics
+  - lens
+  - simulation
+educationLevels:
+  - 中小學
+language: JavaScript
+license: MIT
+submittedAt: "2026-07-12"
+---
+
+# 透鏡成像實驗室
+
+## 簡短描述
+
+用互動式光線圖示範凸透鏡與凹透鏡成像，呈現焦距、物距、像距、放大率與成像性質。
+
+## 教育工作者摘要
+
+透鏡成像實驗室是 Classroom Lab tzk 的光學教學頁，學生可以切換凸透鏡與凹透鏡，並用焦距倍數調整物距。畫面以 SVG 即時繪製光軸、焦點、物體、像的位置與三條主光線，實線與虛線分別表示實際光線與反向延長線，並以不同顏色呈現實像與虛像。右側面板同步顯示焦距、物距、像距、放大率、成像類型、方向與位置，適合用來把薄透鏡公式和光線作圖連在一起。
+
+## 教學用途
+
+- 在光學單元中示範凸透鏡、凹透鏡與焦距位置對成像的影響
+- 讓學生拖曽物距，觀察實像、虛像、正立、倒立與放大率如何改變
+- 搭配實驗器材或作圖練習，檢查薄透鏡公式與三條主光線的對應關係
+
+## 導入注意
+
+- 工具使用薄透鏡近似，不處理像差、厚透鏡、光圈大小或真實鏡片材質差異
+- 當成像位置超出畫面時需引導學生依提示判讀方向，而不是誤以為沒有成像
+- 建議搭配手繪光線圖活動，避免學生只看動畫而未掌握作圖邏輯
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 的透鏡成像實驗室頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 lens/lens.html。

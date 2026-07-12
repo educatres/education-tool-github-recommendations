@@ -1,0 +1,47 @@
+---
+name: GPS 定位實驗室
+authorName: kisaraki
+authorGitHub: kisaraki
+repo: kisaraki/classroom-lab-tzk
+homepage:
+launchUrl: https://kisaraki.github.io/classroom-lab-tzk/gps_3d/gps_3d.html
+tags:
+  - education
+  - teaching
+  - github
+  - science
+  - geography
+  - gps
+  - simulation
+educationLevels:
+  - 中小學
+language: JavaScript
+license: MIT
+submittedAt: "2026-07-12"
+---
+
+# GPS 定位實驗室
+
+## 簡短描述
+
+以 3D 地球、衛星與測距球面示範 GPS 定位概念，讓學生調整衛星位置與距離完成目標解算。
+
+## 教育工作者摘要
+
+GPS 定位實驗室是 Classroom Lab tzk 工具集中的互動式 3D 地理與科學教具。學生可以在地球場景中調整衛星數量、經緯度與目標距離，觀察多個測距球面如何交會並推估目標位置。工具也提供半同步軌道、地球同步軌道與地球靜止軌道等教學內容，適合用來建立「定位需要多個距離約束」、「衛星幾何會影響解算」與「經緯度、海拔共同構成立體位置」等概念。
+
+## 教學用途
+
+- 在地理、自然科學或科技課程中說明 GPS 定位與三維座標概念
+- 讓學生調整衛星數量與位置，觀察測距球面交會對定位結果的影響
+- 搭配地球同步軌道、衛星通訊或定位誤差主題進行跨域討論
+
+## 導入注意
+
+- 模型是教育用視覺化，不代表真實 GPS 接收器的訊號處理、誤差校正與演算法細節
+- 建議教師先示範一組可成功解算的衛星配置，再讓學生自由嘗試
+- 若延伸到真實衛星定位，需補充大氣延遲、時鐘誤差、座標系與接收器限制
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 的 GPS 定位實驗室頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 gps_3d/gps_3d.html。

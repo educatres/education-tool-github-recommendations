@@ -24,3 +24,9 @@ https://github.com/educatres/chopstick-bridge-lab	中小學	https://educatres.gi
 https://github.com/educatres/pulley-mechanics-lab	中小學	https://educatres.github.io/pulley-mechanics-lab/
 https://github.com/Raymondhou0917/speak-human-tw	研究
 https://github.com/educatres/simpleKnowledgeChatbot	中小學、高中	https://educatres.github.io/simpleKnowledgeChatbot/
+https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/gps_3d/gps_3d.html
+https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/projectilemotion/projectilemotion.html
+https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/lens/lens.html
+https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/son/son.html
+https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/trigfun/trigfun.html
+https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/ogo/ogo.html

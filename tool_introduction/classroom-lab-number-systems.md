@@ -1,0 +1,47 @@
+---
+name: 數字系統研究室
+authorName: kisaraki
+authorGitHub: kisaraki
+repo: kisaraki/classroom-lab-tzk
+homepage:
+launchUrl: https://kisaraki.github.io/classroom-lab-tzk/son/son.html
+tags:
+  - education
+  - teaching
+  - github
+  - computer-science
+  - number-systems
+  - binary
+  - simulation
+educationLevels:
+  - 中小學
+language: JavaScript
+license: MIT
+submittedAt: "2026-07-12"
+---
+
+# 數字系統研究室
+
+## 簡短描述
+
+以同步面板展示同一個 32-bit 整數的十進位、十六進位、八進位與二進位表示。
+
+## 教育工作者摘要
+
+數字系統研究室是 Classroom Lab tzk 的資訊與數學概念工具，使用四個同步面板呈現同一個 32-bit 整數在 10、16、8、2 進位中的表示方式。每個面板提供機械式撥盤、直接輸入、加一、減一、最大值與重設操作，並以 ERR、OVF、NEG 燈號提示輸入錯誤、溢位與負數狀態。它適合讓學生理解位值、進位轉換、unsigned 32-bit 與 two's complement 補數表示。
+
+## 教學用途
+
+- 在資訊科技或數學課中說明二進位、八進位、十六進位與十進位的轉換
+- 讓學生操作同一數值在不同進位制中的同步變化，理解位值與分組
+- 搭配負數補數、整數溢位與資料表示單元，討論電腦如何儲存整數
+
+## 導入注意
+
+- 工具聚焦 32-bit 整數表示，不等同於所有程式語言或硬體平台的數值行為
+- 初學者容易混淆 signed 與 unsigned，建議教師先用小數值與邊界值示範
+- 溢位與補數概念較抽象，適合搭配紙筆換算或位元卡片活動加深理解
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 的數字系統研究室頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 son/son.html。

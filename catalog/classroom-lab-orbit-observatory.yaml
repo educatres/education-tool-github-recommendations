@@ -1,0 +1,32 @@
+name: 軌道觀測站
+description: 同步操作地日公轉、月地相位、月相事件與季節溫度的 3D 天文教學模型。
+educatorSummary: |
+  軌道觀測站是 Classroom Lab tzk 的天文與地球科學互動工具，日期範圍涵蓋 2025 至 2026 年，可用年月日選單、滑桿與按鈕同步控制地日場景、月地場景、月相、事件清單與季節溫度。工具以 Three.js 展示地軸傾角、近日點遠日點、二分二至、月相幾何、日月蝕樣本、流星雨與彗星教學動態，並以臺北為觀測基準呈現月相與季節訊號。它適合用來把抽象的軌道、月相、季節與觀測條件放在同一時間軸上比較。
+authorName: kisaraki
+authorGitHub: kisaraki
+repo: kisaraki/classroom-lab-tzk
+homepage: 
+launchUrl: https://kisaraki.github.io/classroom-lab-tzk/ogo/ogo.html
+tags:
+  - education
+  - teaching
+  - github
+  - science
+  - astronomy
+  - seasons
+  - simulation
+educationLevels:
+  - 中小學
+useCases:
+  - 在自然科學或地球科學課程中說明地日公轉、地軸傾角、季節與月相
+  - 讓學生改變日期，觀察月相、日月蝕樣本、流星雨或彗星事件如何接近或遠離
+  - 搭配臺北與其他城市的季節溫度訊號，討論緯度、季節與資料模型限制
+cautions:
+  - 軌道、天體大小、距離、農曆與溫度都是教育模型，不代表精密天文曆或氣象預報
+  - 部分氣溫缺漏會透過 Open-Meteo 補值，教學時需說明資料來源與再分析或預報的限制
+  - 事件清單是樣本資料，適合概念教學，不應取代實際觀測前的天文台或氣象資訊查詢
+language: JavaScript
+install: |
+  可直接開啟 GitHub Pages 的軌道觀測站頁面。若要本機使用，可下載 classroom-lab-tzk 專案後以靜態伺服器開啟，或從工具總頁進入 ogo/ogo.html。
+license: MIT
+submittedAt: "2026-07-12"

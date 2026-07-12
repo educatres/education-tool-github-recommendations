@@ -24,16 +24,20 @@ async function validateFile(filePath) {
 }
 
 const files = await listEntryFiles();
-const repos = new Set();
+const entryKeys = new Map();
 const errors = [];
 
 for (const file of files) {
   try {
     const entry = await validateFile(file);
-    if (repos.has(entry.repo)) {
-      errors.push(`${file}: duplicate repo "${entry.repo}"`);
+    const key = `${entry.repo}\t${entry.launchUrl || ""}`;
+    const existingFile = entryKeys.get(key);
+    if (existingFile) {
+      errors.push(
+        `${file}: duplicate repo and launchUrl "${entry.repo}" "${entry.launchUrl}" already used by ${existingFile}`
+      );
     }
-    repos.add(entry.repo);
+    entryKeys.set(key, path.relative(process.cwd(), file));
   } catch (error) {
     errors.push(`${file}: ${error.message}`);
   }
