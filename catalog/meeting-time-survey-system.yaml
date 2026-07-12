@@ -1,5 +1,5 @@
 name: 會議時間調查系統
-description: 以 GitHub Pages、Google Form 與公開 Google Sheet 建立會議時間調查，免後端、免 OAuth，適合快速協調多人可參加時段。
+description: 免註冊的會議時間調查神器。資料不留伺服器，初次設定雖稍顯繁複，但只要存下專屬網址，就能一輩子「清空再復用」，成為你專屬的永久會議揪團工具！
 educatorSummary: |
   這是一個可部署在 GitHub Pages 的會議時間調查工具，透過 Google Form 寫入回覆，並從公開檢視權限的 Google Sheet 讀取 event log 來還原會議設定、參加者回覆與統計結果。它適合教師、行政團隊或研究團隊用來建立匿名時段調查、產生填寫連結與 QR Code、統計每個時段可參加人數，並協助找出全員可參加或最多人可參加的會議時間。
 authorName: educatres
