@@ -1,5 +1,5 @@
 name: 公用便條貼白板
-description: 這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。
+description: 兼顧隱私與即時互動的全班共用便條貼白板；免註冊、無廣告，以老師自己的 Google Form 與 Google Sheet 儲存資料，本站不保存老師或學生的資料，讓課堂互動更簡單。
 educatorSummary: |
   這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。
 authorName: educatres
