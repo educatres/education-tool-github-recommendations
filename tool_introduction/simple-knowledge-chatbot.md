@@ -1,0 +1,48 @@
+---
+name: Simple Knowledge Chatbot
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/simpleKnowledgeChatbot
+homepage:
+launchUrl: https://educatres.github.io/simpleKnowledgeChatbot/
+tags:
+  - education
+  - teaching
+  - github
+  - chatbot
+  - ai
+  - knowledge-base
+  - classroom
+educationLevels:
+  - 中小學
+  - 高中
+language: JavaScript
+license: Unspecified
+submittedAt: "2026-07-12"
+---
+
+# Simple Knowledge Chatbot
+
+## 簡短描述
+
+可部署到 GitHub Pages 的純前端 AI 聊天機器人，支援教師用自己的 API key 建立課堂臨時聊天頁。
+
+## 教育工作者摘要
+
+Simple Knowledge Chatbot 是一個不需要後端伺服器或資料庫的純前端 AI 聊天工具，支援 CGU、OpenAI、Google AI Studio 與 Claude API。教師可以輸入自己的 API key、模型與 system prompt，產生學生可直接開啟的網址與 QR Code，讓沒有 AI 帳號或電子信箱的學生也能在課堂活動中使用 AI。工具也支援上傳 .txt 或 .md 知識庫檔案，在瀏覽器端切段後讓 AI 優先根據指定資料回答，適合短期課堂活動、工作坊展示與臨時 AI 學習任務。
+
+## 教學用途
+
+- 教師快速建立課堂共用 AI 聊天頁，讓學生掃 QR Code 即可進入活動
+- 搭配 system prompt 設定特定角色、任務規則或課程情境，進行提問、討論與反思
+- 上傳文字知識庫後，引導學生比較一般回答與依指定資料回答的差異
+
+## 導入注意
+
+- 若 API key 放在網址中，可能出現在瀏覽器歷史、截圖、投影片或分享紀錄，課後應立即更換或註銷
+- 知識庫檔案只在使用者瀏覽器讀取，不會隨自動產生的學生網址傳給其他裝置
+- 提問、system prompt 與相關知識片段會送往所選 AI API，請勿放入敏感個資、機密資料或不適合交給第三方服務的內容
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 線上版本使用。若要本機使用，可下載專案後直接開啟 index.html，或在專案根目錄執行 python3 -m http.server 8000 後開啟 http://localhost:8000。部署到 GitHub Pages 時，將 index.html、styles.css、app.js 與 README.md 放在 repository 根目錄並啟用 Pages。

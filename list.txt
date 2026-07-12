@@ -23,3 +23,4 @@ https://github.com/educatres/paper-plane-wind-tunnel	中小學、高中	https://
 https://github.com/educatres/chopstick-bridge-lab	中小學	https://educatres.github.io/chopstick-bridge-lab/
 https://github.com/educatres/pulley-mechanics-lab	中小學	https://educatres.github.io/pulley-mechanics-lab/
 https://github.com/Raymondhou0917/speak-human-tw	研究
+https://github.com/educatres/simpleKnowledgeChatbot	中小學、高中	https://educatres.github.io/simpleKnowledgeChatbot/
