@@ -34,9 +34,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 37329,
-    "forks": 3048,
-    "lastPushedAt": "2026-07-11T15:05:42Z",
+    "stars": 37354,
+    "forks": 3050,
+    "lastPushedAt": "2026-07-12T00:42:22Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -75,11 +75,95 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 342,
+    "stars": 353,
     "forks": 42,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
+  },
+  {
+    "name": "說人話 speak-human-tw",
+    "description": "繁體中文台灣語境的去 AI 味改寫 Skill，協助找出 AI 寫作痕跡並提出更自然的改稿建議。",
+    "educatorSummary": "說人話 speak-human-tw 是一個給 Claude Code、Codex、Cursor 與其他 AI agent 使用的繁體中文改稿 Skill，核心目標不是代寫，而是校對已存在的文字，抓出 AI 常見寫作痕跡、中國用語、半形標點與過度模板化的表達。它內建 35 種以上 AI 中文寫作痕跡、台灣在地化用語檢查、保護清單與誤殺防護，並採取先列問題、再由作者決定是否套用的工作流。適合研究生、教師與學術寫作者用來檢查 AI 輔助撰寫後的摘要、報告、投稿信、研究推廣文或課程公告，但最後的立場、經驗與語氣仍應由作者本人補回。",
+    "authorName": "Raymondhou0917",
+    "authorGitHub": "Raymondhou0917",
+    "repo": "Raymondhou0917/speak-human-tw",
+    "homepage": "",
+    "launchUrl": "",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "research",
+      "writing",
+      "ai-skill",
+      "traditional-chinese",
+      "humanizer"
+    ],
+    "educationLevels": [
+      "研究"
+    ],
+    "useCases": [
+      "在研究寫作或 AI 素養課程中示範如何辨識 AI 腔、模板句與空泛論述",
+      "協助學生檢查 AI 輔助生成的報告、摘要或簡報文字，保留事實並修正不自然表達",
+      "作為繁體中文台灣用語、標點與改稿流程的範例，討論人機協作中的作者責任"
+    ],
+    "cautions": [
+      "工具定位是校對與改稿建議，不應替學生或研究者產生不存在的經驗、立場或故事",
+      "去 AI 味不等於提高內容品質，事實查核、論證強度與研究倫理仍需另外檢查",
+      "改稿建議可能不符合作者個人風格，正式交付前應由作者逐條取捨與人工確認"
+    ],
+    "language": "Markdown",
+    "install": "Claude Code 可將 repository clone 到 ~/.claude/skills/speak-human-tw；Codex 可 clone 專案後用 codex exec -C . 讀取 SKILL.md 並貼上要改寫的文字；Cursor 與其他平台可依 install/ 目錄文件設定。若只想先看問題不要直接改稿，可在指令中要求「先標問題不要改」。",
+    "license": "MIT",
+    "submittedAt": "2026-07-11",
+    "sourcePath": "catalog/speak-human-tw.yaml",
+    "stars": 272,
+    "forks": 39,
+    "lastPushedAt": "2026-07-11T03:57:33Z",
+    "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4"
+  },
+  {
+    "name": "ScholarSkill",
+    "description": "以 Obsidian 為核心的學術閱讀工作流，協助研究者把論文閱讀轉成可連結、可修訂、會持續演化的知識系統。",
+    "educatorSummary": "ScholarSkill 是一個 OpenClaw skill，設計目標不是只產生一次性的論文摘要，而是協助代理人進行結構化閱讀、知識連結、舊理解修訂與批判性反思，並把成果沉澱到 Obsidian vault。它適合研究方法、文獻回顧、研究生讀書會或個人知識管理教學，讓學生練習把新論文放回既有研究脈絡，辨識概念關係、證據強弱與需要更新的舊筆記。",
+    "authorName": "EESJGong",
+    "authorGitHub": "EESJGong",
+    "repo": "EESJGong/scholar-skill",
+    "homepage": "",
+    "launchUrl": "",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "research",
+      "obsidian",
+      "knowledge-management"
+    ],
+    "educationLevels": [
+      "研究"
+    ],
+    "useCases": [
+      "引導研究生把論文閱讀產出整理成可重讀、可連結的 Obsidian 筆記",
+      "在文獻回顧課程中練習比較論文主張、證據、方法限制與研究脈絡",
+      "協助研究團隊建立會隨新文獻更新的知識地圖，而不只是累積摘要檔案"
+    ],
+    "cautions": [
+      "專案仍在測試階段，正式導入課程或研究流程前應先以小型文獻集合試用",
+      "若連接 Obsidian vault，需先確認資料夾路徑、模板語言包與既有筆記備份",
+      "AI 產出的閱讀筆記與知識連結仍需研究者查證，避免把錯誤摘要擴散到知識庫"
+    ],
+    "language": "Python",
+    "install": "可 clone repository 後在 OpenClaw 中安裝，並選擇 en 或 zh-CN 語言包，再執行對應的 configure.py 並指定 Obsidian vault path。README 也提供共享 skills 目錄與特定 workspace 兩種安裝方式，手動安裝時需依需求補齊 obsidian、arxiv、pdf、research hub 等相依 skill。",
+    "license": "MIT",
+    "submittedAt": "2026-07-11",
+    "sourcePath": "catalog/scholar-skill.yaml",
+    "stars": 210,
+    "forks": 17,
+    "lastPushedAt": "2026-03-20T03:12:48Z",
+    "repoUrl": "https://github.com/EESJGong/scholar-skill",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/118050627?v=4"
   },
   {
     "name": "paper-review + paper-digest",
@@ -123,6 +207,48 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/55537221?v=4"
   },
   {
+    "name": "VoxPen Desktop 語墨桌面版",
+    "description": "系統匣語音轉文字桌面工具，可用全域快捷鍵聽寫並把轉錄與修飾後的文字自動貼到目前游標位置。",
+    "educatorSummary": "VoxPen Desktop 是一個 Windows 與 Linux 桌面語音轉文字工具，支援全域快捷鍵、按住聽寫或切換錄音、OpenAI/Groq Whisper/自訂 endpoint 的 STT 服務、LLM 文字修飾、翻譯模式與可搜尋轉錄歷史。它適合教師備課、回饋撰寫、課堂觀察筆記、會議紀錄草稿或學生以口述方式整理想法；BYOK 模式讓使用者自行提供 API key，但也需要事先確認語音資料、API 供應商與校內資安規範。",
+    "authorName": "soanseng",
+    "authorGitHub": "soanseng",
+    "repo": "soanseng/voxpen-desktop",
+    "homepage": "https://voxpen.app/",
+    "launchUrl": "",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "speech-to-text",
+      "transcription",
+      "desktop-app",
+      "accessibility"
+    ],
+    "educationLevels": [
+      "不限領域"
+    ],
+    "useCases": [
+      "教師用語音快速撰寫課後回饋、教案筆記或學習單初稿",
+      "學生以口述方式整理反思、構思作文、記錄專題討論重點",
+      "在輔助科技或無障礙情境中，降低長時間打字負擔並支援跨應用輸入"
+    ],
+    "cautions": [
+      "語音會送往使用者設定的 STT 或 LLM 服務，導入前需確認同意、隱私與資料保存規範",
+      "自動修飾可能改變原意，正式交付前仍需人工檢查內容與語氣",
+      "桌面版目前主要支援 Windows 與 Linux；Linux Wayland 自動貼上可能需要額外系統權限與 ydotool 設定"
+    ],
+    "language": "Rust",
+    "install": "可從 GitHub Releases 下載 Windows 安裝檔或 Linux AppImage/deb/native binary。若要從原始碼建置，需準備 Node.js LTS、pnpm、Rust stable 與 Tauri 相關系統相依套件，執行 pnpm install 後可用 cargo tauri dev 進行開發或 cargo tauri build 建置正式版本。",
+    "license": "MIT",
+    "submittedAt": "2026-07-11",
+    "sourcePath": "catalog/voxpen-desktop.yaml",
+    "stars": 4,
+    "forks": 1,
+    "lastPushedAt": "2026-05-11T08:08:48Z",
+    "repoUrl": "https://github.com/soanseng/voxpen-desktop",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4186736?v=4"
+  },
+  {
     "name": "ClassPop 課堂即時回答系統",
     "description": "這是一個可部署在 GitHub Pages 的靜態上課回答系統。資料寫入使用 Google Form，資料讀取使用公開 Google Sheet，不需要後端、Apps Script、OAuth 或學生登入。",
     "educatorSummary": "這是一個可部署在 GitHub Pages 的靜態上課回答系統。資料寫入使用 Google Form，資料讀取使用公開 Google Sheet，不需要後端、Apps Script、OAuth 或學生登入。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。",
@@ -156,8 +282,122 @@
     "sourcePath": "catalog/classpop.yaml",
     "stars": 1,
     "forks": 1,
-    "lastPushedAt": "2026-07-10T01:51:14Z",
+    "lastPushedAt": "2026-07-12T01:19:04Z",
     "repoUrl": "https://github.com/educatres/classPop",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "公用便條貼白板",
+    "description": "這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。",
+    "educatorSummary": "這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。",
+    "authorName": "educatres",
+    "authorGitHub": "educatres",
+    "repo": "educatres/classboard",
+    "homepage": "",
+    "launchUrl": "https://educatres.github.io/classboard/demo.html",
+    "tags": [
+      "education",
+      "teaching",
+      "github"
+    ],
+    "educationLevels": [
+      "不限領域"
+    ],
+    "useCases": [
+      "課前評估工具功能是否符合課程需求",
+      "作為課堂活動、教學管理或學習輔助的候選工具",
+      "搭配 GitHub README 與原始碼了解部署方式"
+    ],
+    "cautions": [
+      "正式使用前請先小規模測試",
+      "若涉及學生資料或影像，需確認同意、隱私與校內規範",
+      "GitHub stars 僅作為社群參考，不代表教學品質保證"
+    ],
+    "language": "JavaScript",
+    "install": "請依 GitHub README 的安裝與啟動說明操作，並先在測試環境確認權限、資料與瀏覽器相容性。",
+    "license": "MIT",
+    "submittedAt": "2026-07-09",
+    "sourcePath": "catalog/classboard.yaml",
+    "stars": 1,
+    "forks": 0,
+    "lastPushedAt": "2026-07-12T01:23:00Z",
+    "repoUrl": "https://github.com/educatres/classboard",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "無邊際白板 Infinite Whiteboard",
+    "description": "一個純 HTML、CSS、JavaScript 實作的無邊際白板，可直接部署到 GitHub Pages，也可以直接用瀏覽器開啟 index.html 使用。",
+    "educatorSummary": "一個純 HTML、CSS、JavaScript 實作的無邊際白板，可直接部署到 GitHub Pages，也可以直接用瀏覽器開啟 index.html 使用。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。",
+    "authorName": "educatres",
+    "authorGitHub": "educatres",
+    "repo": "educatres/infinite-whiteboard",
+    "homepage": "",
+    "launchUrl": "https://educatres.github.io/infinite-whiteboard/",
+    "tags": [
+      "education",
+      "teaching",
+      "github"
+    ],
+    "educationLevels": [
+      "不限領域"
+    ],
+    "useCases": [
+      "課前評估工具功能是否符合課程需求",
+      "作為課堂活動、教學管理或學習輔助的候選工具",
+      "搭配 GitHub README 與原始碼了解部署方式"
+    ],
+    "cautions": [
+      "正式使用前請先小規模測試",
+      "若涉及學生資料或影像，需確認同意、隱私與校內規範",
+      "GitHub stars 僅作為社群參考，不代表教學品質保證"
+    ],
+    "language": "HTML",
+    "install": "請依 GitHub README 的安裝與啟動說明操作，並先在測試環境確認權限、資料與瀏覽器相容性。",
+    "license": "Unspecified",
+    "submittedAt": "2026-07-09",
+    "sourcePath": "catalog/infinite-whiteboard.yaml",
+    "stars": 1,
+    "forks": 1,
+    "lastPushedAt": "2026-07-10T12:18:06Z",
+    "repoUrl": "https://github.com/educatres/infinite-whiteboard",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "聽眾舉手統計",
+    "description": "透過瀏覽器鏡頭與視覺模型統計現場聽眾人數、舉手人數與舉手比例，協助教師掌握互動回應。",
+    "educatorSummary": "這是一個可直接在瀏覽器開啟的單頁工具，可連接攝影機並呼叫視覺模型 API，手動或定時統計現場聽眾總人數、舉手人數與比例。它適合在講座、課堂提問、即時投票或大型活動中快速掌握群體回應，但仍應把結果視為輔助觀察資料，而非個別學生表現判定。",
+    "authorName": "educatres",
+    "authorGitHub": "educatres",
+    "repo": "educatres/hand-raise-counter",
+    "homepage": "",
+    "launchUrl": "https://educatres.github.io/hand-raise-counter/",
+    "tags": [
+      "education",
+      "teaching",
+      "github"
+    ],
+    "educationLevels": [
+      "不限領域"
+    ],
+    "useCases": [
+      "課堂提問後快速估計整體舉手回應比例",
+      "講座或工作坊中投影全螢幕儀表板，輔助主持人掌握互動狀況",
+      "比較不同活動段落的參與度變化，作為課後教學反思資料"
+    ],
+    "cautions": [
+      "使用攝影機前需透明告知並取得必要同意",
+      "統計結果可能受拍攝角度、遮擋與模型判斷影響，應以人工觀察輔助確認",
+      "API key 需由使用者自行保管，並確認影像傳輸符合校內資料保護規範"
+    ],
+    "language": "HTML",
+    "install": "使用 Chrome 或 Edge 開啟 舉手統計.html，允許攝影機權限後選擇 API 服務並填入 API key 或 Bearer token。若直接開啟檔案遇到瀏覽器安全限制，可改用本機靜態伺服器提供檔案。",
+    "license": "MIT",
+    "submittedAt": "2026-07-07",
+    "sourcePath": "catalog/hand-raise-counter.yaml",
+    "stars": 1,
+    "forks": 0,
+    "lastPushedAt": "2026-07-12T00:48:23Z",
+    "repoUrl": "https://github.com/educatres/hand-raise-counter",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
@@ -194,7 +434,7 @@
     "sourcePath": "catalog/audience-analysis.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-11T00:55:56Z",
+    "lastPushedAt": "2026-07-12T00:43:22Z",
     "repoUrl": "https://github.com/educatres/audience-analysis",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -232,130 +472,9 @@
     "sourcePath": "catalog/promptlab.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-12T00:48:25Z",
     "repoUrl": "https://github.com/educatres/promptLab",
-    "avatarUrl": ""
-  },
-  {
-    "name": "ScholarSkill",
-    "description": "以 Obsidian 為核心的學術閱讀工作流，協助研究者把論文閱讀轉成可連結、可修訂、會持續演化的知識系統。",
-    "educatorSummary": "ScholarSkill 是一個 OpenClaw skill，設計目標不是只產生一次性的論文摘要，而是協助代理人進行結構化閱讀、知識連結、舊理解修訂與批判性反思，並把成果沉澱到 Obsidian vault。它適合研究方法、文獻回顧、研究生讀書會或個人知識管理教學，讓學生練習把新論文放回既有研究脈絡，辨識概念關係、證據強弱與需要更新的舊筆記。",
-    "authorName": "EESJGong",
-    "authorGitHub": "EESJGong",
-    "repo": "EESJGong/scholar-skill",
-    "homepage": "",
-    "launchUrl": "",
-    "tags": [
-      "education",
-      "teaching",
-      "github",
-      "research",
-      "obsidian",
-      "knowledge-management"
-    ],
-    "educationLevels": [
-      "研究"
-    ],
-    "useCases": [
-      "引導研究生把論文閱讀產出整理成可重讀、可連結的 Obsidian 筆記",
-      "在文獻回顧課程中練習比較論文主張、證據、方法限制與研究脈絡",
-      "協助研究團隊建立會隨新文獻更新的知識地圖，而不只是累積摘要檔案"
-    ],
-    "cautions": [
-      "專案仍在測試階段，正式導入課程或研究流程前應先以小型文獻集合試用",
-      "若連接 Obsidian vault，需先確認資料夾路徑、模板語言包與既有筆記備份",
-      "AI 產出的閱讀筆記與知識連結仍需研究者查證，避免把錯誤摘要擴散到知識庫"
-    ],
-    "language": "Python",
-    "install": "可 clone repository 後在 OpenClaw 中安裝，並選擇 en 或 zh-CN 語言包，再執行對應的 configure.py 並指定 Obsidian vault path。README 也提供共享 skills 目錄與特定 workspace 兩種安裝方式，手動安裝時需依需求補齊 obsidian、arxiv、pdf、research hub 等相依 skill。",
-    "license": "MIT",
-    "submittedAt": "2026-07-11",
-    "sourcePath": "catalog/scholar-skill.yaml",
-    "stars": 0,
-    "forks": 0,
-    "lastPushedAt": "",
-    "repoUrl": "https://github.com/EESJGong/scholar-skill",
-    "avatarUrl": ""
-  },
-  {
-    "name": "VoxPen Desktop 語墨桌面版",
-    "description": "系統匣語音轉文字桌面工具，可用全域快捷鍵聽寫並把轉錄與修飾後的文字自動貼到目前游標位置。",
-    "educatorSummary": "VoxPen Desktop 是一個 Windows 與 Linux 桌面語音轉文字工具，支援全域快捷鍵、按住聽寫或切換錄音、OpenAI/Groq Whisper/自訂 endpoint 的 STT 服務、LLM 文字修飾、翻譯模式與可搜尋轉錄歷史。它適合教師備課、回饋撰寫、課堂觀察筆記、會議紀錄草稿或學生以口述方式整理想法；BYOK 模式讓使用者自行提供 API key，但也需要事先確認語音資料、API 供應商與校內資安規範。",
-    "authorName": "soanseng",
-    "authorGitHub": "soanseng",
-    "repo": "soanseng/voxpen-desktop",
-    "homepage": "https://voxpen.app/",
-    "launchUrl": "",
-    "tags": [
-      "education",
-      "teaching",
-      "github",
-      "speech-to-text",
-      "transcription",
-      "desktop-app",
-      "accessibility"
-    ],
-    "educationLevels": [
-      "不限領域"
-    ],
-    "useCases": [
-      "教師用語音快速撰寫課後回饋、教案筆記或學習單初稿",
-      "學生以口述方式整理反思、構思作文、記錄專題討論重點",
-      "在輔助科技或無障礙情境中，降低長時間打字負擔並支援跨應用輸入"
-    ],
-    "cautions": [
-      "語音會送往使用者設定的 STT 或 LLM 服務，導入前需確認同意、隱私與資料保存規範",
-      "自動修飾可能改變原意，正式交付前仍需人工檢查內容與語氣",
-      "桌面版目前主要支援 Windows 與 Linux；Linux Wayland 自動貼上可能需要額外系統權限與 ydotool 設定"
-    ],
-    "language": "Rust",
-    "install": "可從 GitHub Releases 下載 Windows 安裝檔或 Linux AppImage/deb/native binary。若要從原始碼建置，需準備 Node.js LTS、pnpm、Rust stable 與 Tauri 相關系統相依套件，執行 pnpm install 後可用 cargo tauri dev 進行開發或 cargo tauri build 建置正式版本。",
-    "license": "MIT",
-    "submittedAt": "2026-07-11",
-    "sourcePath": "catalog/voxpen-desktop.yaml",
-    "stars": 0,
-    "forks": 0,
-    "lastPushedAt": "",
-    "repoUrl": "https://github.com/soanseng/voxpen-desktop",
-    "avatarUrl": ""
-  },
-  {
-    "name": "公用便條貼白板",
-    "description": "這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。",
-    "educatorSummary": "這是一個可部署在 GitHub Pages 的匿名便條貼白板。它不需要後端、不需要登入，使用 Google Form 寫入事件紀錄，並從公開 Google Sheet 讀取資料還原目前白板狀態。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。",
-    "authorName": "educatres",
-    "authorGitHub": "educatres",
-    "repo": "educatres/classboard",
-    "homepage": "",
-    "launchUrl": "https://educatres.github.io/classboard/demo.html",
-    "tags": [
-      "education",
-      "teaching",
-      "github"
-    ],
-    "educationLevels": [
-      "不限領域"
-    ],
-    "useCases": [
-      "課前評估工具功能是否符合課程需求",
-      "作為課堂活動、教學管理或學習輔助的候選工具",
-      "搭配 GitHub README 與原始碼了解部署方式"
-    ],
-    "cautions": [
-      "正式使用前請先小規模測試",
-      "若涉及學生資料或影像，需確認同意、隱私與校內規範",
-      "GitHub stars 僅作為社群參考，不代表教學品質保證"
-    ],
-    "language": "JavaScript",
-    "install": "請依 GitHub README 的安裝與啟動說明操作，並先在測試環境確認權限、資料與瀏覽器相容性。",
-    "license": "MIT",
-    "submittedAt": "2026-07-09",
-    "sourcePath": "catalog/classboard.yaml",
-    "stars": 0,
-    "forks": 0,
-    "lastPushedAt": "",
-    "repoUrl": "https://github.com/educatres/classboard",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "參考資料檢查器 Reference Verifier",
@@ -395,9 +514,9 @@
     "sourcePath": "catalog/reference-verifier.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-11T04:55:08Z",
     "repoUrl": "https://github.com/educatres/reference-verifier",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "學生隨機抽籤與分組工具",
@@ -436,9 +555,9 @@
     "sourcePath": "catalog/student-randomizer-grouping-tool.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-11T03:39:55Z",
     "repoUrl": "https://github.com/educatres/student-randomizer-grouping-tool",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "學習歷程自述 AI 教練",
@@ -474,9 +593,9 @@
     "sourcePath": "catalog/learning-portfolio-ai-coach.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-12T00:48:22Z",
     "repoUrl": "https://github.com/educatres/learning-portfolio-ai-coach",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "審題機器人",
@@ -516,9 +635,9 @@
     "sourcePath": "catalog/exam-paper-reviewing-robot.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-11T05:50:44Z",
     "repoUrl": "https://github.com/kueilan/ExamPaperReviewingRobot",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/105831002?v=4"
   },
   {
     "name": "從範本建立研究用 AI Skill",
@@ -556,9 +675,9 @@
     "sourcePath": "catalog/research-skill-template-guide.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-12T00:48:29Z",
     "repoUrl": "https://github.com/educatres/research-skill-template-guide",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "探真拓知酷—自然組",
@@ -594,9 +713,9 @@
     "sourcePath": "catalog/classroom-lab-tzk.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-11T10:22:13Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
     "name": "探真拓知酷—通用工具 Classroom Timer tzk",
@@ -671,9 +790,9 @@
     "sourcePath": "catalog/meeting-time-survey-system.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-12T01:21:30Z",
     "repoUrl": "https://github.com/educatres/meeting-time-survey-system",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "滑輪救援隊：2D 力學實驗室",
@@ -714,47 +833,9 @@
     "sourcePath": "catalog/pulley-mechanics-lab.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-11T09:49:39Z",
     "repoUrl": "https://github.com/educatres/pulley-mechanics-lab",
-    "avatarUrl": ""
-  },
-  {
-    "name": "無邊際白板 Infinite Whiteboard",
-    "description": "一個純 HTML、CSS、JavaScript 實作的無邊際白板，可直接部署到 GitHub Pages，也可以直接用瀏覽器開啟 index.html 使用。",
-    "educatorSummary": "一個純 HTML、CSS、JavaScript 實作的無邊際白板，可直接部署到 GitHub Pages，也可以直接用瀏覽器開啟 index.html 使用。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。",
-    "authorName": "educatres",
-    "authorGitHub": "educatres",
-    "repo": "educatres/infinite-whiteboard",
-    "homepage": "",
-    "launchUrl": "https://educatres.github.io/infinite-whiteboard/",
-    "tags": [
-      "education",
-      "teaching",
-      "github"
-    ],
-    "educationLevels": [
-      "不限領域"
-    ],
-    "useCases": [
-      "課前評估工具功能是否符合課程需求",
-      "作為課堂活動、教學管理或學習輔助的候選工具",
-      "搭配 GitHub README 與原始碼了解部署方式"
-    ],
-    "cautions": [
-      "正式使用前請先小規模測試",
-      "若涉及學生資料或影像，需確認同意、隱私與校內規範",
-      "GitHub stars 僅作為社群參考，不代表教學品質保證"
-    ],
-    "language": "HTML",
-    "install": "請依 GitHub README 的安裝與啟動說明操作，並先在測試環境確認權限、資料與瀏覽器相容性。",
-    "license": "Unspecified",
-    "submittedAt": "2026-07-09",
-    "sourcePath": "catalog/infinite-whiteboard.yaml",
-    "stars": 0,
-    "forks": 0,
-    "lastPushedAt": "",
-    "repoUrl": "https://github.com/educatres/infinite-whiteboard",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "竹筷橋梁實驗室",
@@ -795,7 +876,7 @@
     "sourcePath": "catalog/chopstick-bridge-lab.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-11T08:04:42Z",
+    "lastPushedAt": "2026-07-11T16:51:24Z",
     "repoUrl": "https://github.com/educatres/chopstick-bridge-lab",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -839,47 +920,9 @@
     "sourcePath": "catalog/paper-plane-wind-tunnel.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-12T00:40:05Z",
     "repoUrl": "https://github.com/educatres/paper-plane-wind-tunnel",
-    "avatarUrl": ""
-  },
-  {
-    "name": "聽眾舉手統計",
-    "description": "透過瀏覽器鏡頭與視覺模型統計現場聽眾人數、舉手人數與舉手比例，協助教師掌握互動回應。",
-    "educatorSummary": "這是一個可直接在瀏覽器開啟的單頁工具，可連接攝影機並呼叫視覺模型 API，手動或定時統計現場聽眾總人數、舉手人數與比例。它適合在講座、課堂提問、即時投票或大型活動中快速掌握群體回應，但仍應把結果視為輔助觀察資料，而非個別學生表現判定。",
-    "authorName": "educatres",
-    "authorGitHub": "educatres",
-    "repo": "educatres/hand-raise-counter",
-    "homepage": "",
-    "launchUrl": "https://educatres.github.io/hand-raise-counter/",
-    "tags": [
-      "education",
-      "teaching",
-      "github"
-    ],
-    "educationLevels": [
-      "不限領域"
-    ],
-    "useCases": [
-      "課堂提問後快速估計整體舉手回應比例",
-      "講座或工作坊中投影全螢幕儀表板，輔助主持人掌握互動狀況",
-      "比較不同活動段落的參與度變化，作為課後教學反思資料"
-    ],
-    "cautions": [
-      "使用攝影機前需透明告知並取得必要同意",
-      "統計結果可能受拍攝角度、遮擋與模型判斷影響，應以人工觀察輔助確認",
-      "API key 需由使用者自行保管，並確認影像傳輸符合校內資料保護規範"
-    ],
-    "language": "HTML",
-    "install": "使用 Chrome 或 Edge 開啟 舉手統計.html，允許攝影機權限後選擇 API 服務並填入 API key 或 Bearer token。若直接開啟檔案遇到瀏覽器安全限制，可改用本機靜態伺服器提供檔案。",
-    "license": "MIT",
-    "submittedAt": "2026-07-07",
-    "sourcePath": "catalog/hand-raise-counter.yaml",
-    "stars": 0,
-    "forks": 0,
-    "lastPushedAt": "",
-    "repoUrl": "https://github.com/educatres/hand-raise-counter",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "航海家號：太陽系引力彈弓任務",
@@ -920,52 +963,9 @@
     "sourcePath": "catalog/gravity-slingshot-voyager-game.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-11T02:18:28Z",
+    "lastPushedAt": "2026-07-12T00:45:26Z",
     "repoUrl": "https://github.com/educatres/gravity-slingshot-voyager-game",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
-  },
-  {
-    "name": "說人話 speak-human-tw",
-    "description": "繁體中文台灣語境的去 AI 味改寫 Skill，協助找出 AI 寫作痕跡並提出更自然的改稿建議。",
-    "educatorSummary": "說人話 speak-human-tw 是一個給 Claude Code、Codex、Cursor 與其他 AI agent 使用的繁體中文改稿 Skill，核心目標不是代寫，而是校對已存在的文字，抓出 AI 常見寫作痕跡、中國用語、半形標點與過度模板化的表達。它內建 35 種以上 AI 中文寫作痕跡、台灣在地化用語檢查、保護清單與誤殺防護，並採取先列問題、再由作者決定是否套用的工作流。適合研究生、教師與學術寫作者用來檢查 AI 輔助撰寫後的摘要、報告、投稿信、研究推廣文或課程公告，但最後的立場、經驗與語氣仍應由作者本人補回。",
-    "authorName": "Raymondhou0917",
-    "authorGitHub": "Raymondhou0917",
-    "repo": "Raymondhou0917/speak-human-tw",
-    "homepage": "",
-    "launchUrl": "",
-    "tags": [
-      "education",
-      "teaching",
-      "github",
-      "research",
-      "writing",
-      "ai-skill",
-      "traditional-chinese",
-      "humanizer"
-    ],
-    "educationLevels": [
-      "研究"
-    ],
-    "useCases": [
-      "在研究寫作或 AI 素養課程中示範如何辨識 AI 腔、模板句與空泛論述",
-      "協助學生檢查 AI 輔助生成的報告、摘要或簡報文字，保留事實並修正不自然表達",
-      "作為繁體中文台灣用語、標點與改稿流程的範例，討論人機協作中的作者責任"
-    ],
-    "cautions": [
-      "工具定位是校對與改稿建議，不應替學生或研究者產生不存在的經驗、立場或故事",
-      "去 AI 味不等於提高內容品質，事實查核、論證強度與研究倫理仍需另外檢查",
-      "改稿建議可能不符合作者個人風格，正式交付前應由作者逐條取捨與人工確認"
-    ],
-    "language": "Markdown",
-    "install": "Claude Code 可將 repository clone 到 ~/.claude/skills/speak-human-tw；Codex 可 clone 專案後用 codex exec -C . 讀取 SKILL.md 並貼上要改寫的文字；Cursor 與其他平台可依 install/ 目錄文件設定。若只想先看問題不要直接改稿，可在指令中要求「先標問題不要改」。",
-    "license": "MIT",
-    "submittedAt": "2026-07-11",
-    "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 0,
-    "forks": 0,
-    "lastPushedAt": "",
-    "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
-    "avatarUrl": ""
   },
   {
     "name": "課堂單選作答系統",
