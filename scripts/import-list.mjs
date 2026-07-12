@@ -265,9 +265,9 @@ function dynamicRepoFields(repo, repoData) {
 
 function buildEntry(repo, repoData, readme, manualEducationLevels = [], launchUrl = "") {
   const recommendation = (() => {
-    if (repo === "chichingleetw/audience-analysis") return audienceAnalysisRecommendation();
-    if (repo === "chichingleetw/hand-raise-counter") return handRaiseCounterRecommendation();
-    if (repo === "chichingleetw/learning-portfolio-ai-coach") {
+    if (repo === "educatres/audience-analysis") return audienceAnalysisRecommendation();
+    if (repo === "educatres/hand-raise-counter") return handRaiseCounterRecommendation();
+    if (repo === "educatres/learning-portfolio-ai-coach") {
       return learningPortfolioAiCoachRecommendation();
     }
     return genericRecommendation(repo, repoData, readme);
@@ -281,7 +281,7 @@ function buildEntry(repo, repoData, readme, manualEducationLevels = [], launchUr
       manualEducationLevels.length > 0 ? manualEducationLevels : recommendation.educationLevels,
     install:
       recommendation.install ||
-      (repo === "chichingleetw/audience-analysis"
+      (repo === "educatres/audience-analysis"
         ? "下載或 clone 專案後，建議用 python3 -m http.server 8000 啟動本機 HTTP server，再開啟 聽眾分析.html。使用前需準備可用攝影機與支援影像輸入的 API key。"
         : "請依 GitHub README 的安裝與啟動說明操作，並先在測試環境確認權限、資料與瀏覽器相容性。"),
     submittedAt: taipeiDate()

@@ -1,10 +1,10 @@
 ---
 name: 竹筷橋梁實驗室
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/chopstick-bridge-lab
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/chopstick-bridge-lab
 homepage:
-launchUrl: https://chichingleetw.github.io/chopstick-bridge-lab/
+launchUrl: https://educatres.github.io/chopstick-bridge-lab/
 tags:
   - education
   - teaching

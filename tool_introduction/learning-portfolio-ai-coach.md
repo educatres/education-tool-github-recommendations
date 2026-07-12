@@ -1,8 +1,8 @@
 ---
 name: 學習歷程自述 AI 教練
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/learning-portfolio-ai-coach
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/learning-portfolio-ai-coach
 homepage:
 launchUrl:
 tags:

@@ -2,9 +2,9 @@ name: 參考資料檢查器 Reference Verifier
 description: 用於查核參考文獻真實性的 AI 協作 Skill，協助比對標題、作者、年份、期刊與 DOI 是否可信。
 educatorSummary: |
   Reference Verifier 是一個 Codex / AI 協作 Skill，設計給研究者、研究生與教師用來檢查參考文獻清單是否混入 AI 幻覺文獻或書目欄位錯誤。使用者貼上參考文獻後，工具會先逐筆編號，再依選定資料庫比對標題、作者、年份、期刊與 DOI，並以「真實存在」、「資訊不完整 / 有出入」、「疑似不存在」整理結果。它適合研究方法、論文寫作、專題報告與文獻回顧課程，用來訓練學生誠實標示查核限制，而不是補造看似合理的引用資訊。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/reference-verifier
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/reference-verifier
 homepage: 
 launchUrl: 
 tags:

@@ -1,10 +1,10 @@
 ---
 name: 紙飛機風洞實驗室
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/paper-plane-wind-tunnel
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/paper-plane-wind-tunnel
 homepage:
-launchUrl: https://chichingleetw.github.io/paper-plane-wind-tunnel/
+launchUrl: https://educatres.github.io/paper-plane-wind-tunnel/
 tags:
   - education
   - teaching

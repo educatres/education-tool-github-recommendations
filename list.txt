@@ -1,25 +1,25 @@
-https://github.com/chichingleetw/audience-analysis	不限領域	https://chichingleetw.github.io/audience-analysis/
-https://github.com/chichingleetw/hand-raise-counter	不限領域	https://chichingleetw.github.io/hand-raise-counter/
-https://github.com/chichingleetw/learning-portfolio-ai-coach	高中
-https://github.com/chichingleetw/promptLab	不限領域	https://air.cgu.edu.tw/workspace3/PromptLab/
-https://github.com/chichingleetw/github-class-quiz-helper	中小學、高中、大學	https://chichingleetw.github.io/github-class-quiz-helper/teacher.html
+https://github.com/educatres/audience-analysis	不限領域	https://educatres.github.io/audience-analysis/
+https://github.com/educatres/hand-raise-counter	不限領域	https://educatres.github.io/hand-raise-counter/
+https://github.com/educatres/learning-portfolio-ai-coach	高中
+https://github.com/educatres/promptLab	不限領域	https://air.cgu.edu.tw/workspace3/PromptLab/
+https://github.com/educatres/github-class-quiz-helper	中小學、高中、大學	https://educatres.github.io/github-class-quiz-helper/teacher.html
 https://github.com/kisaraki/classroom-timer-tzk	不限領域	https://kisaraki.github.io/classroom-timer-tzk/
-https://github.com/chichingleetw/classboard	不限領域	https://chichingleetw.github.io/classboard/demo.html
-https://github.com/chichingleetw/infinite-whiteboard	不限領域	https://chichingleetw.github.io/infinite-whiteboard/
-https://github.com/chichingleetw/classPop	不限領域	https://chichingleetw.github.io/classPop/
+https://github.com/educatres/classboard	不限領域	https://educatres.github.io/classboard/demo.html
+https://github.com/educatres/infinite-whiteboard	不限領域	https://educatres.github.io/infinite-whiteboard/
+https://github.com/educatres/classPop	不限領域	https://educatres.github.io/classPop/
 https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/
-https://github.com/chichingleetw/research-skill-template-guide	研究
-https://github.com/chichingleetw/meeting-time-survey-system	其他	https://chichingleetw.github.io/meeting-time-survey-system/
+https://github.com/educatres/research-skill-template-guide	研究
+https://github.com/educatres/meeting-time-survey-system	其他	https://educatres.github.io/meeting-time-survey-system/
 https://github.com/AIScientists-Dev/academic-humanizer/tree/main	研究
 https://github.com/EESJGong/scholar-skill	研究
 https://github.com/Imbad0202/academic-research-skills/tree/main	研究
 https://github.com/drpwchen/claude-paper-tools	研究
 https://github.com/soanseng/voxpen-desktop	不限領域
-https://github.com/chichingleetw/gravity-slingshot-voyager-game	中小學、高中	https://chichingleetw.github.io/gravity-slingshot-voyager-game/
-https://github.com/chichingleetw/student-randomizer-grouping-tool	不限領域	https://chichingleetw.github.io/student-randomizer-grouping-tool/
+https://github.com/educatres/gravity-slingshot-voyager-game	中小學、高中	https://educatres.github.io/gravity-slingshot-voyager-game/
+https://github.com/educatres/student-randomizer-grouping-tool	不限領域	https://educatres.github.io/student-randomizer-grouping-tool/
 https://github.com/kueilan/ExamPaperReviewingRobot	中小學、高中
-https://github.com/chichingleetw/reference-verifier	研究
-https://github.com/chichingleetw/paper-plane-wind-tunnel	中小學、高中	https://chichingleetw.github.io/paper-plane-wind-tunnel/
-https://github.com/chichingleetw/chopstick-bridge-lab	中小學	https://chichingleetw.github.io/chopstick-bridge-lab/
-https://github.com/chichingleetw/pulley-mechanics-lab	中小學	https://chichingleetw.github.io/pulley-mechanics-lab/
+https://github.com/educatres/reference-verifier	研究
+https://github.com/educatres/paper-plane-wind-tunnel	中小學、高中	https://educatres.github.io/paper-plane-wind-tunnel/
+https://github.com/educatres/chopstick-bridge-lab	中小學	https://educatres.github.io/chopstick-bridge-lab/
+https://github.com/educatres/pulley-mechanics-lab	中小學	https://educatres.github.io/pulley-mechanics-lab/
 https://github.com/Raymondhou0917/speak-human-tw	研究

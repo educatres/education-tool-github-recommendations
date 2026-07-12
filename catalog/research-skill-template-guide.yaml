@@ -2,9 +2,9 @@ name: 從範本建立研究用 AI Skill
 description: 以研究工作流程為情境，說明如何從 Skill 範本建立可重複使用的 AI Agent 工作手冊。
 educatorSummary: |
   這是一份面向研究人員與研究方法教學的 AI Skill 建立指南，將投影片內容整理成可在 GitHub 閱讀與維護的教學文件。它以 skill-template.zip 為起點，說明如何用自然語言描述研究任務，並請 AI 產生 SKILL.md、agents、scripts、references 與 assets 等資料夾內容。教師可用它帶領研究生或研究團隊理解 AI Agent 的任務拆解、品質檢查、參考資料管理與輸出模板設計，也適合作為建立文獻回顧、IRB 文件整理、資料清理或研究報告輔助流程的入門教材。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/research-skill-template-guide
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/research-skill-template-guide
 homepage: 
 launchUrl: 
 tags:

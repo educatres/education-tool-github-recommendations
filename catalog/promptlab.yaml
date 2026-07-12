@@ -2,9 +2,9 @@ name: Prompt Lab
 description: 以提問能力為核心的 AI 素養學習工具，引導學生拆解問題、設定情境、比較回答並修正提示語。
 educatorSummary: |
   Prompt Lab 是一套以「提問能力」為核心的 AI 素養學習工具，專為課堂教學與學生自主探究而設計。它引導學生練習拆解問題、設定情境、補充條件、比較答案並逐步修正提示語，讓學生從單純把問題交給 AI，進一步學會引導 AI 協助思考。教師可將它用於 AI 素養課程、跨領域探究、寫作訓練、專題研究或邏輯思辨活動，帶學生討論問題是否明確、條件是否足夠，以及 AI 回答是否合理。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/promptLab
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/promptLab
 homepage: 
 launchUrl: https://air.cgu.edu.tw/workspace3/PromptLab/
 tags:

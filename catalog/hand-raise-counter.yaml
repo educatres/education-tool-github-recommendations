@@ -2,11 +2,11 @@ name: 聽眾舉手統計
 description: 透過瀏覽器鏡頭與視覺模型統計現場聽眾人數、舉手人數與舉手比例，協助教師掌握互動回應。
 educatorSummary: |
   這是一個可直接在瀏覽器開啟的單頁工具，可連接攝影機並呼叫視覺模型 API，手動或定時統計現場聽眾總人數、舉手人數與比例。它適合在講座、課堂提問、即時投票或大型活動中快速掌握群體回應，但仍應把結果視為輔助觀察資料，而非個別學生表現判定。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/hand-raise-counter
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/hand-raise-counter
 homepage: 
-launchUrl: https://chichingleetw.github.io/hand-raise-counter/
+launchUrl: https://educatres.github.io/hand-raise-counter/
 tags:
   - education
   - teaching

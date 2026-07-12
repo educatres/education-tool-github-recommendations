@@ -1,10 +1,10 @@
 ---
 name: 公用便條貼白板
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/classboard
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/classboard
 homepage:
-launchUrl: https://chichingleetw.github.io/classboard/demo.html
+launchUrl: https://educatres.github.io/classboard/demo.html
 tags:
   - education
   - teaching

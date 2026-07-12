@@ -2,11 +2,11 @@ name: 會議時間調查系統
 description: 以 GitHub Pages、Google Form 與公開 Google Sheet 建立會議時間調查，免後端、免 OAuth，適合快速協調多人可參加時段。
 educatorSummary: |
   這是一個可部署在 GitHub Pages 的會議時間調查工具，透過 Google Form 寫入回覆，並從公開檢視權限的 Google Sheet 讀取 event log 來還原會議設定、參加者回覆與統計結果。它適合教師、行政團隊或研究團隊用來建立匿名時段調查、產生填寫連結與 QR Code、統計每個時段可參加人數，並協助找出全員可參加或最多人可參加的會議時間。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/meeting-time-survey-system
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/meeting-time-survey-system
 homepage: 
-launchUrl: https://chichingleetw.github.io/meeting-time-survey-system/
+launchUrl: https://educatres.github.io/meeting-time-survey-system/
 tags:
   - education
   - teaching

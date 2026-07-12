@@ -1,10 +1,10 @@
 ---
 name: 聽眾舉手統計
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/hand-raise-counter
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/hand-raise-counter
 homepage:
-launchUrl: https://chichingleetw.github.io/hand-raise-counter/
+launchUrl: https://educatres.github.io/hand-raise-counter/
 tags:
   - education
   - teaching

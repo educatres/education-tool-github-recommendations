@@ -1,8 +1,8 @@
 ---
 name: 參考資料檢查器 Reference Verifier
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/reference-verifier
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/reference-verifier
 homepage:
 launchUrl:
 tags:

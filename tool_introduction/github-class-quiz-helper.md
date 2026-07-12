@@ -1,10 +1,10 @@
 ---
 name: 課堂單選作答系統
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/github-class-quiz-helper
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/github-class-quiz-helper
 homepage:
-launchUrl: https://chichingleetw.github.io/github-class-quiz-helper/teacher.html
+launchUrl: https://educatres.github.io/github-class-quiz-helper/teacher.html
 tags:
   - education
   - teaching
@@ -42,4 +42,4 @@ submittedAt: "2026-07-08"
 
 ## 啟動或安裝方式
 
-可依 README 連結進入線上版本使用：https://chichingleetw.github.io/github-class-quiz-helper/teacher.html。若要自行部署或改作課堂版本，請先閱讀 GitHub 專案內容並在測試環境確認權限、資料處理與瀏覽器相容性。
+可依 README 連結進入線上版本使用：https://educatres.github.io/github-class-quiz-helper/teacher.html。若要自行部署或改作課堂版本，請先閱讀 GitHub 專案內容並在測試環境確認權限、資料處理與瀏覽器相容性。

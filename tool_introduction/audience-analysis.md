@@ -1,10 +1,10 @@
 ---
 name: 課堂聽眾專注度分析
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/audience-analysis
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/audience-analysis
 homepage:
-launchUrl: https://chichingleetw.github.io/audience-analysis/
+launchUrl: https://educatres.github.io/audience-analysis/
 tags:
   - education
   - teaching

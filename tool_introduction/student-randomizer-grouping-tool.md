@@ -1,10 +1,10 @@
 ---
 name: 學生隨機抽籤與分組工具
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/student-randomizer-grouping-tool
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/student-randomizer-grouping-tool
 homepage:
-launchUrl: https://chichingleetw.github.io/student-randomizer-grouping-tool/
+launchUrl: https://educatres.github.io/student-randomizer-grouping-tool/
 tags:
   - education
   - teaching

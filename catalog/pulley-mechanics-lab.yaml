@@ -2,11 +2,11 @@ name: 滑輪救援隊：2D 力學實驗室
 description: 國中自然科取向的 2D 滑輪小遊戲，可比較定滑輪、動滑輪與滑輪組的省力效果和拉繩距離。
 educatorSummary: |
   滑輪救援隊是一個可直接部署到 GitHub Pages 的 2D 力學教學遊戲，使用 Canvas 呈現定滑輪、動滑輪與多種滑輪組的輪槽、連續繩路與承重繩段。學生可以切換 7 種滑輪配置，觀察理想機械利益、拉力、拉繩距離與功的即時計算，也能比較理想模式與真實摩擦模式下的差異。工具內含拉繩與重物上升動畫、力箭頭、預測題、任務關卡與生活故事，適合用來把「省力不省功」、「承重繩段越多拉力越小但要拉更長距離」等概念具體化。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/pulley-mechanics-lab
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/pulley-mechanics-lab
 homepage: 
-launchUrl: https://chichingleetw.github.io/pulley-mechanics-lab/
+launchUrl: https://educatres.github.io/pulley-mechanics-lab/
 tags:
   - education
   - teaching

@@ -1,10 +1,10 @@
 ---
 name: 滑輪救援隊：2D 力學實驗室
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/pulley-mechanics-lab
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/pulley-mechanics-lab
 homepage:
-launchUrl: https://chichingleetw.github.io/pulley-mechanics-lab/
+launchUrl: https://educatres.github.io/pulley-mechanics-lab/
 tags:
   - education
   - teaching

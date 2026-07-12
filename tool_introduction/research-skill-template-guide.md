@@ -1,8 +1,8 @@
 ---
 name: 從範本建立研究用 AI Skill
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/research-skill-template-guide
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/research-skill-template-guide
 homepage:
 launchUrl:
 tags:

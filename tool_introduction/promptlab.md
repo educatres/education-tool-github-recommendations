@@ -1,8 +1,8 @@
 ---
 name: Prompt Lab
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/promptLab
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/promptLab
 homepage:
 launchUrl: https://air.cgu.edu.tw/workspace3/PromptLab/
 tags:

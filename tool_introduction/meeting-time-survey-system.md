@@ -1,10 +1,10 @@
 ---
 name: 會議時間調查系統
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/meeting-time-survey-system
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/meeting-time-survey-system
 homepage:
-launchUrl: https://chichingleetw.github.io/meeting-time-survey-system/
+launchUrl: https://educatres.github.io/meeting-time-survey-system/
 tags:
   - education
   - teaching

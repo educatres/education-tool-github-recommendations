@@ -2,11 +2,11 @@ name: 航海家號：太陽系引力彈弓任務
 description: 以航海家號外行星任務為情境的繁體中文太空飛行小遊戲，讓學生操作探測船體驗引力彈弓。
 educatorSummary: |
   這是一個單檔 HTML 製作的 2D 太空飛行遊戲，玩家從地球附近出發，依序靠近木星、土星、天王星、海王星與冥王星，練習用行星重力改變航向與速度。它把太陽系距離、時間、質量與速度壓縮成適合遊玩的尺度，不追求嚴格比例的天體力學模擬，而是協助學生直覺理解重力輔助、速度向量、軌道能量與有限燃料策略。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/gravity-slingshot-voyager-game
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/gravity-slingshot-voyager-game
 homepage: 
-launchUrl: https://chichingleetw.github.io/gravity-slingshot-voyager-game/
+launchUrl: https://educatres.github.io/gravity-slingshot-voyager-game/
 tags:
   - education
   - teaching

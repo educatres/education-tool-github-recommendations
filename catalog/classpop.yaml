@@ -2,11 +2,11 @@ name: ClassPop 課堂即時回答系統
 description: 這是一個可部署在 GitHub Pages 的靜態上課回答系統。資料寫入使用 Google Form，資料讀取使用公開 Google Sheet，不需要後端、Apps Script、OAuth 或學生登入。
 educatorSummary: |
   這是一個可部署在 GitHub Pages 的靜態上課回答系統。資料寫入使用 Google Form，資料讀取使用公開 Google Sheet，不需要後端、Apps Script、OAuth 或學生登入。 教育工作者可先從 README 的使用流程與限制開始評估，確認課堂情境、學生資料與校內資訊安全規範都適合後再導入。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/classPop
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/classPop
 homepage: 
-launchUrl: https://chichingleetw.github.io/classPop/
+launchUrl: https://educatres.github.io/classPop/
 tags:
   - education
   - teaching

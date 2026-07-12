@@ -2,11 +2,11 @@ name: 課堂聽眾專注度分析
 description: 透過瀏覽器鏡頭與視覺模型觀察課堂整體專注趨勢，協助教師掌握聽眾狀態。
 educatorSummary: |
   這是一個單檔網頁工具，可在課堂中定時擷取畫面並呼叫支援 Responses API 的視覺模型，估算總人數、疑似不專心人數、手機使用比例與趨勢。它適合做為教師調整課堂節奏、觀察群體參與狀態與課後反思的輔助資料，不應用於個人評分、紀律處分或身分辨識。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/audience-analysis
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/audience-analysis
 homepage: 
-launchUrl: https://chichingleetw.github.io/audience-analysis/
+launchUrl: https://educatres.github.io/audience-analysis/
 tags:
   - education
   - teaching

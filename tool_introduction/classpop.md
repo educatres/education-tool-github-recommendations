@@ -1,10 +1,10 @@
 ---
 name: ClassPop 課堂即時回答系統
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/classPop
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/classPop
 homepage:
-launchUrl: https://chichingleetw.github.io/classPop/
+launchUrl: https://educatres.github.io/classPop/
 tags:
   - education
   - teaching

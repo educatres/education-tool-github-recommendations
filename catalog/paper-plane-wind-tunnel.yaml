@@ -2,11 +2,11 @@ name: 紙飛機風洞實驗室
 description: 單頁 3D 紙飛機風洞教學小遊戲，讓學生調整風速、攻角、側風、翼寬與重心觀察飛行表現。
 educatorSummary: |
   紙飛機風洞實驗室是一個可直接部署到 GitHub Pages 的 Three.js 單頁互動工具，提供風洞觀察、自由飛行與任務挑戰模式。學生可以調整風速、攻角、側風、翼寬、重心與投擲速度，觀察彩色氣流、受力箭頭、飛行軌跡、升力、阻力、相對空速、滯空時間與飛行距離。它不追求專業 CFD 或工程級空氣動力精度，而是把升力、阻力、攻角、失速、相對風與重心配置轉成可操作、可比較的 STEM 探究活動。
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/paper-plane-wind-tunnel
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/paper-plane-wind-tunnel
 homepage: 
-launchUrl: https://chichingleetw.github.io/paper-plane-wind-tunnel/
+launchUrl: https://educatres.github.io/paper-plane-wind-tunnel/
 tags:
   - education
   - teaching

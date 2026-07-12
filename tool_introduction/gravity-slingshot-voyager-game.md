@@ -1,10 +1,10 @@
 ---
 name: 航海家號：太陽系引力彈弓任務
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/gravity-slingshot-voyager-game
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/gravity-slingshot-voyager-game
 homepage:
-launchUrl: https://chichingleetw.github.io/gravity-slingshot-voyager-game/
+launchUrl: https://educatres.github.io/gravity-slingshot-voyager-game/
 tags:
   - education
   - teaching

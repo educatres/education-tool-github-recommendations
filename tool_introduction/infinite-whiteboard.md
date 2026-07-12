@@ -1,10 +1,10 @@
 ---
 name: 無邊際白板 Infinite Whiteboard
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/infinite-whiteboard
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/infinite-whiteboard
 homepage:
-launchUrl: https://chichingleetw.github.io/infinite-whiteboard/
+launchUrl: https://educatres.github.io/infinite-whiteboard/
 tags:
   - education
   - teaching

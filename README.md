@@ -44,7 +44,7 @@ npm run sync:introductions
 每行使用 tab 分隔欄位。第一欄是 GitHub repository，可使用完整網址或 `owner/repo`；第二欄是教育階段分類；第三欄選填，填入可直接使用工具的網站：
 
 ```text
-https://github.com/chichingleetw/audience-analysis	中小學、高中
+https://github.com/educatres/audience-analysis	中小學、高中
 openai/openai-cookbook	不限領域	https://example.com/tool/
 ```
 
@@ -59,9 +59,9 @@ name: 課堂聽眾專注度分析
 description: 透過瀏覽器鏡頭與視覺模型觀察課堂整體專注趨勢，協助教師掌握聽眾狀態。
 educatorSummary: |
   這是一個單檔網頁工具...
-authorName: chichingleetw
-authorGitHub: chichingleetw
-repo: chichingleetw/audience-analysis
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/audience-analysis
 homepage:
 launchUrl:
 tags:
