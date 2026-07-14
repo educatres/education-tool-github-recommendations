@@ -1,0 +1,47 @@
+---
+name: Protein-Ligand HB Interaction Analyzer
+authorName: jong-liu
+authorGitHub: jong-liu
+repo: jong-liu/protein-ligand-HB-interaction
+homepage:
+launchUrl: https://jong-liu.github.io/protein-ligand-HB-interaction/
+tags:
+  - education
+  - teaching
+  - github
+  - biochemistry
+  - structural-biology
+  - molecular-visualization
+  - protein-ligand
+educationLevels:
+  - 大學
+language: HTML
+license: Unspecified
+submittedAt: "2026-07-14"
+---
+
+# Protein-Ligand HB Interaction Analyzer
+
+## 簡短描述
+
+瀏覽器端蛋白質-配體氫鍵分析工具，可載入 PDB/mmCIF 結構並提出突變位點參考。
+
+## 教育工作者摘要
+
+Protein-Ligand HB Interaction Analyzer 是一個純瀏覽器端的結構生物學教學與研究輔助工具。使用者可輸入 PDB ID 自動從 RCSB 下載結構，或上傳 .pdb、.ent、.cif 檔案，接著指定配體 resname 與氫鍵距離 cutoff，工具會以 py3Dmol 顯示 3D 結構並偵測蛋白質與配體間 N/O/S 重原子的 donor-acceptor 距離。它也會依殘基去重、區分 side chain 與 backbone 互動，提供高優先與中優先突變位點建議，適合生物化學、藥物設計、分子辨識與結構生物學課程示範。
+
+## 教學用途
+
+- 在大學部生化、藥物化學或結構生物學課中示範蛋白質-配體氫鍵互動
+- 讓學生比較不同 cutoff、配體 resname 或結構檔對氫鍵清單與突變建議的影響
+- 搭配 PyMOL、PDB 資料庫或 docking 結果，練習解讀配體結合位點與殘基功能
+
+## 導入注意
+
+- 氫鍵判定主要依重原子距離與簡化規則，不等同於完整能量計算、量子化學或動力學模擬
+- 突變位點建議是教學與設計參考，實際功能影響仍需文獻、實驗或更完整的計算驗證
+- 若使用上傳結構或未公開資料，需確認資料授權、研究保密與第三方 CDN 載入環境是否合適
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 線上版本。線上使用時輸入 PDB ID 或上傳 PDB/mmCIF 檔案，填入配體 resname 與 cutoff 後即可分析。若要本機使用，可下載 index.html 後用瀏覽器開啟；工具以 CDN 載入 py3Dmol、html2canvas 與 jsPDF，不需要後端或 npm/pip 安裝。
