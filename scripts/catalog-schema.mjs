@@ -118,10 +118,10 @@ export function normalizeEntry(entry, sourcePath) {
     errors.push("educatorSummary: must be 20-800 characters");
   }
   if (!stringOk(normalized.authorName, 1, 80)) errors.push("authorName: must be 1-80 characters");
-  if (!/^[A-Za-z0-9-]{1,39}$/.test(normalized.authorGitHub || "")) {
+  if (normalized.authorGitHub && !/^[A-Za-z0-9-]{1,39}$/.test(normalized.authorGitHub)) {
     errors.push("authorGitHub: must be a GitHub username");
   }
-  if (!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(normalized.repo || "")) {
+  if (normalized.repo && !/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(normalized.repo)) {
     errors.push("repo: must use owner/name");
   }
   if (normalized.homepage && !isUrl(normalized.homepage)) errors.push("homepage: must be a URL or blank");

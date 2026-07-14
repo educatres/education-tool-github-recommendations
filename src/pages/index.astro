@@ -135,9 +135,15 @@ function compactIntro(value: string) {
                   <div class="identity">
                     <div>
                       <h2>{entry.name}</h2>
-                      <a href={`https://github.com/${entry.authorGitHub}`} target="_blank" rel="noreferrer">
-                        @{entry.authorGitHub}
-                      </a>
+                      {
+                        entry.authorGitHub ? (
+                          <a href={`https://github.com/${entry.authorGitHub}`} target="_blank" rel="noreferrer">
+                            @{entry.authorGitHub}
+                          </a>
+                        ) : (
+                          <span class="authorText">{entry.authorName}</span>
+                        )
+                      }
                       <p class="compactIntro">{compactIntro(entry.description)}</p>
                     </div>
                   </div>
@@ -193,7 +199,7 @@ function compactIntro(value: string) {
                   >
                     ...
                   </button>
-                  <a href={entry.repoUrl} target="_blank" rel="noreferrer">原始出處</a>
+                  {entry.repoUrl ? <a href={entry.repoUrl} target="_blank" rel="noreferrer">原始出處</a> : null}
                   {entry.launchUrl ? <a href={entry.launchUrl} target="_blank" rel="noreferrer">線上使用</a> : null}
                   {entry.homepage ? <a href={entry.homepage} target="_blank" rel="noreferrer">網站</a> : null}
                 </div>

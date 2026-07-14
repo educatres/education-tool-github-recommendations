@@ -41,6 +41,17 @@ async function fetchRepo(repo) {
 }
 
 async function enrich(entry) {
+  if (!entry.repo) {
+    return {
+      ...entry,
+      stars: 0,
+      forks: 0,
+      lastPushedAt: "",
+      repoUrl: entry.homepage || entry.launchUrl || "",
+      avatarUrl: ""
+    };
+  }
+
   try {
     const repo = await fetchRepo(entry.repo);
     return {

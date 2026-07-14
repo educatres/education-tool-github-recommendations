@@ -1,0 +1,33 @@
+name: 字鬥英雄｜英文單字練功坊
+description: 英文單字遊戲化練習網站，涵蓋國小 1200、國中 2000 與高中 6000 字，結合閃卡、自測與對戰。
+educatorSummary: |
+  字鬥英雄是一個繁體中文介面的英文單字練習網站，入口可選國小、國中與高中學段，主打從 1200 字、2000 字到 6000 字的分級練功。工具結合 Leitner 間隔複習閃卡、單字自測、限時衝刺、錯題複習、文學家對戰、字綴心智圖、查單字、會考英文考古題、戰績統計、英雄檔案與字幣獎勵。它適合用來提高學生每日短時間接觸英文單字的動機，也能讓教師示範「少量多次、錯題回流、用遊戲化維持練習」的背單字流程。
+authorName: vocab-duel.vercel.app
+authorGitHub:
+repo:
+homepage: https://vocab-duel.vercel.app/
+launchUrl: https://vocab-duel.vercel.app/
+tags:
+  - education
+  - teaching
+  - english
+  - vocabulary
+  - flashcards
+  - game-based-learning
+  - exam-prep
+educationLevels:
+  - 中小學
+  - 高中
+useCases:
+  - 作為課前暖身、課後自主練習或寒暑假英文單字任務的遊戲化平台
+  - 讓學生使用閃卡、自測與錯題複習，建立間隔複習與自我檢核習慣
+  - 搭配限時衝刺、文學家對戰或戰績卡，設計班級挑戰與同儕互動活動
+cautions:
+  - 進度主要儲存在學生目前瀏覽器本機，換裝置或清除瀏覽器資料可能影響紀錄
+  - 遊戲化獎勵能提升動機，但仍需教師引導學生回到單字理解、例句與實際使用
+  - 若用於正式評量，建議另行保存成績或搭配教師指定字表，避免只依網站戰績判斷學習成效
+language: JavaScript
+install: |
+  直接開啟線上網站即可使用。學生可先選擇國小、國中或高中挑戰，再進入閃卡練功、單字自測、限時衝刺或其他模式；不需要安裝軟體。
+license: Unspecified
+submittedAt: "2026-07-14"

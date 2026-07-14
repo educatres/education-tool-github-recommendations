@@ -319,7 +319,8 @@ select:focus,
   line-height: 1.22;
 }
 
-.identity a {
+.identity a,
+.authorText {
   color: #667580;
   font-size: 0.9rem;
 }
