@@ -14,8 +14,7 @@ tags:
   - knowledge-base
   - classroom
 educationLevels:
-  - 中小學
-  - 高中
+  - 教室工具
 language: JavaScript
 license: Unspecified
 submittedAt: "2026-07-12"

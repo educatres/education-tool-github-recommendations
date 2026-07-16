@@ -18,8 +18,7 @@ tags:
   - knowledge-base
   - classroom
 educationLevels:
-  - 中小學
-  - 高中
+  - 教室工具
 useCases:
   - 教師快速建立課堂共用 AI 聊天頁，讓學生掃 QR Code 即可進入活動
   - 搭配 system prompt 設定特定角色、任務規則或課程情境
