@@ -39,3 +39,4 @@ https://github.com/educatres/red-blood-cell-heart-adventure	中小學	https://ed
 https://github.com/educatres/food-digestion-simulator	中小學、高中	https://educatres.github.io/food-digestion-simulator/
 https://github.com/educatres/circulation-learning-game	中小學	https://educatres.github.io/circulation-learning-game/
 https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/rbcrr/rbcrr.html
+https://github.com/educatres/talkq	教室工具	https://educatres.github.io/talkq/

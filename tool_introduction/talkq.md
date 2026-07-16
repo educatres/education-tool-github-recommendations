@@ -1,0 +1,47 @@
+---
+name: TalkQ 演講提問器
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/talkq
+homepage:
+launchUrl: https://educatres.github.io/talkq/
+tags:
+  - education
+  - teaching
+  - github
+  - classroom
+  - audience
+  - q-and-a
+  - google-sheets
+educationLevels:
+  - 不限領域
+language: HTML
+license: MIT
+submittedAt: "2026-07-16"
+---
+
+# TalkQ 演講提問器
+
+## 簡短描述
+
+免登入的演講與課堂提問工具，透過 Google Form 與 Google Sheet 收集、審核並公開聽眾問題。
+
+## 教育工作者摘要
+
+TalkQ 演講提問器是一個可部署到 GitHub Pages 的純前端現場提問工具。講師可在設定頁建立演講 ID，填入 Google Form、Google Sheet 與預填表單欄位，產生聽眾提問頁、講師管理頁與公開問題頁三組網址及 QR Code。聽眾不需登入即可用暱稱送出問題；講師可依活動設定選擇「審核後公開」或「投稿者同意時直接公開」，並在管理頁查看所有問題、公開或隱藏題目。它適合用於演講、課堂提問、工作坊、研習與大型活動，讓不方便即時舉手的聽眾也能匿名或半匿名參與互動。
+
+## 教學用途
+
+- 在講座、課堂或研習中產生 QR Code，讓聽眾用手機即時提交問題
+- 讓教師或主持人先審核問題，再把適合公開討論的題目投影到公開頁面
+- 以同一份 Google Sheet 搭配不同演講 ID，保存多場活動的提問紀錄
+
+## 導入注意
+
+- 管理網址沒有帳號登入或真正權限驗證，應只分享給講師或工作人員
+- Google Sheet 若設為知道連結者可檢視，原始資料可能被知道網址的人讀取，請勿要求真實姓名、Email、電話或敏感資訊
+- Google Form 寫入 Google Sheet 可能有數秒延遲，且純前端架構無法完全防止惡意投稿或冒用暱稱
+
+## 啟動或安裝方式
+
+可直接開啟 GitHub Pages 線上版本使用。首次使用需先建立 Google Form 的 12 個欄位、連結回應試算表，將 Google Sheet 設為知道連結者可檢視，再把預填連結、Sheet 分享網址與 Form 網址貼入設定頁產生三組活動網址。若要本機測試，請下載或 clone 專案後以 python3 -m http.server 8080 啟動靜態伺服器。
