@@ -1,0 +1,33 @@
+name: 細胞分裂研究所｜有絲分裂 × 減數分裂互動教材
+description: 國高中生物互動教材，整合細胞分裂科學史、經典實驗、理論比較、染色體數目模擬、練習題與闖關遊戲。
+educatorSummary: |
+  細胞分裂研究所是一套可部署到 GitHub Pages 的繁體中文純前端互動教材，主題聚焦在有絲分裂、減數分裂與染色體行為。教材從華爾瑟・弗萊明、華特・薩頓、西奧多・博韋里、哈麗特・克萊頓與芭芭拉・麥克林托克等科學史切入，搭配蠑螈細胞染色、洋蔥根尖觀察、蚱蜢減數分裂與玉米染色體互換等經典實驗，協助學生理解證據如何建立。網站也提供有絲分裂與減數分裂理論切換、比較表、常見迷思、染色體數目與 DNA 分子數模擬器、12 題即時回饋練習，以及「階段排排站」「染色體調度員」「互換實驗室」「分裂錯誤偵探」「細胞密室逃脫」五款小遊戲，適合用來把階段背誦轉化為染色體分配、遺傳多樣性與錯誤判讀的探究活動。
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/cell-division
+homepage:
+launchUrl: https://educatres.github.io/cell-division/
+tags:
+  - education
+  - teaching
+  - github
+  - science
+  - biology
+  - cell-division
+  - simulation
+  - game
+educationLevels:
+  - 中小學
+useCases:
+  - 在國中自然科或高中生物課中比較有絲分裂與減數分裂的目的、子細胞數量、染色體數目與遺傳差異
+  - 透過染色體數目模擬器釐清 DNA 複製後染色體數不一定加倍、第一次分開的是同源染色體或姐妹染色分體等迷思
+  - 使用科學家小傳、經典實驗、即時練習與五款遊戲，設計分組輪站、課堂討論或形成性評量活動
+cautions:
+  - 外部 YouTube 影片與 Wikimedia Commons 圖片各有來源與授權，教師正式使用前應確認影片可播放、字幕與內容適合班級
+  - 遊戲星星進度保存在學生自己的瀏覽器 localStorage，不會形成可集中收回的班級成績資料
+  - 若用於正式評量，建議要求學生用染色體行為解釋答案，避免只背階段名稱或把有絲分裂、減數分裂流程混用
+language: JavaScript
+install: |
+  可直接開啟 GitHub Pages 線上版本使用。若要本機測試，可下載或 clone 專案後直接用瀏覽器開啟 index.html；若瀏覽器限制本機功能，也可以在專案資料夾執行 python3 -m http.server 8000，再開啟 http://localhost:8000。
+license: MIT
+submittedAt: "2026-07-17"
