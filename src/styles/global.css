@@ -530,6 +530,13 @@ select:focus,
   font-size: 0.9rem;
 }
 
+.catalogNotice {
+  flex-basis: 100%;
+  margin: 0;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 900px) {
   .masthead,
   .toolbar {
