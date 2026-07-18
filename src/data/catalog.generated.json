@@ -869,48 +869,6 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
-    "name": "元素週期表理化小遊戲",
-    "description": "繁體中文元素週期表與理化小遊戲，結合元素資料、分類篩選、國中常見重點與隨機元素挑戰。",
-    "educatorSummary": "元素週期表理化小遊戲是一個可直接在線上使用的繁體中文互動網站。首頁提供完整週期表，學生可切換國中常見元素、全部元素、金屬、類金屬、非金屬、鹼金屬族、鹼土金屬族、鹵素與鈍氣等篩選，點選元素後查看原子序、週期、族、分類、電子層、常見用途、生活連結與課本程度重點。網站也內建元素挑戰模式，包含簡單的元素符號與中文名稱配對、正常難度的國中理化常識題，以及答錯即結束並可登錄成績的無限挑戰。它適合用於國中自然科的元素符號、週期表分類、常見元素用途與化合物概念複習。",
-    "authorName": "periodic-table-game.pages.dev",
-    "authorGitHub": "",
-    "repo": "",
-    "homepage": "https://periodic-table-game.pages.dev/periodic-table-game",
-    "launchUrl": "https://periodic-table-game.pages.dev/periodic-table-game",
-    "tags": [
-      "education",
-      "teaching",
-      "science",
-      "chemistry",
-      "periodic-table",
-      "quiz",
-      "game-based-learning"
-    ],
-    "educationLevels": [
-      "中小學"
-    ],
-    "useCases": [
-      "在元素週期表單元中讓學生查找元素符號、中文名稱、週期、族與分類，建立查表習慣",
-      "作為課前暖身或課後複習，用五題元素挑戰檢核學生對常見元素與理化情境的理解",
-      "搭配金屬、非金屬、鹵素、鈍氣等篩選，引導學生比較同族元素與常見性質"
-    ],
-    "cautions": [
-      "題庫與元素說明以國中理化概念複習為主，若用於正式評量，建議教師先檢查題目與課程版本是否一致",
-      "無限挑戰與英雄榜適合提高動機，但不宜作為唯一成績依據，仍需搭配學生解釋與紙筆或實作活動",
-      "網站包含外部 API 讀取訪客數與排行榜，若校園網路限制外部服務，相關功能可能無法顯示"
-    ],
-    "language": "JavaScript",
-    "install": "直接開啟線上網站即可使用，不需要安裝軟體。學生可先在週期表頁面瀏覽或篩選元素，再點選「元素挑戰」進入簡單、正常或無限挑戰模式。",
-    "license": "Unspecified",
-    "submittedAt": "2026-07-18",
-    "sourcePath": "catalog/periodic-table-game.yaml",
-    "stars": 0,
-    "forks": 0,
-    "lastPushedAt": "",
-    "repoUrl": "https://periodic-table-game.pages.dev/periodic-table-game",
-    "avatarUrl": ""
-  },
-  {
     "name": "參考資料檢查器 Reference Verifier",
     "description": "用於查核參考文獻真實性的 AI 協作 Skill，協助比對標題、作者、年份、期刊與 DOI 是否可信。",
     "educatorSummary": "Reference Verifier 是一個 Codex / AI 協作 Skill，設計給研究者、研究生與教師用來檢查參考文獻清單是否混入 AI 幻覺文獻或書目欄位錯誤。使用者貼上參考文獻後，工具會先逐筆編號，再依選定資料庫比對標題、作者、年份、期刊與 DOI，並以「真實存在」、「資訊不完整 / 有出入」、「疑似不存在」整理結果。它適合研究方法、論文寫作、專題報告與文獻回顧課程，用來訓練學生誠實標示查核限制，而不是補造看似合理的引用資訊。",
@@ -951,49 +909,6 @@
     "lastPushedAt": "2026-07-11T04:55:08Z",
     "repoUrl": "https://github.com/educatres/reference-verifier",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
-  },
-  {
-    "name": "字鬥英雄｜英文單字練功坊",
-    "description": "英文單字遊戲化練習網站，涵蓋國小 1200、國中 2000 與高中 6000 字，結合閃卡、自測與對戰。",
-    "educatorSummary": "字鬥英雄是一個繁體中文介面的英文單字練習網站，入口可選國小、國中與高中學段，主打從 1200 字、2000 字到 6000 字的分級練功。工具結合 Leitner 間隔複習閃卡、單字自測、限時衝刺、錯題複習、文學家對戰、字綴心智圖、查單字、會考英文考古題、戰績統計、英雄檔案與字幣獎勵。它適合用來提高學生每日短時間接觸英文單字的動機，也能讓教師示範「少量多次、錯題回流、用遊戲化維持練習」的背單字流程。",
-    "authorName": "vocab-duel.vercel.app",
-    "authorGitHub": "",
-    "repo": "",
-    "homepage": "https://vocab-duel.vercel.app/",
-    "launchUrl": "https://vocab-duel.vercel.app/",
-    "tags": [
-      "education",
-      "teaching",
-      "english",
-      "vocabulary",
-      "flashcards",
-      "game-based-learning",
-      "exam-prep"
-    ],
-    "educationLevels": [
-      "中小學",
-      "高中"
-    ],
-    "useCases": [
-      "作為課前暖身、課後自主練習或寒暑假英文單字任務的遊戲化平台",
-      "讓學生使用閃卡、自測與錯題複習，建立間隔複習與自我檢核習慣",
-      "搭配限時衝刺、文學家對戰或戰績卡，設計班級挑戰與同儕互動活動"
-    ],
-    "cautions": [
-      "進度主要儲存在學生目前瀏覽器本機，換裝置或清除瀏覽器資料可能影響紀錄",
-      "遊戲化獎勵能提升動機，但仍需教師引導學生回到單字理解、例句與實際使用",
-      "若用於正式評量，建議另行保存成績或搭配教師指定字表，避免只依網站戰績判斷學習成效"
-    ],
-    "language": "JavaScript",
-    "install": "直接開啟線上網站即可使用。學生可先選擇國小、國中或高中挑戰，再進入閃卡練功、單字自測、限時衝刺或其他模式；不需要安裝軟體。",
-    "license": "Unspecified",
-    "submittedAt": "2026-07-14",
-    "sourcePath": "catalog/vocab-duel.yaml",
-    "stars": 0,
-    "forks": 0,
-    "lastPushedAt": "",
-    "repoUrl": "https://vocab-duel.vercel.app/",
-    "avatarUrl": ""
   },
   {
     "name": "學生隨機抽籤與分組工具",

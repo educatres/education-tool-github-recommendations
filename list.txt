@@ -35,7 +35,6 @@ https://github.com/kisaraki/classroom-timer-tzk	教室工具	https://kisaraki.gi
 https://github.com/kisaraki/classroom-timer-tzk	教室工具	https://kisaraki.github.io/classroom-timer-tzk/?tool=countdown
 https://github.com/jong-liu/protein-ligand-HB-interaction/	大學	https://jong-liu.github.io/protein-ligand-HB-interaction/
 https://github.com/educatres/red-blood-cell-heart-adventure	中小學	https://educatres.github.io/red-blood-cell-heart-adventure/
-	中小學、高中	https://vocab-duel.vercel.app/
 https://github.com/educatres/food-digestion-simulator	中小學、高中	https://educatres.github.io/food-digestion-simulator/
 https://github.com/educatres/circulation-learning-game	中小學	https://educatres.github.io/circulation-learning-game/
 https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/rbcrr/rbcrr.html
@@ -48,4 +47,3 @@ https://github.com/educatres/microscope	中小學	https://educatres.github.io/mi
 https://github.com/educatres/circulation-maze	中小學	https://educatres.github.io/circulation-maze/
 https://github.com/educatres/gut-microbiome-battle	中小學、高中	https://educatres.github.io/gut-microbiome-battle/
 https://github.com/Sonville/suzanne-paper-plane-lab	中小學、高中	https://sonville.github.io/suzanne-paper-plane-lab/
-	中小學	https://periodic-table-game.pages.dev/periodic-table-game
