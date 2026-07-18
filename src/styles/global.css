@@ -87,6 +87,10 @@ h1 {
   margin-top: 5px;
 }
 
+.teachingPosition {
+  color: #287056;
+}
+
 .levelQuickSelect {
   display: grid;
   gap: 10px;
