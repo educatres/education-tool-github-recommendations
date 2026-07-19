@@ -51,4 +51,4 @@ https://github.com/educatres/terrain-explorer-americas	中小學、高中	https:
 https://github.com/educatres/terrain-explorer-australia	中小學、高中	https://educatres.github.io/terrain-explorer-australia/
 https://github.com/educatres/terrain-explorer-asia	中小學、高中	https://educatres.github.io/terrain-explorer-asia/
 https://github.com/educatres/terrain-explorer-europe	中小學、高中	https://educatres.github.io/terrain-explorer-europe/
-
+https://github.com/educatres/terrain-explorer-africa	中小學、高中	https://educatres.github.io/terrain-explorer-africa/

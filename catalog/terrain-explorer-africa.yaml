@@ -1,0 +1,34 @@
+name: 地形探險隊-非洲
+description: 非洲互動式地理教材，可在衛星底圖上探索非洲地形、國家公園、代表性動植物與資料來源。
+educatorSummary: |
+  地形探險隊-非洲是一套可部署到 GitHub Pages 的互動式地理教材。學生可在以非洲為中心的 Esri World Imagery 衛星底圖上縮放、拖曳與點選標註，探索山脈、河流、湖泊、特殊地形、國家公園、代表性動物與特色植物。教材延續地形探險隊系列的 Leaflet 地圖介面與教學概略圖層，提供分類圖層切換、景點搜尋、導覽模式、觀察任務與隨機測驗；資訊卡可協助學生閱讀地理成因、生態特徵、物種學名、棲地、保育現況、公開照片授權與延伸來源。它適合用於地理、自然科學與環境教育課程，讓學生在同一張地圖中比較撒哈拉、東非高地、剛果盆地、尼羅河流域、大裂谷、熱帶雨林、草原與沙漠等非洲地形和生態環境。
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/terrain-explorer-africa
+homepage: https://educatres.github.io/terrain-explorer-africa/
+launchUrl: https://educatres.github.io/terrain-explorer-africa/
+tags:
+  - education
+  - teaching
+  - github
+  - geography
+  - earth-science
+  - ecology
+  - interactive-map
+  - leaflet
+educationLevels:
+  - 中小學
+  - 高中
+useCases:
+  - 在地理或自然科課程中帶學生辨識非洲主要山脈、高原、盆地、河流、湖泊、特殊地形與國家公園的位置關係
+  - 讓學生比較北非沙漠、東非高地與裂谷、中非雨林、南部非洲草原等環境差異，以及代表性動植物棲地
+  - 搭配導覽模式、觀察任務與隨機測驗，引導學生從衛星影像、地圖標註、照片與資料來源提出非洲地理觀察
+cautions:
+  - 線面圖層與物種點位是課堂辨識用概略資料，不可用於導航、工程、土地界線、物種調查、災害判定或科學研究
+  - 衛星底圖、公開照片、官方資料、保育資料與影片搜尋各有來源與授權條件，公開使用前應逐項確認
+  - 非洲地形、生態與人文區域常跨越多國邊界，建議教師搭配政治地圖、氣候圖或課本圖表，協助學生連結自然地理與區域名稱
+language: JavaScript
+install: |
+  可直接開啟 GitHub Pages 線上版本使用。若要本機測試，因網站會透過 fetch() 載入 JSON 與 GeoJSON 資料，請在專案資料夾執行 python3 -m http.server 8000，再開啟 http://localhost:8000。
+license: NOASSERTION
+submittedAt: "2026-07-19"
