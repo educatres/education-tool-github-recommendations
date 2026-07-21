@@ -53,5 +53,5 @@ https://github.com/educatres/terrain-explorer-asia	中小學、高中	https://ed
 https://github.com/educatres/terrain-explorer-europe	中小學、高中	https://educatres.github.io/terrain-explorer-europe/
 https://github.com/educatres/terrain-explorer-africa	中小學、高中	https://educatres.github.io/terrain-explorer-africa/
 https://github.com/jong-liu/survival-war-of-probiotics	中小學	https://jong-liu.github.io/survival-war-of-probiotics/
-https://github.com/educatres/timeline-wwii	中小學	https://educatres.github.io/timeline-wwii/
+https://github.com/educatres/timeline-wwii	中小學、高中	https://educatres.github.io/timeline-wwii/
 https://github.com/educatres/Timeline-20th-Century-Economy	高中、大學	https://educatres.github.io/Timeline-20th-Century-Economy/

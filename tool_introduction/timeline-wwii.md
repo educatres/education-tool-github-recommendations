@@ -15,6 +15,7 @@ tags:
   - media-literacy
 educationLevels:
   - 中小學
+  - 高中
 language: JavaScript
 license: Unspecified
 submittedAt: "2026-07-21"
