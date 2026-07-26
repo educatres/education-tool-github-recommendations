@@ -8,7 +8,7 @@ https://github.com/educatres/infinite-whiteboard	教室工具	https://educatres.
 https://github.com/educatres/classPop	教室工具	https://educatres.github.io/classPop/
 https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/
 https://github.com/educatres/research-skill-template-guide	研究
-https://github.com/educatres/meeting-time-survey-system	通用工具	https://educatres.github.io/meeting-time-survey-system/
+#https://github.com/educatres/meeting-time-survey-system	通用工具	https://educatres.github.io/meeting-time-survey-system/
 https://github.com/AIScientists-Dev/academic-humanizer/tree/main	研究
 https://github.com/EESJGong/scholar-skill	研究
 https://github.com/Imbad0202/academic-research-skills/tree/main	研究

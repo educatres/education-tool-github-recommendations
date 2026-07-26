@@ -1585,45 +1585,6 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
-    "name": "會議時間調查系統",
-    "description": "免註冊的會議時間調查神器。資料不留伺服器，初次設定雖稍顯繁複，但只要存下專屬網址，就能一輩子「清空再復用」，成為你專屬的永久會議揪團工具！",
-    "educatorSummary": "這是一個可部署在 GitHub Pages 的會議時間調查工具，透過 Google Form 寫入回覆，並從公開檢視權限的 Google Sheet 讀取 event log 來還原會議設定、參加者回覆與統計結果。它適合教師、行政團隊或研究團隊用來建立匿名時段調查、產生填寫連結與 QR Code、統計每個時段可參加人數，並協助找出全員可參加或最多人可參加的會議時間。",
-    "authorName": "educatres",
-    "authorGitHub": "educatres",
-    "repo": "educatres/meeting-time-survey-system",
-    "homepage": "",
-    "launchUrl": "https://educatres.github.io/meeting-time-survey-system/",
-    "tags": [
-      "education",
-      "teaching",
-      "github",
-      "scheduling"
-    ],
-    "educationLevels": [
-      "通用工具"
-    ],
-    "useCases": [
-      "協調班級活動、補課、師生討論或專題小組會議的共同可用時段",
-      "教師或行政單位快速建立匿名填寫連結與 QR Code，降低收集回覆的操作成本",
-      "在結果頁查看各時段可參加人數與名單，輔助決定最終會議時間"
-    ],
-    "cautions": [
-      "Google Sheet 若設定為知道連結即可檢視，知道連結的人可能讀取回覆資料",
-      "此工具適合收集一般時段偏好，不應用來收集敏感個資或高風險資料",
-      "Google Form URL 外流時可能被他人送出資料，正式使用前應先測試表單欄位與權限設定"
-    ],
-    "language": "JavaScript",
-    "install": "可直接開啟線上版本使用，或 clone 專案後以 python3 -m http.server 8080 本機預覽。使用前需先建立 Google Form 與回應 Google Sheet，依 README 設定欄位名稱、取得預填連結與 entry ID，並將 Sheet 權限設為知道連結的人可以檢視。",
-    "license": "MIT",
-    "submittedAt": "2026-07-10",
-    "sourcePath": "catalog/meeting-time-survey-system.yaml",
-    "stars": 1,
-    "forks": 0,
-    "lastPushedAt": "2026-07-12T01:21:30Z",
-    "repoUrl": "https://github.com/educatres/meeting-time-survey-system",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
-  },
-  {
     "name": "滑輪救援隊：2D 力學實驗室",
     "description": "國中自然科取向的 2D 滑輪小遊戲，可比較定滑輪、動滑輪與滑輪組的省力效果和拉繩距離。",
     "educatorSummary": "滑輪救援隊是一個可直接部署到 GitHub Pages 的 2D 力學教學遊戲，使用 Canvas 呈現定滑輪、動滑輪與多種滑輪組的輪槽、連續繩路與承重繩段。學生可以切換 7 種滑輪配置，觀察理想機械利益、拉力、拉繩距離與功的即時計算，也能比較理想模式與真實摩擦模式下的差異。工具內含拉繩與重物上升動畫、力箭頭、預測題、任務關卡與生活故事，適合用來把「省力不省功」、「承重繩段越多拉力越小但要拉更長距離」等概念具體化。",
