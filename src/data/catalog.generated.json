@@ -1585,6 +1585,46 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
+    "name": "會議時間調查系統",
+    "description": "使用 Firebase 即時同步的會議時間調查工具，可建立候選時段、分享填寫與結果連結，快速找出適合多數人的會議時間。",
+    "educatorSummary": "會議時間調查系統是一個可部署到 GitHub Pages 的開源工具，適合教師、行政人員、研究團隊或學生小組協調共同可參加的時間。發起人可設定會議標題、日期範圍、每日時段、時段長度、是否包含週末與回覆截止時間；建立後系統會產生參加者連結、即時結果連結及不放在網址中的六位數管理密鑰。參加者不用登入或輸入密鑰，只要透過連結填寫姓名、可行時段與備註；以相同標準化姓名再次送出時，會以最新回覆覆蓋舊資料。結果頁會即時顯示所有人皆可參加的時段、推薦時段與參加者明細，方便帶領者決定最終時間。資料存放於 Firebase Realtime Database，每個調查在建立 21 天後會停止存取並由系統自動清除。",
+    "authorName": "educatres",
+    "authorGitHub": "educatres",
+    "repo": "educatres/schedule-a-meeting",
+    "homepage": "",
+    "launchUrl": "https://educatres.github.io/schedule-a-meeting/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "scheduling",
+      "firebase"
+    ],
+    "educationLevels": [
+      "通用工具"
+    ],
+    "useCases": [
+      "協調班級補課、專題分組、師生晤談、社團活動或校內研習的共同可用時段",
+      "讓專題小組在不必建立帳號的情況下回報空檔，並由組長根據即時統計安排會議",
+      "在教師社群、行政團隊或研究小組中分享結果連結，快速比較全員可行與多數人可行的時段"
+    ],
+    "cautions": [
+      "知道參加者或結果連結的人都能讀取調查與回覆，姓名僅應作為一般識別文字，請勿填寫敏感個資",
+      "六位數管理密鑰不會放入網址；遺失密鑰後無法修改設定或指定最終時間，應由發起人妥善保存",
+      "同名回覆會被最後一次送出的內容覆蓋；若有同名參加者，建議先約定可辨識但不含敏感資訊的名稱格式"
+    ],
+    "language": "JavaScript",
+    "install": "可直接開啟 GitHub Pages 線上版本，選擇「建立新調查」設定候選日期與時段，再分享系統產生的參加者與結果連結。若要自行部署或開發，clone 專案後以 `python3 -m http.server 8080` 啟動本機靜態伺服器，並依 README 設定 Firebase Realtime Database、Anonymous Authentication 與安全規則；不可直接使用 `file://` 開啟。",
+    "license": "MIT",
+    "submittedAt": "2026-07-26",
+    "sourcePath": "catalog/schedule-a-meeting.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-07-26T11:11:43Z",
+    "repoUrl": "https://github.com/educatres/schedule-a-meeting",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
     "name": "滑輪救援隊：2D 力學實驗室",
     "description": "國中自然科取向的 2D 滑輪小遊戲，可比較定滑輪、動滑輪與滑輪組的省力效果和拉繩距離。",
     "educatorSummary": "滑輪救援隊是一個可直接部署到 GitHub Pages 的 2D 力學教學遊戲，使用 Canvas 呈現定滑輪、動滑輪與多種滑輪組的輪槽、連續繩路與承重繩段。學生可以切換 7 種滑輪配置，觀察理想機械利益、拉力、拉繩距離與功的即時計算，也能比較理想模式與真實摩擦模式下的差異。工具內含拉繩與重物上升動畫、力箭頭、預測題、任務關卡與生活故事，適合用來把「省力不省功」、「承重繩段越多拉力越小但要拉更長距離」等概念具體化。",
