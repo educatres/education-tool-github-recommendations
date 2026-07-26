@@ -1,5 +1,5 @@
 ---
-name: classMemo 教室便條貼
+name: ClassMemo 教室便條貼
 authorName: educatres
 authorGitHub: educatres
 repo: educatres/classmemo
@@ -20,7 +20,7 @@ license: MIT
 submittedAt: "2026-07-26"
 ---
 
-# classMemo 教室便條貼
+# ClassMemo 教室便條貼
 
 ## 簡短描述
 
@@ -28,7 +28,7 @@ submittedAt: "2026-07-26"
 
 ## 教育工作者摘要
 
-classMemo 教室便條貼是一個可部署到 GitHub Pages 的課堂匿名便條貼白板。老師可在設定頁產生新的白板連結、學生 QR Code、老師六位數密鑰與學生三位數密鑰；學生用手機、平板或電腦開啟連結後，可匿名新增、編輯、拖曳、縮放、變色與刪除便條貼，所有變更會透過 Firebase Realtime Database 即時同步。相較於以 Google Form 與 Google Sheet 作為中繼資料庫的 ClassBoard，classMemo 改用 Firebase Anonymous Authentication 與 Realtime Database，提升多人同時操作時的同步效率與穩定性。老師登入後可凍結學生編輯、清除或刪除白板，並下載或匯入 JSON 回復便條貼內容；白板自建立起保留 3 天，到期後寫入會被規則拒絕並由系統清除資料。它適合用於課堂暖身、出口票、匿名提問、分組討論與即時意見蒐集。
+ClassMemo 教室便條貼是一個可部署到 GitHub Pages 的課堂匿名便條貼白板。老師可在設定頁產生新的白板連結、學生 QR Code、老師六位數密鑰與學生三位數密鑰；學生用手機、平板或電腦開啟連結後，可匿名新增、編輯、拖曳、縮放、變色與刪除便條貼，所有變更會透過 Firebase Realtime Database 即時同步。相較於以 Google Form 與 Google Sheet 作為中繼資料庫的 ClassBoard，ClassMemo 改用 Firebase Anonymous Authentication 與 Realtime Database，提升多人同時操作時的同步效率與穩定性。老師登入後可凍結學生編輯、清除或刪除白板，並下載或匯入 JSON 回復便條貼內容；白板自建立起保留 3 天，到期後寫入會被規則拒絕並由系統清除資料。它適合用於課堂暖身、出口票、匿名提問、分組討論與即時意見蒐集。
 
 ## 教學用途
 
