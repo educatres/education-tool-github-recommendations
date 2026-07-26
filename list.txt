@@ -3,7 +3,7 @@ https://github.com/educatres/hand-raise-counter	教室工具	https://educatres.g
 https://github.com/educatres/learning-portfolio-ai-coach	高中
 https://github.com/educatres/promptLab	通用工具	https://air.cgu.edu.tw/workspace3/PromptLab/
 https://github.com/educatres/github-class-quiz-helper	教室工具	https://educatres.github.io/github-class-quiz-helper/teacher.html
-https://github.com/educatres/classboard	教室工具	https://educatres.github.io/classboard/demo.html
+#https://github.com/educatres/classboard	教室工具	https://educatres.github.io/classboard/demo.html
 https://github.com/educatres/infinite-whiteboard	教室工具	https://educatres.github.io/infinite-whiteboard/
 https://github.com/educatres/classPop	教室工具	https://educatres.github.io/classPop/
 https://github.com/kisaraki/classroom-lab-tzk	中小學	https://kisaraki.github.io/classroom-lab-tzk/
