@@ -55,3 +55,4 @@ https://github.com/educatres/terrain-explorer-africa	中小學、高中	https://
 https://github.com/jong-liu/survival-war-of-probiotics	中小學	https://jong-liu.github.io/survival-war-of-probiotics/
 https://github.com/educatres/timeline-wwii	中小學、高中	https://educatres.github.io/timeline-wwii/
 https://github.com/educatres/Timeline-20th-Century-Economy	高中、大學	https://educatres.github.io/Timeline-20th-Century-Economy/
+https://github.com/educatres/speech-countdown-timer	教室工具、通用工具	https://educatres.github.io/speech-countdown-timer/
