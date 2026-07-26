@@ -1667,6 +1667,46 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
+    "name": "活動報名管理系統",
+    "description": "用於建立活動報名與彙整參與資訊的線上工具，協助教師、行政人員或活動主辦者管理報名流程。",
+    "educatorSummary": "活動報名管理系統是一個可透過瀏覽器使用的活動行政工具，適合用於班級活動、教師研習、工作坊、講座或校內專題成果發表等情境。主辦者可將報名網址提供給參與者，集中蒐集活動所需的參與資訊並作為後續名單整理與通知的依據。它的定位是降低小型活動的行政溝通成本，讓教師與承辦人員能把更多時間放在活動設計、現場引導與參與者支持上。",
+    "authorName": "educatres",
+    "authorGitHub": "educatres",
+    "repo": "educatres/EventRegistration",
+    "homepage": "",
+    "launchUrl": "https://educatres.github.io/EventRegistration/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "event-registration",
+      "scheduling"
+    ],
+    "educationLevels": [
+      "通用工具"
+    ],
+    "useCases": [
+      "建立班級活動、校內講座、工作坊或教師研習的報名入口",
+      "在活動前整理參與名單，協助準備座位、教材、器材或分組安排",
+      "作為專題發表、競賽或課外活動的報名資訊彙整工具"
+    ],
+    "cautions": [
+      "報名欄位應以活動必需資訊為限，避免蒐集身分證字號、住址等非必要個資",
+      "對未成年學生蒐集資料時，應符合校內個資保護規範並清楚說明用途與保存期限",
+      "正式活動前建議先以測試資料走完報名、修改與名單整理流程"
+    ],
+    "language": "JavaScript",
+    "install": "可直接開啟線上版本使用；若要自行部署或調整功能，請參閱 GitHub repository 的 README 與原始碼說明。",
+    "license": "MIT",
+    "submittedAt": "2026-07-26",
+    "sourcePath": "catalog/eventregistration.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "",
+    "repoUrl": "https://github.com/educatres/EventRegistration",
+    "avatarUrl": ""
+  },
+  {
     "name": "滑輪救援隊：2D 力學實驗室",
     "description": "國中自然科取向的 2D 滑輪小遊戲，可比較定滑輪、動滑輪與滑輪組的省力效果和拉繩距離。",
     "educatorSummary": "滑輪救援隊是一個可直接部署到 GitHub Pages 的 2D 力學教學遊戲，使用 Canvas 呈現定滑輪、動滑輪與多種滑輪組的輪槽、連續繩路與承重繩段。學生可以切換 7 種滑輪配置，觀察理想機械利益、拉力、拉繩距離與功的即時計算，也能比較理想模式與真實摩擦模式下的差異。工具內含拉繩與重物上升動畫、力箭頭、預測題、任務關卡與生活故事，適合用來把「省力不省功」、「承重繩段越多拉力越小但要拉更長距離」等概念具體化。",
