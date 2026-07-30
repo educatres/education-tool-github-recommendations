@@ -38,7 +38,7 @@
     "sourcePath": "catalog/microscope.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-17T16:44:01Z",
+    "lastPushedAt": "2026-07-30T14:06:04Z",
     "repoUrl": "https://github.com/educatres/microscope",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -77,8 +77,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 462,
-    "forks": 53,
+    "stars": 715,
+    "forks": 74,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
@@ -118,9 +118,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 37848,
-    "forks": 3079,
-    "lastPushedAt": "2026-07-13T10:02:38Z",
+    "stars": 40187,
+    "forks": 3214,
+    "lastPushedAt": "2026-07-30T09:49:36Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -162,7 +162,7 @@
     "sourcePath": "catalog/classmemo.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-26T07:23:03Z",
+    "lastPushedAt": "2026-07-26T07:52:16Z",
     "repoUrl": "https://github.com/educatres/classmemo",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -283,7 +283,7 @@
     "sourcePath": "catalog/classroom-timer-multi-stopwatch.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T06:25:40Z",
+    "lastPushedAt": "2026-07-25T03:57:45Z",
     "repoUrl": "https://github.com/kisaraki/classroom-timer-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -324,7 +324,7 @@
     "sourcePath": "catalog/classroom-timer-countdown.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T06:25:40Z",
+    "lastPushedAt": "2026-07-25T03:57:45Z",
     "repoUrl": "https://github.com/kisaraki/classroom-timer-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -365,7 +365,7 @@
     "sourcePath": "catalog/classroom-timer-clock.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T06:25:40Z",
+    "lastPushedAt": "2026-07-25T03:57:45Z",
     "repoUrl": "https://github.com/kisaraki/classroom-timer-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -406,7 +406,7 @@
     "sourcePath": "catalog/classroom-timer-stopwatch.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T06:25:40Z",
+    "lastPushedAt": "2026-07-25T03:57:45Z",
     "repoUrl": "https://github.com/kisaraki/classroom-timer-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -491,7 +491,7 @@
     "sourcePath": "catalog/classroom-lab-gps-3d.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T08:41:17Z",
+    "lastPushedAt": "2026-07-19T04:00:10Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -530,9 +530,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/claude-paper-tools.yaml",
-    "stars": 29,
-    "forks": 5,
-    "lastPushedAt": "2026-07-14T08:21:40Z",
+    "stars": 33,
+    "forks": 6,
+    "lastPushedAt": "2026-07-24T05:30:32Z",
     "repoUrl": "https://github.com/drpwchen/paper-review-and-digest",
     "avatarUrl": "https://avatars.githubusercontent.com/u/55537221?v=4"
   },
@@ -575,7 +575,7 @@
     "sourcePath": "catalog/classroom-lab-aorta-rbc-racer.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-15T15:18:42Z",
+    "lastPushedAt": "2026-07-19T04:00:10Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -694,8 +694,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/scholar-skill.yaml",
-    "stars": 210,
-    "forks": 17,
+    "stars": 215,
+    "forks": 18,
     "lastPushedAt": "2026-03-20T03:12:48Z",
     "repoUrl": "https://github.com/EESJGong/scholar-skill",
     "avatarUrl": "https://avatars.githubusercontent.com/u/118050627?v=4"
@@ -823,7 +823,7 @@
     "sourcePath": "catalog/talkq.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-16T01:49:17Z",
+    "lastPushedAt": "2026-07-30T05:47:14Z",
     "repoUrl": "https://github.com/educatres/talkq",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -865,7 +865,7 @@
     "sourcePath": "catalog/voxpen-desktop.yaml",
     "stars": 4,
     "forks": 1,
-    "lastPushedAt": "2026-05-11T08:08:48Z",
+    "lastPushedAt": "2026-07-19T09:42:50Z",
     "repoUrl": "https://github.com/soanseng/voxpen-desktop",
     "avatarUrl": "https://avatars.githubusercontent.com/u/4186736?v=4"
   },
@@ -907,7 +907,7 @@
     "sourcePath": "catalog/classroom-lab-trig-functions.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T08:41:17Z",
+    "lastPushedAt": "2026-07-19T04:00:10Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -1036,7 +1036,7 @@
     "sourcePath": "catalog/terrain-explorer-asia.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-18T16:51:20Z",
+    "lastPushedAt": "2026-07-18T17:16:19Z",
     "repoUrl": "https://github.com/educatres/terrain-explorer-asia",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -1334,7 +1334,7 @@
     "sourcePath": "catalog/irregular-density.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-16T23:47:30Z",
+    "lastPushedAt": "2026-07-16T23:57:19Z",
     "repoUrl": "https://github.com/educatres/irregular-density",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -1500,7 +1500,7 @@
     "sourcePath": "catalog/red-blood-cell-heart-adventure.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T23:21:35Z",
+    "lastPushedAt": "2026-07-17T17:10:55Z",
     "repoUrl": "https://github.com/educatres/red-blood-cell-heart-adventure",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -1542,7 +1542,7 @@
     "sourcePath": "catalog/classroom-lab-projectile-motion.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T08:41:17Z",
+    "lastPushedAt": "2026-07-19T04:00:10Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -1580,7 +1580,7 @@
     "sourcePath": "catalog/classroom-lab-tzk.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T08:41:17Z",
+    "lastPushedAt": "2026-07-19T04:00:10Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -1622,7 +1622,7 @@
     "sourcePath": "catalog/classroom-lab-number-systems.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T08:41:17Z",
+    "lastPushedAt": "2026-07-19T04:00:10Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -1662,9 +1662,52 @@
     "sourcePath": "catalog/schedule-a-meeting.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-26T11:11:43Z",
+    "lastPushedAt": "2026-07-26T12:29:27Z",
     "repoUrl": "https://github.com/educatres/schedule-a-meeting",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "歷史的平行一刻",
+    "description": "結合歷史時間軸、人物與時點地圖的互動探索工具，協助學生比較不同年代、區域與主題之間的歷史脈絡。",
+    "educatorSummary": "歷史的平行一刻（Historiscope）是一套可直接在瀏覽器操作的互動歷史教材，以同步時間軸、人物與主題目錄、搜尋面板及分層地圖呈現臺灣與世界史料。現有內容涵蓋 17 世紀臺灣海域勢力與政權轉換、清初政權接管及移民政策、日治至戰後的人口移動，以及戰後臺灣國際關係等主題。學生可逐年移動時間、切換事件與人物、沿垂直對齊線比較同時期內容，並從洲、國、州省到城市的地圖層級理解事件的空間關係，適合國中與高中歷史、社會領域的時空脈絡教學、專題探究與史料閱讀活動。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-historiscope2-htsp2-tzk",
+    "homepage": "https://kisaraki.github.io/classroom-historiscope2-htsp2-tzk/",
+    "launchUrl": "https://kisaraki.github.io/classroom-historiscope2-htsp2-tzk/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "history",
+      "timeline",
+      "map",
+      "taiwan-history"
+    ],
+    "educationLevels": [
+      "中小學",
+      "高中"
+    ],
+    "useCases": [
+      "比較同一年代不同地區的事件、人物與政權變化，建立跨區域的時間脈絡",
+      "搭配分層地圖探討臺灣史中的海域勢力、移民移動、行政建置與國際關係",
+      "讓學生運用主題目錄與搜尋功能蒐集線索，練習提出歷史問題並整理證據"
+    ],
+    "cautions": [
+      "目前為 beta 版本且內容持續擴充，授課前宜先確認所需年代、主題與資料是否完整",
+      "時間軸與地圖是理解歷史脈絡的輔助介面，仍應搭配課本、原始史料及教師說明辨析因果與爭議",
+      "正式資料與保留的測試資料用途不同，設計學習單時應以介面標示的正式內容及其來源為準"
+    ],
+    "language": "TypeScript",
+    "install": "可直接開啟 GitHub Pages 線上版本使用，無需註冊。若要本機執行或修改，請依 GitHub README 安裝 Node.js 相依套件並執行專案的驗證、測試與建置指令。",
+    "license": "MIT",
+    "submittedAt": "2026-07-30",
+    "sourcePath": "catalog/classroom-historiscope2-htsp2-tzk.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-07-28T06:09:34Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-historiscope2-htsp2-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
     "name": "活動報名管理系統",
@@ -1702,9 +1745,9 @@
     "sourcePath": "catalog/eventregistration.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "",
+    "lastPushedAt": "2026-07-26T22:29:42Z",
     "repoUrl": "https://github.com/educatres/EventRegistration",
-    "avatarUrl": ""
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "滑輪救援隊：2D 力學實驗室",
@@ -2166,7 +2209,7 @@
     "sourcePath": "catalog/gut-microbiome-battle.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-18T07:07:53Z",
+    "lastPushedAt": "2026-07-18T08:04:51Z",
     "repoUrl": "https://github.com/educatres/gut-microbiome-battle",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -2209,7 +2252,7 @@
     "sourcePath": "catalog/circulation-maze.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-18T04:55:57Z",
+    "lastPushedAt": "2026-07-18T12:29:11Z",
     "repoUrl": "https://github.com/educatres/circulation-maze",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -2250,9 +2293,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 512,
-    "forks": 60,
-    "lastPushedAt": "2026-07-14T11:08:59Z",
+    "stars": 725,
+    "forks": 85,
+    "lastPushedAt": "2026-07-30T02:52:21Z",
     "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
     "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4"
   },
@@ -2370,7 +2413,7 @@
     "sourcePath": "catalog/classroom-lab-orbit-observatory.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T08:41:17Z",
+    "lastPushedAt": "2026-07-19T04:00:10Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -2412,7 +2455,7 @@
     "sourcePath": "catalog/classroom-lab-lens.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-14T08:41:17Z",
+    "lastPushedAt": "2026-07-19T04:00:10Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },

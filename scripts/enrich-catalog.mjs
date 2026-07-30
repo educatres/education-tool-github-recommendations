@@ -3,6 +3,7 @@ import path from "node:path";
 import { normalizeEntry, parseCatalogYaml } from "./catalog-schema.mjs";
 
 const catalogDir = path.resolve("catalog");
+const listPath = path.resolve("list.txt");
 const outputPath = path.resolve("src/data/catalog.generated.json");
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 const strict = process.env.STRICT_GITHUB === "1";
@@ -23,6 +24,52 @@ async function listEntryFiles() {
 async function readEntry(filePath) {
   const raw = await fs.readFile(filePath, "utf8");
   return normalizeEntry(parseCatalogYaml(raw), path.relative(process.cwd(), filePath));
+}
+
+function repoFromGitHubUrl(value) {
+  try {
+    const url = new URL(value);
+    if (url.hostname !== "github.com") return "";
+    const [owner, repo] = url.pathname.replace(/^\/|\/$/g, "").split("/");
+    return owner && repo ? `${owner}/${repo.replace(/\.git$/, "")}`.toLowerCase() : "";
+  } catch {
+    const shorthand = value.match(/^([A-Za-z0-9_.-]+)\/([A-Za-z0-9_.-]+)$/);
+    return shorthand ? `${shorthand[1]}/${shorthand[2]}`.toLowerCase() : "";
+  }
+}
+
+async function activeListSources() {
+  const raw = await fs.readFile(listPath, "utf8");
+  const repos = new Set();
+  const urls = new Set();
+
+  for (const line of raw.split(/\r?\n/)) {
+    if (!line.trim() || line.trimStart().startsWith("#")) continue;
+    for (const column of line.split("\t").map((value) => value.trim()).filter(Boolean)) {
+      const repo = repoFromGitHubUrl(column);
+      if (repo) repos.add(repo);
+      try {
+        urls.add(new URL(column).href);
+      } catch {
+        // Education-level labels and other non-URL columns do not identify entries.
+      }
+    }
+  }
+
+  return { repos, urls };
+}
+
+function isActiveEntry(entry, activeSources) {
+  if (entry.repo && activeSources.repos.has(entry.repo.toLowerCase())) return true;
+  return [entry.homepage, entry.launchUrl]
+    .filter(Boolean)
+    .some((value) => {
+      try {
+        return activeSources.urls.has(new URL(value).href);
+      } catch {
+        return false;
+      }
+    });
 }
 
 async function fetchRepo(repo) {
@@ -78,7 +125,13 @@ async function enrich(entry) {
   }
 }
 
-const entries = await Promise.all((await listEntryFiles()).map(readEntry));
+const activeSources = await activeListSources();
+const allEntries = await Promise.all((await listEntryFiles()).map(readEntry));
+const entries = allEntries.filter((entry) => isActiveEntry(entry, activeSources));
+const disabledCount = allEntries.length - entries.length;
+if (disabledCount > 0) {
+  console.log(`Excluded ${disabledCount} catalog entr${disabledCount === 1 ? "y" : "ies"} disabled in list.txt.`);
+}
 const enriched = await Promise.all(entries.map(enrich));
 
 enriched.sort((a, b) => a.name.localeCompare(b.name));

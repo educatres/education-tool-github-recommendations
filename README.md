@@ -48,7 +48,7 @@ https://github.com/educatres/audience-analysis	中小學、高中
 openai/openai-cookbook	不限領域	https://example.com/tool/
 ```
 
-空行與 `#` 開頭註解會被忽略。v1 僅支援 GitHub repository；非 GitHub 網址會略過並顯示警告。
+空行會被忽略。若某一行的第一個非空白字元是 `#`，該筆 repository 的所有推薦卡片會在下次建置時從網頁移除；移除 `#` 後即可重新啟用。v1 僅支援 GitHub repository；非 GitHub 網址會略過並顯示警告。
 
 ## Catalog YAML
 

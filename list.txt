@@ -60,3 +60,4 @@ https://github.com/educatres/classmemo	教室工具	https://educatres.github.io/
 https://github.com/educatres/schedule-a-meeting	通用工具	https://educatres.github.io/schedule-a-meeting/
 https://github.com/educatres/classpad	教室工具	https://educatres.github.io/classpad/
 https://github.com/educatres/EventRegistration	通用工具	https://educatres.github.io/EventRegistration/
+https://github.com/kisaraki/classroom-historiscope2-htsp2-tzk	中小學、高中	https://kisaraki.github.io/classroom-historiscope2-htsp2-tzk/
