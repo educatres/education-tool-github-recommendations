@@ -38,7 +38,7 @@
     "sourcePath": "catalog/microscope.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-30T14:06:04Z",
+    "lastPushedAt": "2026-07-30T16:22:17Z",
     "repoUrl": "https://github.com/educatres/microscope",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -77,8 +77,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 715,
-    "forks": 74,
+    "stars": 1086,
+    "forks": 110,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
@@ -118,9 +118,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 40187,
-    "forks": 3214,
-    "lastPushedAt": "2026-07-30T09:49:36Z",
+    "stars": 43366,
+    "forks": 3438,
+    "lastPushedAt": "2026-08-20T05:26:10Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -242,7 +242,7 @@
     "sourcePath": "catalog/classpop.yaml",
     "stars": 2,
     "forks": 1,
-    "lastPushedAt": "2026-07-12T08:53:10Z",
+    "lastPushedAt": "2026-07-31T00:10:33Z",
     "repoUrl": "https://github.com/educatres/classPop",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -449,7 +449,7 @@
     "sourcePath": "catalog/drift-quest.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-07-17T02:50:18Z",
+    "lastPushedAt": "2026-08-05T19:59:40Z",
     "repoUrl": "https://github.com/educatres/drift-quest",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -496,6 +496,49 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
+    "name": "NIBBLES｜3D 彈珠台字彙遊戲",
+    "description": "結合貪食蛇、3D 彈珠台與英文拼字任務的桌面網頁遊戲，讓學生在操控與限時挑戰中練習 CEEC Level 1–6 字彙。",
+    "educatorSummary": "NIBBLES 是一套以 Three.js 製作的 3D 英文字彙遊戲，將經典貪食蛇玩法放進固定視角的科幻彈珠台。學生可選擇 CEEC Level 1–6、漸進或混合字彙模式，在五個場景中依序收集組成目標單字的字母與標點符號；完成拼字後，還要在限時視窗連續正確輸入單字三次，加強辨識、拼寫與鍵盤輸入。遊戲另有桌面傾斜、晃動、射擊、時間增減道具與碰撞恢復等機制，適合用作國中、高中英文課的字彙複習、個別挑戰或遊戲化學習活動。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-nibbles-tzk",
+    "homepage": "https://kisaraki.github.io/classroom-nibbles-tzk/",
+    "launchUrl": "https://kisaraki.github.io/classroom-nibbles-tzk/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "english",
+      "vocabulary",
+      "game-based-learning",
+      "threejs"
+    ],
+    "educationLevels": [
+      "中小學",
+      "高中"
+    ],
+    "useCases": [
+      "依 CEEC 字彙級別安排課前暖身、課後複習或分級自主練習",
+      "透過依序收集字母及連續正確輸入，練習單字字形、內部標點與拼寫精確度",
+      "使用固定 seed 重現相同的五場景、二十五字任務，進行同儕挑戰或比較學習策略"
+    ],
+    "cautions": [
+      "遊戲需要具 WebGL 能力的桌面瀏覽器與實體鍵盤，不適合以手機觸控操作",
+      "操作同時涉及方向鍵、Shift、J、空白鍵與 P，建議教師先示範基本移動、暫停及拼字流程",
+      "遊戲的速度、計時與多種機制可能增加認知負荷，宜依學生程度選擇字彙級別並提供低壓練習時間"
+    ],
+    "language": "TypeScript",
+    "install": "可直接開啟 GitHub Pages 線上版本使用，無需註冊。建議使用支援 WebGL 的桌面版瀏覽器與實體鍵盤。若要本機執行，需安裝 Node.js 22.12 以上與 npm 10 以上，下載或 clone 專案後執行 npm install，再以 npm run dev 啟動。",
+    "license": "Unspecified",
+    "submittedAt": "2026-08-23",
+    "sourcePath": "catalog/classroom-nibbles-tzk.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-08-23T05:04:09Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-nibbles-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
+  },
+  {
     "name": "paper-review + paper-digest",
     "description": "兩個 Claude Code 論文閱讀 skills：一個評估單篇論文是否可信，另一個協助快速吸收內容並產生主動回憶練習。",
     "educatorSummary": "claude-paper-tools 將單篇論文閱讀拆成兩個任務：/paper-review 聚焦 journal club 等級的可信度評讀，包含期刊與作者查核、CrossRef 引用存在性檢查、依研究設計選擇偏差風險工具、spin 與論證結構稽核，以及以程式重新計算的 GRADE；/paper-digest 則用三層漸進揭露方式整理論文內容，並在最後產生主動回憶卡。它適合醫學、實證研究、研究方法或論文讀書會課程，用來訓練學生把「這篇說了什麼」和「這篇能不能信」分開處理。",
@@ -530,9 +573,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/claude-paper-tools.yaml",
-    "stars": 33,
+    "stars": 37,
     "forks": 6,
-    "lastPushedAt": "2026-07-24T05:30:32Z",
+    "lastPushedAt": "2026-08-22T00:44:11Z",
     "repoUrl": "https://github.com/drpwchen/paper-review-and-digest",
     "avatarUrl": "https://avatars.githubusercontent.com/u/55537221?v=4"
   },
@@ -694,7 +737,7 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/scholar-skill.yaml",
-    "stars": 215,
+    "stars": 218,
     "forks": 18,
     "lastPushedAt": "2026-03-20T03:12:48Z",
     "repoUrl": "https://github.com/EESJGong/scholar-skill",
@@ -1868,7 +1911,7 @@
     "license": "Unspecified",
     "submittedAt": "2026-07-09",
     "sourcePath": "catalog/infinite-whiteboard.yaml",
-    "stars": 2,
+    "stars": 3,
     "forks": 1,
     "lastPushedAt": "2026-07-13T22:33:09Z",
     "repoUrl": "https://github.com/educatres/infinite-whiteboard",
@@ -2293,9 +2336,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 725,
-    "forks": 85,
-    "lastPushedAt": "2026-07-30T02:52:21Z",
+    "stars": 879,
+    "forks": 95,
+    "lastPushedAt": "2026-08-23T01:47:15Z",
     "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
     "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4"
   },
