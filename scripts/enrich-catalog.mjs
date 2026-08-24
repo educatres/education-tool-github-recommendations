@@ -23,7 +23,8 @@ async function listEntryFiles() {
 
 async function readEntry(filePath) {
   const raw = await fs.readFile(filePath, "utf8");
-  return normalizeEntry(parseCatalogYaml(raw), path.relative(process.cwd(), filePath));
+  const sourcePath = path.relative(process.cwd(), filePath).split(path.sep).join("/");
+  return normalizeEntry(parseCatalogYaml(raw), sourcePath);
 }
 
 function repoFromGitHubUrl(value) {
@@ -134,7 +135,7 @@ if (disabledCount > 0) {
 }
 const enriched = await Promise.all(entries.map(enrich));
 
-enriched.sort((a, b) => a.name.localeCompare(b.name));
+enriched.sort((a, b) => a.name.localeCompare(b.name, "en"));
 
 await fs.mkdir(path.dirname(outputPath), { recursive: true });
 await fs.writeFile(outputPath, `${JSON.stringify(enriched, null, 2)}\n`);

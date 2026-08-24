@@ -77,8 +77,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 1086,
-    "forks": 110,
+    "stars": 1095,
+    "forks": 111,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
@@ -118,9 +118,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 43366,
-    "forks": 3438,
-    "lastPushedAt": "2026-08-20T05:26:10Z",
+    "stars": 43479,
+    "forks": 3451,
+    "lastPushedAt": "2026-08-24T04:08:01Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -534,7 +534,7 @@
     "sourcePath": "catalog/classroom-nibbles-tzk.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-08-23T05:04:09Z",
+    "lastPushedAt": "2026-08-24T04:37:05Z",
     "repoUrl": "https://github.com/kisaraki/classroom-nibbles-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -2336,9 +2336,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 879,
-    "forks": 95,
-    "lastPushedAt": "2026-08-23T01:47:15Z",
+    "stars": 883,
+    "forks": 96,
+    "lastPushedAt": "2026-08-24T01:44:47Z",
     "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
     "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4"
   },
@@ -2544,6 +2544,49 @@
     "lastPushedAt": "2026-07-17T07:31:59Z",
     "repoUrl": "https://github.com/educatres/ohms-law",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "風暴創世神：北半球颱風模擬器",
+    "description": "以西北太平洋熱帶氣旋為題材的互動科學模擬器，讓學生探索海溫、風切、地形、環境導引與冷水尾流如何影響颱風路徑、強度及測站風雨。",
+    "educatorSummary": "風暴創世神（SGTS-NH）是一套純前端的北半球颱風互動模擬器，以固定時間步進及具種子的可重現模型呈現熱帶氣旋發展。學生可體驗「那霸風雨」、「護國神山」與「韋恩三進」三個資料驅動關卡，或在無勝敗沙盒中自訂生成點、強度、海洋及環境條件，觀察太平洋副熱帶高壓、西南季風、垂直風切、臺灣地形、登陸再出海與冷水尾流等因素如何改變颱風。六個測站會同步呈現模型風雨資料，適合用於國中、高中地球科學的概念探究、變因比較、歷史颱風情境討論與遊戲化學習。",
+    "authorName": "kisaraki",
+    "authorGitHub": "kisaraki",
+    "repo": "kisaraki/classroom-sgts-nh-tzk",
+    "homepage": "https://kisaraki.github.io/classroom-sgts-nh-tzk/",
+    "launchUrl": "https://kisaraki.github.io/classroom-sgts-nh-tzk/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "typhoon",
+      "earth-science",
+      "simulation",
+      "game-based-learning"
+    ],
+    "educationLevels": [
+      "中小學",
+      "高中"
+    ],
+    "useCases": [
+      "調整海溫、風切、環境導引與初始強度，進行控制變因及因果推論活動",
+      "比較颱風登陸臺灣、再出海與地形交互作用，討論路徑、強度及測站風雨差異",
+      "使用固定 seed、操作紀錄與可重現關卡，安排小組預測、結果驗證及科學論證"
+    ],
+    "cautions": [
+      "模型為教育用途的刻意簡化，關卡僅受歷史事件啟發，不是真實歷史重建，也不可用於天氣預報、防災或其他安全決策",
+      "介面包含多項環境參數、地圖操作與觀測資訊，建議教師先示範關卡目標與主要變因，再讓學生分組探究",
+      "執行效能會受裝置與瀏覽器影響；若動畫不順，可調低粒子層級或開啟減少動態模式"
+    ],
+    "language": "JavaScript",
+    "install": "可直接開啟 GitHub Pages 線上版本使用，無需登入、資料庫或 API key。若要本機執行，需安裝 Node.js 24 LTS 與 npm 11，下載或 clone 專案後執行 npm ci，再以 npm run serve 啟動並開啟 http://127.0.0.1:4173/classroom-sgts-nh-tzk/。",
+    "license": "MIT",
+    "submittedAt": "2026-08-24",
+    "sourcePath": "catalog/classroom-sgts-nh-tzk.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-08-09T03:29:36Z",
+    "repoUrl": "https://github.com/kisaraki/classroom-sgts-nh-tzk",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
     "name": "食物消化速度",
