@@ -77,8 +77,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 1095,
-    "forks": 111,
+    "stars": 1908,
+    "forks": 158,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
@@ -118,9 +118,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 43479,
-    "forks": 3451,
-    "lastPushedAt": "2026-08-24T04:08:01Z",
+    "stars": 51036,
+    "forks": 3918,
+    "lastPushedAt": "2026-10-09T00:20:19Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -449,7 +449,7 @@
     "sourcePath": "catalog/drift-quest.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-08-05T19:59:40Z",
+    "lastPushedAt": "2026-10-06T00:08:56Z",
     "repoUrl": "https://github.com/educatres/drift-quest",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -534,7 +534,7 @@
     "sourcePath": "catalog/classroom-nibbles-tzk.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-08-24T04:37:05Z",
+    "lastPushedAt": "2026-08-25T15:27:15Z",
     "repoUrl": "https://github.com/kisaraki/classroom-nibbles-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
@@ -573,8 +573,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/claude-paper-tools.yaml",
-    "stars": 37,
-    "forks": 6,
+    "stars": 42,
+    "forks": 10,
     "lastPushedAt": "2026-08-22T00:44:11Z",
     "repoUrl": "https://github.com/drpwchen/paper-review-and-digest",
     "avatarUrl": "https://avatars.githubusercontent.com/u/55537221?v=4"
@@ -737,8 +737,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/scholar-skill.yaml",
-    "stars": 218,
-    "forks": 18,
+    "stars": 222,
+    "forks": 17,
     "lastPushedAt": "2026-03-20T03:12:48Z",
     "repoUrl": "https://github.com/EESJGong/scholar-skill",
     "avatarUrl": "https://avatars.githubusercontent.com/u/118050627?v=4"
@@ -2089,6 +2089,47 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
+    "name": "經濟棋局｜多人財經桌遊",
+    "description": "2–8 人輪流經營企業的瀏覽器財經桌遊，透過事件卡、收支決策與總體經濟儀表板，探索經濟變動對企業淨資產的影響。",
+    "educatorSummary": "經濟棋局讓 2–8 位玩家在同一台電腦上輪流操作，各自選擇不同企業，在 24 格棋盤上前進、抽取全球、個人或產業事件，並決定聘僱、裁員、借款或還款。每位玩家完成行動後，遊戲結算一季，呈現企業收支與總體經濟快照；「AI 聯準會」依十條預設規則決定下一季政策。教師可用它引導學生比較產業衝擊、現金流、負債與淨資產，以及政策變化如何影響不同企業。可調整勝利淨資產目標與季數上限，並用歷史紀錄回顧決策與結果。",
+    "authorName": "educatres",
+    "authorGitHub": "educatres",
+    "repo": "educatres/finboardgame",
+    "homepage": "",
+    "launchUrl": "https://educatres.github.io/finboardgame/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "economics",
+      "board-game",
+      "simulation"
+    ],
+    "educationLevels": [
+      "大學"
+    ],
+    "useCases": [
+      "分組扮演不同企業，討論同一全球事件與產業事件對各角色收支的不同影響",
+      "比較聘僱、裁員、借款與還款後的現金、負債及淨資產變化",
+      "利用總體經濟儀表板、聯準會規則與歷史紀錄，討論政策決策與遊戲結果"
+    ],
+    "cautions": [
+      "遊戲中的企業數值與經濟規則是教學情境假設，不代表真實市場預測或投資建議",
+      "需由 2–8 位玩家輪流操作；若開啟多個同步頁籤，應使用同一瀏覽器及相同網址",
+      "對局會自動儲存在目前瀏覽器，也可匯出 JSON 存檔；換裝置或清除瀏覽器資料前，請先匯出需要保留的紀錄"
+    ],
+    "language": "JavaScript",
+    "install": "直接開啟 GitHub Pages 線上版本，設定 2–8 位玩家、企業、淨資產目標與最多季數即可開始。若要本機使用，可從 GitHub 下載專案並直接開啟 index.html；需要在同一瀏覽器跨頁籤同步對局時，於專案資料夾執行 `node serve.mjs`，再以相同的 http://127.0.0.1:4173/ 網址開啟各頁籤。",
+    "license": "Unspecified",
+    "submittedAt": "2026-10-09",
+    "sourcePath": "catalog/finboardgame.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-09T12:00:23Z",
+    "repoUrl": "https://github.com/educatres/finboardgame",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
     "name": "經濟轉折｜1900–現在",
     "description": "1900 到 2026 年全球與台灣經濟史互動時間軸，對照危機、制度、企業、科技、能源與人物。",
     "educatorSummary": "經濟轉折｜1900–現在是一套可部署到 GitHub Pages 的純前端互動經濟史教材，時間範圍涵蓋 1900 到 2026 年，並以亞洲、歐洲、美洲與台灣四條水平時間軌展示 71 則經濟史事件。學生可透過年份滑桿、拖曳、觸控板與方向鍵操作，勾選危機與衝擊、制度與政策、產業與科技、企業與市場、人物與思想、能源與環境等分類，觀察大蕭條、布雷頓森林體系、石油危機、亞洲金融風暴、金融海嘯、疫情、AI 革命、半導體、台灣十大建設、高鐵、碳費與代表企業等轉折。每張事件卡提供事件經過、因果與制度分析、關鍵人物、學術判讀、經濟名詞定義、官方或國際組織來源、YouTube 解說影片與 Wikimedia Commons 圖像，適合高中公民、歷史、地理與大學通識或經濟史課程。",
@@ -2165,7 +2206,7 @@
     "sourcePath": "catalog/hand-raise-counter.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-12T00:48:23Z",
+    "lastPushedAt": "2026-10-07T23:25:08Z",
     "repoUrl": "https://github.com/educatres/hand-raise-counter",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -2336,9 +2377,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 883,
-    "forks": 96,
-    "lastPushedAt": "2026-08-24T01:44:47Z",
+    "stars": 1033,
+    "forks": 113,
+    "lastPushedAt": "2026-10-09T05:42:26Z",
     "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
     "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4"
   },
@@ -2414,7 +2455,7 @@
     "sourcePath": "catalog/audience-analysis.yaml",
     "stars": 1,
     "forks": 0,
-    "lastPushedAt": "2026-07-12T00:43:22Z",
+    "lastPushedAt": "2026-10-07T23:44:26Z",
     "repoUrl": "https://github.com/educatres/audience-analysis",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
