@@ -77,8 +77,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 1908,
-    "forks": 158,
+    "stars": 1944,
+    "forks": 161,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
@@ -118,9 +118,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 51036,
-    "forks": 3918,
-    "lastPushedAt": "2026-10-09T00:20:19Z",
+    "stars": 51150,
+    "forks": 3932,
+    "lastPushedAt": "2026-10-10T10:15:23Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -737,7 +737,7 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/scholar-skill.yaml",
-    "stars": 222,
+    "stars": 223,
     "forks": 17,
     "lastPushedAt": "2026-03-20T03:12:48Z",
     "repoUrl": "https://github.com/EESJGong/scholar-skill",
@@ -1421,6 +1421,48 @@
     "forks": 0,
     "lastPushedAt": "2026-07-13T19:59:06Z",
     "repoUrl": "https://github.com/kueilan/ExamPaperReviewingRobot",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/105831002?v=4"
+  },
+  {
+    "name": "導師全班各科學業表現登錄系統",
+    "description": "以 Google Apps Script 與 Google Sheets 建置的班級成績登錄系統，讓導師管理學期與名單、小老師登錄本科成績，並供學生及家長查詢個人表現。",
+    "educatorSummary": "這套系統協助導師集中管理全班各科成績。導師可建立學期、設定科目、匯入學生名單、登錄成績，並查詢或匯出 CSV、PDF 報表；各科小老師使用綁定學期與科目的密碼，只能登錄本科成績。學生與家長使用個人驗證碼查看歷次成績和成長曲線，導師也可比較個人與全班的表現趨勢。系統以 Google Apps Script 網頁應用程式搭配 Google Sheets 儲存資料，需要由使用單位自行設定並部署。",
+    "authorName": "kueilan",
+    "authorGitHub": "kueilan",
+    "repo": "kueilan/LearningPerformance_Single",
+    "homepage": "",
+    "launchUrl": "",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "gradebook",
+      "student-progress",
+      "google-apps-script"
+    ],
+    "educationLevels": [
+      "中小學",
+      "高中"
+    ],
+    "useCases": [
+      "導師彙整不同學期、科目與考試場次的班級成績，減少分散表單與手動整理",
+      "讓各科小老師協助登錄本科成績，再由導師進行綜合查詢與匯出",
+      "透過個人及全班成長曲線，與學生、家長討論學習表現和後續支持方式"
+    ],
+    "cautions": [
+      "系統會處理學生姓名、學號、驗證碼與成績；正式使用前應依校內個資規範設定存取權、保存方式及密碼管理",
+      "學生驗證碼及小老師密碼需妥善發放，導師密碼應使用足夠強度；公開網頁入口前應依 README 檢查部署與權限設定",
+      "專案沒有提供可直接使用的公開網站；需自行準備 Google 帳號並部署 Apps Script 網頁應用程式，首次執行 `initSystem()` 時才會初始化資料表"
+    ],
+    "language": "HTML",
+    "install": "依 GitHub README 準備 Node.js、npm、Google 帳號及 clasp，建立 Apps Script 專案並將 `rootDir` 設為 `src`，再以 `clasp push -f` 上傳程式。接著在腳本屬性設定 `ADMIN_PASSWORD`，執行 `initSystem()` 初始化 Google Sheets，最後將專案部署為網頁應用程式並測試導師、小老師及學生三種登入流程。",
+    "license": "Unspecified",
+    "submittedAt": "2026-10-10",
+    "sourcePath": "catalog/learningperformance-single.yaml",
+    "stars": 0,
+    "forks": 1,
+    "lastPushedAt": "2026-10-03T23:20:25Z",
+    "repoUrl": "https://github.com/kueilan/LearningPerformance_Single",
     "avatarUrl": "https://avatars.githubusercontent.com/u/105831002?v=4"
   },
   {
@@ -2377,9 +2419,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 1033,
+    "stars": 1034,
     "forks": 113,
-    "lastPushedAt": "2026-10-09T05:42:26Z",
+    "lastPushedAt": "2026-10-10T05:26:01Z",
     "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
     "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4"
   },
