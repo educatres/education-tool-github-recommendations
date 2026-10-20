@@ -77,8 +77,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 1944,
-    "forks": 161,
+    "stars": 2328,
+    "forks": 181,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
@@ -118,9 +118,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 51150,
-    "forks": 3932,
-    "lastPushedAt": "2026-10-10T10:15:23Z",
+    "stars": 53175,
+    "forks": 4077,
+    "lastPushedAt": "2026-10-18T01:25:37Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -574,10 +574,52 @@
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/claude-paper-tools.yaml",
     "stars": 42,
-    "forks": 10,
+    "forks": 11,
     "lastPushedAt": "2026-08-22T00:44:11Z",
     "repoUrl": "https://github.com/drpwchen/paper-review-and-digest",
     "avatarUrl": "https://avatars.githubusercontent.com/u/55537221?v=4"
+  },
+  {
+    "name": "PaperReader｜PDF 研究閱讀工作台",
+    "description": "結合 PDF 標記、研究便條、知識白板與 AI 翻譯摘要的瀏覽器工具，協助整理多篇文獻並保留可回查的原文位置。",
+    "educatorSummary": "PaperReader 是繁體中文的個人研究工作台，可在瀏覽器建立多個研究專案，匯入 PDF 後選字標記、建立來源便條，並在白板上整理便條與人工連線。標記與便條可回到原文頁面；也能使用自備的 AI API key 翻譯便條、逐段翻譯 PDF 文字、摘要單篇內容或整合相連便條。PDF、標記與筆記主要保存在目前瀏覽器，完整研究封裝可匯出作為備份及搬移資料。適合大學生、研究生與教師在文獻閱讀、比較觀點及研究構想整理時使用。",
+    "authorName": "educatres",
+    "authorGitHub": "educatres",
+    "repo": "educatres/PaperReader",
+    "homepage": "",
+    "launchUrl": "https://educatres.github.io/PaperReader/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "research",
+      "pdf",
+      "ai-assistant"
+    ],
+    "educationLevels": [
+      "大學",
+      "研究"
+    ],
+    "useCases": [
+      "在文獻閱讀課中標記論點與證據，建立附有來源位置的閱讀便條",
+      "將多篇論文的便條放到知識白板，人工連結相同主題、差異與待查問題",
+      "用 AI 翻譯與摘要輔助閱讀，再回到原文核對術語、脈絡與引用"
+    ],
+    "cautions": [
+      "AI 功能需自行提供支援服務的 API key，可能產生用量費用；送出前應確認文字傳送範圍及供應商的資料處理規範",
+      "研究資料儲存在目前瀏覽器，沒有帳號或跨裝置同步；應定期匯出含 PDF 與附件的 `.researchpack` 完整備份",
+      "掃描 PDF 不會自動 OCR，複雜版面與公式的文字擷取可能不完整；翻譯和摘要仍需對照原文查證"
+    ],
+    "language": "TypeScript",
+    "install": "直接開啟 GitHub Pages 線上版本，建立研究專案並匯入 PDF 或試讀範例。標記、便條與白板功能可先使用；需要 AI 翻譯或摘要時，再於「連接你的 AI」選擇供應商、輸入自己的 API key 並測試連線。本機開發可依 GitHub README 使用 Node.js 24 以上版本，執行 `npm ci` 與 `npm run dev`。",
+    "license": "CC BY-NC 4.0",
+    "submittedAt": "2026-10-21",
+    "sourcePath": "catalog/paperreader.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-20T23:12:02Z",
+    "repoUrl": "https://github.com/educatres/PaperReader",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
     "name": "Project Aorta：大動脈計畫室｜RBC RACER",
@@ -738,7 +780,7 @@
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/scholar-skill.yaml",
     "stars": 223,
-    "forks": 17,
+    "forks": 18,
     "lastPushedAt": "2026-03-20T03:12:48Z",
     "repoUrl": "https://github.com/EESJGong/scholar-skill",
     "avatarUrl": "https://avatars.githubusercontent.com/u/118050627?v=4"
@@ -2419,9 +2461,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 1034,
-    "forks": 113,
-    "lastPushedAt": "2026-10-10T05:26:01Z",
+    "stars": 1060,
+    "forks": 116,
+    "lastPushedAt": "2026-10-20T04:26:08Z",
     "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
     "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4"
   },

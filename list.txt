@@ -65,3 +65,4 @@ https://github.com/kisaraki/classroom-nibbles-tzk	中小學、高中	https://kis
 https://github.com/kisaraki/classroom-sgts-nh-tzk	中小學、高中	https://kisaraki.github.io/classroom-sgts-nh-tzk/
 https://github.com/educatres/finboardgame	大學	https://educatres.github.io/finboardgame/
 https://github.com/kueilan/LearningPerformance_Single/	中小學、高中
+https://github.com/educatres/PaperReader	大學、研究	https://educatres.github.io/PaperReader/
