@@ -37,7 +37,7 @@
     "submittedAt": "2026-07-18",
     "sourcePath": "catalog/microscope.yaml",
     "stars": 0,
-    "forks": 0,
+    "forks": 2,
     "lastPushedAt": "2026-07-30T16:22:17Z",
     "repoUrl": "https://github.com/educatres/microscope",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
@@ -77,8 +77,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 2328,
-    "forks": 181,
+    "stars": 2445,
+    "forks": 186,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
@@ -118,9 +118,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 53175,
-    "forks": 4077,
-    "lastPushedAt": "2026-10-18T01:25:37Z",
+    "stars": 53561,
+    "forks": 4111,
+    "lastPushedAt": "2026-10-23T12:34:25Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -533,7 +533,7 @@
     "submittedAt": "2026-08-23",
     "sourcePath": "catalog/classroom-nibbles-tzk.yaml",
     "stars": 0,
-    "forks": 0,
+    "forks": 2,
     "lastPushedAt": "2026-08-25T15:27:15Z",
     "repoUrl": "https://github.com/kisaraki/classroom-nibbles-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
@@ -617,7 +617,7 @@
     "sourcePath": "catalog/paperreader.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-10-20T23:12:02Z",
+    "lastPushedAt": "2026-10-20T23:37:16Z",
     "repoUrl": "https://github.com/educatres/PaperReader",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
@@ -821,7 +821,7 @@
     "submittedAt": "2026-07-12",
     "sourcePath": "catalog/simple-knowledge-chatbot.yaml",
     "stars": 0,
-    "forks": 0,
+    "forks": 1,
     "lastPushedAt": "2026-07-13T22:55:30Z",
     "repoUrl": "https://github.com/educatres/simpleKnowledgeChatbot",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
@@ -865,7 +865,7 @@
     "submittedAt": "2026-07-18",
     "sourcePath": "catalog/suzanne-paper-plane-lab.yaml",
     "stars": 0,
-    "forks": 0,
+    "forks": 5,
     "lastPushedAt": "2026-07-18T12:10:54Z",
     "repoUrl": "https://github.com/Sonville/suzanne-paper-plane-lab",
     "avatarUrl": "https://avatars.githubusercontent.com/u/101461767?v=4"
@@ -1040,6 +1040,133 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
+    "name": "元素大對決",
+    "description": "運用週期表位置判斷元素性質的卡牌對戰遊戲，練習原子量、原子半徑、電負度與游離能趨勢。",
+    "educatorSummary": "元素大對決收錄 22 種主族元素與稀有氣體，可選擇挑戰電腦或兩人輪流對戰。每回合翻開兩張只標示原子序、元素分類與週期表位置的卡牌，輪到的玩家必須依週期趨勢選出自己較大的性質，選對便取得卡牌。系統會在每回合解釋左右、上下位置所代表的趨勢，也說明半滿軌域、原子量與稀有氣體半徑等經典例外；若兩個位置方向的影響相反，則標示僅靠位置無法判斷。它適合國中理化與高中化學的分組競賽、形成性評量或複習。",
+    "authorName": "je5577iee",
+    "authorGitHub": "je5577iee",
+    "repo": "je5577iee/element-duel",
+    "homepage": "",
+    "launchUrl": "https://je5577iee.github.io/element-duel/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "chemistry",
+      "periodic-table",
+      "card-game",
+      "offline"
+    ],
+    "educationLevels": [
+      "中小學"
+    ],
+    "useCases": [
+      "在週期表單元中練習原子半徑、電負度與第一游離能的方向趨勢",
+      "分組對戰時要求學生先口頭說明判斷理由，再選擇比較項目",
+      "蒐集遊戲出現的例外案例，延伸討論電子組態與資料定義"
+    ],
+    "cautions": [
+      "卡面刻意不列性質數值，活動重點是趨勢推理，不宜取代定量資料查詢",
+      "斜對角元素可能無法只靠週期表位置判斷，應把平手說明作為比較證據限制的教材",
+      "原子半徑採單鍵共價半徑等特定資料定義，和其他教科書或資料表可能略有差異"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本；離線時下載 index.html，以電腦、平板或手機瀏覽器直接開啟即可。",
+    "license": "CC BY-NC-SA 4.0",
+    "submittedAt": "2026-10-23",
+    "sourcePath": "catalog/element-duel.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-22T05:35:28Z",
+    "repoUrl": "https://github.com/je5577iee/element-duel",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
+  },
+  {
+    "name": "加減乘除大挑戰",
+    "description": "國小加減乘除分級練習與雙隊搶答遊戲，提供概念提示、個人紀錄和投影課堂模式。",
+    "educatorSummary": "加減乘除大挑戰提供加法、減法、乘法、除法與四則綜合題，依 10 以內、20 以內進退位、兩位數及九九乘除等內容分成三種難度。個人賽包含四選一、自行輸入、限時與未知數填空題，答錯時會以十格框、湊十、破十、分糖果或拆數等國小常見策略給提示；學生也能建立多位本機玩家，輪流累積星星。分組賽則讓兩隊以 A、L 鍵搶答，適合一台電腦接投影機進行課堂暖身或複習。",
+    "authorName": "je5577iee",
+    "authorGitHub": "je5577iee",
+    "repo": "je5577iee/math_challenge",
+    "homepage": "",
+    "launchUrl": "https://je5577iee.github.io/math_challenge/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "elementary",
+      "mathematics",
+      "arithmetic",
+      "quiz",
+      "offline"
+    ],
+    "educationLevels": [
+      "小學"
+    ],
+    "useCases": [
+      "依年級與學習狀況選擇四則運算題型和難度，進行個別流暢度練習",
+      "用錯題提示觀察學生在進位、退位、乘法或等分概念上的卡點",
+      "以分組搶答進行課堂暖身、單元複習或小組合作競賽"
+    ],
+    "cautions": [
+      "分組搶答使用 A、L 鍵，活動前宜把輸入法切換為英文並確認鍵盤位置",
+      "限時與競賽模式可能增加部分學生壓力，建議保留不限時個人練習與合作說明機會",
+      "玩家名稱、星星與進度只保存在目前瀏覽器，不宜使用可識別學生身分的完整姓名"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本；離線使用時下載 index.html，以電腦、平板或手機瀏覽器直接開啟即可。",
+    "license": "CC BY-NC-SA 4.0",
+    "submittedAt": "2026-10-23",
+    "sourcePath": "catalog/math-challenge.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-22T05:29:13Z",
+    "repoUrl": "https://github.com/je5577iee/math_challenge",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
+  },
+  {
+    "name": "化學反應實驗室",
+    "description": "國中理化互動實驗遊戲，讓學生配對物質、觀察反應現象，並核對配平化學方程式與生活實例。",
+    "educatorSummary": "化學反應實驗室以 10 個任務帶領學生探索酸鹼中和、氣體製備與檢驗、金屬置換及沉澱反應。學生先從實驗架選兩種物質放入燒杯，再觀察冒泡、放熱、變色或沉澱動畫；成功後會顯示含物質狀態的配平方程式、實驗現象與生活連結。答錯時先提供提示，再次答錯才揭示答案，也能辨認其實屬於其他任務的有效反應，適合用於國中理化的預習、課堂推理或複習活動。",
+    "authorName": "je5577iee",
+    "authorGitHub": "je5577iee",
+    "repo": "je5577iee/chem-alchemy",
+    "homepage": "",
+    "launchUrl": "https://je5577iee.github.io/chem-alchemy/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "chemistry",
+      "science",
+      "game",
+      "offline"
+    ],
+    "educationLevels": [
+      "中小學"
+    ],
+    "useCases": [
+      "在實作實驗前，讓學生預測反應物、反應現象與生成物",
+      "練習配平化學方程式，並辨認固體、液體、氣體與水溶液狀態",
+      "將 10 個任務分類為酸鹼中和、產氣、置換與沉澱反應"
+    ],
+    "cautions": [
+      "遊戲中的多種藥品具腐蝕性或其他危險，真實實驗必須由教師依安全規範指導",
+      "模擬只收錄任務使用的反應，畫面顯示無反應不代表物質在真實條件下一定不反應",
+      "完成紀錄只保存在目前瀏覽器，換裝置或清除網站資料後不會保留"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本；離線使用時下載 repository 根目錄的 index.html，以現代瀏覽器直接開啟即可，不需安裝、登入或連線。",
+    "license": "CC BY-NC-SA 4.0",
+    "submittedAt": "2026-10-23",
+    "sourcePath": "catalog/chem-alchemy.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-22T05:38:09Z",
+    "repoUrl": "https://github.com/je5577iee/chem-alchemy",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
+  },
+  {
     "name": "參考資料檢查器 Reference Verifier",
     "description": "用於查核參考文獻真實性的 AI 協作 Skill，協助比對標題、作者、年份、期刊與 DOI 是否可信。",
     "educatorSummary": "Reference Verifier 是一個 Codex / AI 協作 Skill，設計給研究者、研究生與教師用來檢查參考文獻清單是否混入 AI 幻覺文獻或書目欄位錯誤。使用者貼上參考文獻後，工具會先逐筆編號，再依選定資料庫比對標題、作者、年份、期刊與 DOI，並以「真實存在」、「資訊不完整 / 有出入」、「疑似不存在」整理結果。它適合研究方法、論文寫作、專題報告與文獻回顧課程，用來訓練學生誠實標示查核限制，而不是補造看似合理的引用資訊。",
@@ -1080,6 +1207,49 @@
     "lastPushedAt": "2026-07-11T04:55:08Z",
     "repoUrl": "https://github.com/educatres/reference-verifier",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "咕咕鐘",
+    "description": "國小時鐘學習遊戲，透過九步教學、看時鐘與撥時鐘練習，建立整點、半點與幾時幾分概念。",
+    "educatorSummary": "咕咕鐘以可操作的類比鐘面協助國小學生認識 1～12、長短針、分鐘刻度、整點、半點與幾時幾分。九步教學單元會逐段示範鐘面與指針規律，之後可進入「看時鐘選答案」或「依題目撥指針」兩種模式，並依整點與半點、每 5 分鐘及每 1 分鐘分成三種難度。針對長短針混淆、把鐘面數字直接當分鐘或快到整點時判讀錯誤等常見迷思，系統會提供對應提示與視覺輔助，也支援注音、音效、觸控操作及錯題回顧。",
+    "authorName": "je5577iee",
+    "authorGitHub": "je5577iee",
+    "repo": "je5577iee/clock_challenge",
+    "homepage": "",
+    "launchUrl": "https://je5577iee.github.io/clock_challenge/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "elementary",
+      "mathematics",
+      "time",
+      "game",
+      "offline"
+    ],
+    "educationLevels": [
+      "小學"
+    ],
+    "useCases": [
+      "初次教學時用九步單元示範鐘面、長短針與 60 分鐘等於 1 小時",
+      "讓學生先練習讀鐘，再以拖曳或按鈕撥出指定時間",
+      "透過錯題小時鐘診斷長短針、五個一數與跨整點判讀迷思"
+    ],
+    "cautions": [
+      "建議先依學生程度選擇整點半點、每 5 分鐘或每 1 分鐘的題目，避免一次加入太多規則",
+      "首頁時鐘使用裝置時間，若電腦或平板時間設定錯誤，顯示也會跟著不正確",
+      "最佳成績只保存在目前瀏覽器；意見回饋按鈕會另開 Google 表單並需要網路"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本；若需離線使用，下載 index.html 後以電腦、平板或手機瀏覽器直接開啟即可。",
+    "license": "CC BY-NC-SA 4.0",
+    "submittedAt": "2026-10-23",
+    "sourcePath": "catalog/clock-challenge.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-22T05:37:26Z",
+    "repoUrl": "https://github.com/je5577iee/clock_challenge",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
   },
   {
     "name": "地形探險隊-亞洲",
@@ -1626,10 +1796,53 @@
     "submittedAt": "2026-07-14",
     "sourcePath": "catalog/red-blood-cell-heart-adventure.yaml",
     "stars": 0,
-    "forks": 0,
+    "forks": 2,
     "lastPushedAt": "2026-07-17T17:10:55Z",
     "repoUrl": "https://github.com/educatres/red-blood-cell-heart-adventure",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "披薩比一比",
+    "description": "用披薩圖像練習分數大小比較的國小數學遊戲，涵蓋同分母、同分子、異分母與等值分數。",
+    "educatorSummary": "披薩比一比把兩個分數畫成小熊與小兔的披薩，請學生依題目選出較多、較少或一樣多的一盤。簡單模式處理同分母比較，進階模式聚焦同分子時分母愈大、每份愈小，困難模式加入異分母與等值分數。第一次答錯會以等長分數條提供視覺提示，並逐步帶出「同分母比分子」「同分子比分母」及通分策略；再次答錯才揭示答案。工具支援分數讀法、注音、鍵盤、觸控、音效與離線使用，適合國小分數概念教學和補救練習。",
+    "authorName": "je5577iee",
+    "authorGitHub": "je5577iee",
+    "repo": "je5577iee/pizza-compare",
+    "homepage": "",
+    "launchUrl": "https://je5577iee.github.io/pizza-compare/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "elementary",
+      "mathematics",
+      "fractions",
+      "game",
+      "offline"
+    ],
+    "educationLevels": [
+      "小學"
+    ],
+    "useCases": [
+      "以披薩圖像連結分數符號、讀法與部分量概念",
+      "分階段練習同分母、同分子、異分母和等值分數比較",
+      "搭配紙盤或色紙實作，讓學生切分、疊合並說明比較理由"
+    ],
+    "cautions": [
+      "應要求學生說明比較策略，避免只依塗色面積猜答案而未連結到分子與分母",
+      "進入異分母題目前，建議先確認學生理解單位分數與等值分數",
+      "最佳成績只保存在目前瀏覽器，換裝置或清除網站資料後不會保留"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本；離線使用時下載 index.html，以電腦、平板或手機瀏覽器直接開啟即可。",
+    "license": "CC BY-NC-SA 4.0",
+    "submittedAt": "2026-10-23",
+    "sourcePath": "catalog/pizza-compare.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-22T05:31:47Z",
+    "repoUrl": "https://github.com/je5577iee/pizza-compare",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
   },
   {
     "name": "拋體運動實驗室",
@@ -1752,6 +1965,49 @@
     "lastPushedAt": "2026-07-19T04:00:10Z",
     "repoUrl": "https://github.com/kisaraki/classroom-lab-tzk",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
+  },
+  {
+    "name": "文具店開張囉",
+    "description": "以文具店情境練習認識錢幣、湊出總價與找錢的國小數學遊戲，包含三種難度與分步提示。",
+    "educatorSummary": "文具店開張囉讓學生扮演小老闆，依客人購買的文具從錢箱取出正確金額，或根據付款金額找零。簡單模式練習單價、重複加法與湊錢，進階模式依總價找錢，困難模式則先計算 2～3 項商品總額，再完成 100 或 500 元付款的找零。答錯後會提示尚差多少、拆解加總步驟，並比較減法與往上數兩種找錢策略；再次答錯才示範以較少張數完成的組合。工具支援注音、音效、觸控與離線使用，適合國小生活數學和補救教學。",
+    "authorName": "je5577iee",
+    "authorGitHub": "je5577iee",
+    "repo": "je5577iee/stationery-shop",
+    "homepage": "https://je5577iee.github.io/stationery-shop/",
+    "launchUrl": "https://je5577iee.github.io/stationery-shop/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "elementary",
+      "mathematics",
+      "money",
+      "game",
+      "offline"
+    ],
+    "educationLevels": [
+      "小學"
+    ],
+    "useCases": [
+      "練習辨認面額、用不同錢幣組合湊出相同金額",
+      "在購物情境中運用重複加法、多項加總、減法與往上數找零",
+      "銜接教具錢幣或班級小商店活動，比較多種付款與找錢策略"
+    ],
+    "cautions": [
+      "遊戲錢幣與鈔票是只保留面額和顏色的教學圖案，不是真實新臺幣樣式",
+      "商品價格為練習而設計，且部分難度會隨機變動，不代表實際市價",
+      "最佳成績只保存在目前瀏覽器，換裝置或清除網站資料後不會保留"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本；離線使用時下載 index.html，以電腦或平板瀏覽器直接開啟即可。",
+    "license": "CC BY-NC-SA 4.0",
+    "submittedAt": "2026-10-23",
+    "sourcePath": "catalog/stationery-shop.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-22T05:32:26Z",
+    "repoUrl": "https://github.com/je5577iee/stationery-shop",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
   },
   {
     "name": "會議時間調查系統",
@@ -1996,7 +2252,7 @@
     "submittedAt": "2026-07-09",
     "sourcePath": "catalog/infinite-whiteboard.yaml",
     "stars": 3,
-    "forks": 1,
+    "forks": 9,
     "lastPushedAt": "2026-07-13T22:33:09Z",
     "repoUrl": "https://github.com/educatres/infinite-whiteboard",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
@@ -2081,7 +2337,7 @@
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/chopstick-bridge-lab.yaml",
     "stars": 0,
-    "forks": 0,
+    "forks": 3,
     "lastPushedAt": "2026-07-11T16:51:24Z",
     "repoUrl": "https://github.com/educatres/chopstick-bridge-lab",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
@@ -2208,7 +2464,7 @@
     "submittedAt": "2026-10-09",
     "sourcePath": "catalog/finboardgame.yaml",
     "stars": 0,
-    "forks": 0,
+    "forks": 5,
     "lastPushedAt": "2026-10-09T12:00:23Z",
     "repoUrl": "https://github.com/educatres/finboardgame",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
@@ -2332,7 +2588,7 @@
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/gravity-slingshot-voyager-game.yaml",
     "stars": 0,
-    "forks": 0,
+    "forks": 3,
     "lastPushedAt": "2026-07-12T00:45:26Z",
     "repoUrl": "https://github.com/educatres/gravity-slingshot-voyager-game",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
@@ -2380,6 +2636,50 @@
     "lastPushedAt": "2026-07-18T08:04:51Z",
     "repoUrl": "https://github.com/educatres/gut-microbiome-battle",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "蛙骨拼圖",
+    "description": "以青蛙背面骨骼為主題的雙語拼圖與名稱練習，涵蓋 56 塊骨頭及 28 種解剖名稱。",
+    "educatorSummary": "蛙骨拼圖適合高中生物、大學普通生物學、動物學與比較解剖學課程。第一關讓學生把 56 塊骨頭拖放到青蛙骨架的正確位置，第二關則以拖曳標籤或自行輸入方式標示 28 種骨頭名稱；中文、英文、常見別名與部分簡體名稱皆可判定。系統提供輪廓、位置提示、分類著色、中英文說明、錯誤次數與完成時間，能用於解剖或標本觀察前的預習，以及課後位置與術語複習。",
+    "authorName": "je5577iee",
+    "authorGitHub": "je5577iee",
+    "repo": "je5577iee/frog-skeleton",
+    "homepage": "",
+    "launchUrl": "https://je5577iee.github.io/frog-skeleton/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "biology",
+      "anatomy",
+      "zoology",
+      "puzzle",
+      "offline"
+    ],
+    "educationLevels": [
+      "高中",
+      "大學"
+    ],
+    "useCases": [
+      "在觀察實體標本或進行解剖前，預習青蛙骨骼的相對位置",
+      "以中英文雙語練習頭骨、中軸骨、肩帶、腰帶及四肢骨名稱",
+      "比較青蛙與其他脊椎動物的骨骼構造、移動方式與適應差異"
+    ],
+    "cautions": [
+      "骨架是以赤蛙屬背面觀製作的簡化原創示意圖，不能取代實體標本或專業解剖圖譜",
+      "部分腹面骨頭未收錄，不同蛙種的骨骼比例、指骨數與橫突形態也可能不同",
+      "手機和平板可用點選方式操作，但完整拖曳與標示活動以電腦滑鼠較順暢"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本；離線時下載單一 index.html，以瀏覽器開啟即可，不需安裝、登入或連線。",
+    "license": "CC BY-NC-SA 4.0",
+    "submittedAt": "2026-10-23",
+    "sourcePath": "catalog/frog-skeleton.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-22T05:36:05Z",
+    "repoUrl": "https://github.com/je5577iee/frog-skeleton",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
   },
   {
     "name": "血球迷宮：循環運輸大挑戰",
@@ -2461,9 +2761,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 1060,
+    "stars": 1072,
     "forks": 116,
-    "lastPushedAt": "2026-10-20T04:26:08Z",
+    "lastPushedAt": "2026-10-23T04:20:47Z",
     "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
     "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4"
   },
@@ -2542,6 +2842,49 @@
     "lastPushedAt": "2026-10-07T23:44:26Z",
     "repoUrl": "https://github.com/educatres/audience-analysis",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
+    "name": "跳跳月曆",
+    "description": "以青蛙跳格動畫練習月曆、星期與日期的國小數學遊戲，涵蓋找星期、數週次與日期加減。",
+    "educatorSummary": "跳跳月曆使用當年度的真實月份產生題目，讓學生從活動貼紙所在日期判斷星期、找出第幾個或最後一個星期幾、計算往前或往回若干天，以及比較兩個活動相隔幾天。三種難度會逐步增加跳躍距離、跨週與反向計算；答錯後，月曆會以直欄亮起、格數標記或青蛙逐格跳躍的方式呈現解題過程。工具也提供注音、音效、觸控操作和減少動態效果支援，適合國小日期概念教學、課堂示範與補救練習。",
+    "authorName": "je5577iee",
+    "authorGitHub": "je5577iee",
+    "repo": "je5577iee/hop-calendar",
+    "homepage": "",
+    "launchUrl": "https://je5577iee.github.io/hop-calendar/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "elementary",
+      "mathematics",
+      "calendar",
+      "game",
+      "offline"
+    ],
+    "educationLevels": [
+      "小學"
+    ],
+    "useCases": [
+      "用首頁月曆練習說出今天的日期與星期，建立讀月曆習慣",
+      "引導學生發現同一直欄向下移一格等於增加 7 天",
+      "以逐格跳躍比較直接數格、加減 7 與跨週日期計算策略"
+    ],
+    "cautions": [
+      "首頁月份與今天日期依裝置時鐘顯示，使用前應確認電腦或平板日期正確",
+      "活動貼紙是隨機題目情境，不代表真實節日；月曆也不含國定假日與農曆資訊",
+      "最佳成績只保存在目前瀏覽器，換裝置或清除網站資料後不會保留"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本；離線時下載 index.html，再以電腦或平板瀏覽器直接開啟即可。",
+    "license": "CC BY-NC-SA 4.0",
+    "submittedAt": "2026-10-23",
+    "sourcePath": "catalog/hop-calendar.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-22T05:34:47Z",
+    "repoUrl": "https://github.com/je5577iee/hop-calendar",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
   },
   {
     "name": "軌道觀測站",
@@ -2671,6 +3014,49 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
   },
   {
+    "name": "顏色調調樂",
+    "description": "以擠顏料和調色任務認識三原色、明暗與比例混色的國小藝術遊戲，支援注音與分級提示。",
+    "educatorSummary": "顏色調調樂讓學生依小變色龍想畫的物件，選擇紅、黃、藍、白與黑色顏料的種類和滴數，再攪拌出指定顏色。簡單模式練習橘、綠、紫等二次色，進階加入加白變淺與加黑變深，困難模式則需要調整比例或混合三種顏色。第一次答錯會顯示色環、明暗色條或比例提示，再次答錯才提供完整配方；工具也支援注音、音效、觸控與離線使用，適合國小美勞或色彩概念活動。",
+    "authorName": "je5577iee",
+    "authorGitHub": "je5577iee",
+    "repo": "je5577iee/color-mix",
+    "homepage": "",
+    "launchUrl": "https://je5577iee.github.io/color-mix/",
+    "tags": [
+      "education",
+      "teaching",
+      "github",
+      "elementary",
+      "art",
+      "color-mixing",
+      "game",
+      "offline"
+    ],
+    "educationLevels": [
+      "小學"
+    ],
+    "useCases": [
+      "在美勞課前先預測紅黃藍混合結果，再用遊戲驗證",
+      "比較等比例配方與不同顏料比例造成的色相差異",
+      "銜接實體水彩活動，觀察加白、加黑及螢幕色彩和真實顏料的差別"
+    ],
+    "cautions": [
+      "遊戲以螢幕顏色模擬顏料混色，真實水彩結果會受顏料品牌、水量與紙材影響",
+      "可把配方視為概念提示，不宜要求學生把畫面顏色當成精準色彩標準",
+      "最佳成績只保存在目前瀏覽器，換裝置或清除網站資料後不會保留"
+    ],
+    "language": "HTML",
+    "install": "可直接開啟 GitHub Pages 線上版本；若需離線使用，下載 index.html 後以電腦、平板或手機瀏覽器直接開啟即可。",
+    "license": "CC BY-NC-SA 4.0",
+    "submittedAt": "2026-10-23",
+    "sourcePath": "catalog/color-mix.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-22T05:34:15Z",
+    "repoUrl": "https://github.com/je5577iee/color-mix",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
+  },
+  {
     "name": "風暴創世神：北半球颱風模擬器",
     "description": "以西北太平洋熱帶氣旋為題材的互動科學模擬器，讓學生探索海溫、風切、地形、環境導引與冷水尾流如何影響颱風路徑、強度及測站風雨。",
     "educatorSummary": "風暴創世神（SGTS-NH）是一套純前端的北半球颱風互動模擬器，以固定時間步進及具種子的可重現模型呈現熱帶氣旋發展。學生可體驗「那霸風雨」、「護國神山」與「韋恩三進」三個資料驅動關卡，或在無勝敗沙盒中自訂生成點、強度、海洋及環境條件，觀察太平洋副熱帶高壓、西南季風、垂直風切、臺灣地形、登陸再出海與冷水尾流等因素如何改變颱風。六個測站會同步呈現模型風雨資料，適合用於國中、高中地球科學的概念探究、變因比較、歷史颱風情境討論與遊戲化學習。",
@@ -2751,7 +3137,7 @@
     "submittedAt": "2026-07-15",
     "sourcePath": "catalog/food-digestion-simulator.yaml",
     "stars": 0,
-    "forks": 0,
+    "forks": 6,
     "lastPushedAt": "2026-07-15T13:31:16Z",
     "repoUrl": "https://github.com/educatres/food-digestion-simulator",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"

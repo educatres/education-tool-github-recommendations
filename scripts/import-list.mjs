@@ -6,7 +6,16 @@ import { normalizeEntry, parseCatalogYaml, stringifyCatalogYaml } from "./catalo
 const listPath = path.resolve("list.txt");
 const catalogDir = path.resolve("catalog");
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
-const allowedEducationLevels = ["教室工具", "通用工具", "不限領域", "中小學", "高中", "大學", "研究"];
+const allowedEducationLevels = [
+  "教室工具",
+  "通用工具",
+  "不限領域",
+  "小學",
+  "中小學",
+  "高中",
+  "大學",
+  "研究"
+];
 
 function githubHeaders() {
   const headers = {
@@ -42,6 +51,7 @@ function parseEducationLevels(value) {
       value
         .split(/[、,，\s]+/)
         .map((item) => item.trim())
+        .map((item) => (item === "國中" ? "中小學" : item))
         .filter((item) => allowedEducationLevels.includes(item))
     )
   ];
@@ -118,7 +128,8 @@ function firstParagraph(readme) {
 function inferEducationLevels(text) {
   const levels = [];
   const candidates = [
-    ["中小學", /國小|小學|國中|初中|elementary|middle school|junior high/i],
+    ["小學", /國小|小學|elementary/i],
+    ["中小學", /國中|初中|middle school|junior high/i],
     ["高中", /高中|高職|high school|secondary/i],
     ["大學", /大學|college|university|高教/i],
     ["研究", /研究|研究所|研究生|graduate|research/i]

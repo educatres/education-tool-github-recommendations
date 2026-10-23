@@ -66,3 +66,12 @@ https://github.com/kisaraki/classroom-sgts-nh-tzk	中小學、高中	https://kis
 https://github.com/educatres/finboardgame	大學	https://educatres.github.io/finboardgame/
 https://github.com/kueilan/LearningPerformance_Single/	中小學、高中
 https://github.com/educatres/PaperReader	大學、研究	https://educatres.github.io/PaperReader/
+https://github.com/je5577iee/chem-alchemy	國中	https://je5577iee.github.io/chem-alchemy/
+https://github.com/je5577iee/clock_challenge	小學	https://je5577iee.github.io/clock_challenge/
+https://github.com/je5577iee/frog-skeleton	高中、大學	https://je5577iee.github.io/frog-skeleton/
+https://github.com/je5577iee/element-duel	中小學	https://je5577iee.github.io/element-duel/
+https://github.com/je5577iee/hop-calendar	小學	https://je5577iee.github.io/hop-calendar/
+https://github.com/je5577iee/color-mix	小學	https://je5577iee.github.io/color-mix/
+https://github.com/je5577iee/stationery-shop	小學	https://je5577iee.github.io/stationery-shop/
+https://github.com/je5577iee/pizza-compare	小學	https://je5577iee.github.io/pizza-compare/
+https://github.com/je5577iee/math_challenge	小學	https://je5577iee.github.io/math_challenge/

@@ -1,6 +1,15 @@
 import catalog from "../data/catalog.generated.json";
 
-const educationLevelOrder = ["教室工具", "通用工具", "不限領域", "中小學", "高中", "大學", "研究"];
+const educationLevelOrder = [
+  "教室工具",
+  "通用工具",
+  "不限領域",
+  "小學",
+  "中小學",
+  "高中",
+  "大學",
+  "研究"
+];
 
 export type CatalogEntry = {
   name: string;
