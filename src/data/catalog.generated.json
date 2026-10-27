@@ -77,8 +77,8 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-humanizer.yaml",
-    "stars": 2445,
-    "forks": 186,
+    "stars": 2861,
+    "forks": 207,
     "lastPushedAt": "2026-07-03T07:58:33Z",
     "repoUrl": "https://github.com/AIScientists-Dev/academic-humanizer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/226059021?v=4"
@@ -118,9 +118,9 @@
     "license": "CC BY-NC 4.0",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/academic-research-skills.yaml",
-    "stars": 53561,
-    "forks": 4111,
-    "lastPushedAt": "2026-10-23T12:34:25Z",
+    "stars": 54163,
+    "forks": 4141,
+    "lastPushedAt": "2026-10-27T04:38:19Z",
     "repoUrl": "https://github.com/Imbad0202/academic-research-skills",
     "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4"
   },
@@ -496,6 +496,48 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/48860861?v=4"
   },
   {
+    "name": "MeetingTutor｜會議記錄與上課錄音助教",
+    "description": "可在瀏覽器將會議或課堂錄音轉成文字，再配合自備的 AI 服務整理、潤飾並產出會議文件的靜態網頁工具。",
+    "educatorSummary": "MeetingTutor 是可部署到 GitHub Pages 的瀏覽器工具，使用 Whisper 模型將錄音轉錄為文字，並可選用 OpenAI、xAI／Grok、Google 或 CGU 的文字模型協助潤飾。教師可參照 PDF 或文字資料，將上課錄音、討論內容或行政會議整理為可編輯的文件；目前以人工標記說話者與段落編輯為主。API Key 和偏好設定保留在目前瀏覽器，適合在受信任的個人裝置上先行測試。",
+    "authorName": "educatres",
+    "authorGitHub": "educatres",
+    "repo": "educatres/MeetingTutor",
+    "homepage": "",
+    "launchUrl": "https://educatres.github.io/MeetingTutor/",
+    "tags": [
+      "education",
+      "teaching",
+      "classroom",
+      "transcription",
+      "meeting-notes",
+      "ai-assistant"
+    ],
+    "educationLevels": [
+      "教室工具",
+      "通用工具"
+    ],
+    "useCases": [
+      "將課堂討論、專題口頭報告或教師會議錄音轉為可整理的文字稿",
+      "依課程講義、會議資料或 PDF 參考內容，協助整理重點、決議與後續工作",
+      "讓學生比對錄音與整理後的文字，練習摘要、修訂紀錄與資訊查證"
+    ],
+    "cautions": [
+      "初次使用需要下載 Whisper 與 ONNX Runtime 資源，轉錄前應預留網路頻寬與等待時間；目前尚未自動切換 WebGPU",
+      "尚未提供可靠的自動說話者分離，涉及多人對談時須由使用者人工辨識及修正說話者",
+      "API Key、服務商與設定會存於瀏覽器 `localStorage`；請只在受信任的裝置使用，並先取得錄音對象的同意、確認資料與 API 供應商的隱私規範"
+    ],
+    "language": "TypeScript",
+    "install": "可直接開啟 GitHub Pages 線上版本使用；先於「AI 設定」選擇服務商、輸入自己的 API Key 並測試連線，再上傳或錄製音訊。若要本機開發，依 README 執行 `npm install` 和 `npm run dev`；部署前需在 GitHub Pages 設定中選擇 GitHub Actions 作為發布來源。",
+    "license": "Unspecified",
+    "submittedAt": "2026-10-28",
+    "sourcePath": "catalog/meetingtutor.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-27T01:05:45Z",
+    "repoUrl": "https://github.com/educatres/MeetingTutor",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
     "name": "NIBBLES｜3D 彈珠台字彙遊戲",
     "description": "結合貪食蛇、3D 彈珠台與英文拼字任務的桌面網頁遊戲，讓學生在操控與限時挑戰中練習 CEEC Level 1–6 字彙。",
     "educatorSummary": "NIBBLES 是一套以 Three.js 製作的 3D 英文字彙遊戲，將經典貪食蛇玩法放進固定視角的科幻彈珠台。學生可選擇 CEEC Level 1–6、漸進或混合字彙模式，在五個場景中依序收集組成目標單字的字母與標點符號；完成拼字後，還要在限時視窗連續正確輸入單字三次，加強辨識、拼寫與鍵盤輸入。遊戲另有桌面傾斜、晃動、射擊、時間增減道具與碰撞恢復等機制，適合用作國中、高中英文課的字彙複習、個別挑戰或遊戲化學習活動。",
@@ -745,6 +787,47 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/40184670?v=4"
   },
   {
+    "name": "QuizGenerator｜AI 智慧出題與試卷製作工具",
+    "description": "在瀏覽器本機讀取 PDF、TXT 或 Markdown 教材，利用自備 AI API 產生候選試題，經教師審核後匯出可編輯試卷或 JSON 題庫的工具。",
+    "educatorSummary": "QuizGenerator 採 browser-first 設計，可匯入教材、貼上文字或加入考古題，使用 CGU LLM Gateway、OpenAI、xAI／Grok 或 Google Gemini 產生單選、複選、是非與簡答題。教師可選擇繁體中文或英文命題，在獨立審核分頁編輯、接受、退回、排序及保留版本紀錄，再匯出一般卷或同題異序的 A／B 卷 DOCX、TXT、解答與 JSON 題庫。教材解析與題庫主要留在目前瀏覽器，只有按下產生候選題時才會將所選文字傳給指定 AI 服務。",
+    "authorName": "educatres",
+    "authorGitHub": "educatres",
+    "repo": "educatres/QuizGenerator",
+    "homepage": "https://educatres.github.io/QuizGenerator/",
+    "launchUrl": "https://educatres.github.io/QuizGenerator/",
+    "tags": [
+      "education",
+      "teaching",
+      "assessment",
+      "quiz",
+      "ai-assistant",
+      "pdf"
+    ],
+    "educationLevels": [
+      "大學"
+    ],
+    "useCases": [
+      "從課程教材快速建立不同題型的候選題，供教師依學習目標與難度審核修訂",
+      "匯入考古題後選擇變換題型或避開既有題目，製作練習、形成性評量或測驗卷",
+      "匯出 A／B 卷、答案與 JSON 題庫，降低試卷排版與後續題庫整理的時間"
+    ],
+    "cautions": [
+      "AI 產題可能有錯誤、偏誤或與教材不符的內容，所有題目、答案、難度與措辭均應由教師審核後再使用",
+      "教材雖先在瀏覽器解析，但產生題目時會將選定文字送至 AI 服務；請避免上傳敏感資料，並確認 API 供應商的資料處理規範與費用",
+      "掃描型 PDF 的 OCR、Word／圖片輸入與雲端題庫不在目前 MVP 範圍；API Key 儲存在目前瀏覽器，應只在受信任裝置使用並於需要時清除"
+    ],
+    "language": "TypeScript",
+    "install": "直接開啟 GitHub Pages 線上版本，匯入 PDF、TXT、Markdown 或貼上教材文字；在「AI 設定」選擇服務商並輸入自己的 API Key，再產生與審核候選題。若要本機開發，依 README 執行 `npm install`、`npm run dev`；推送至 `main` 後可由 GitHub Actions 建置並發布。",
+    "license": "MIT",
+    "submittedAt": "2026-10-28",
+    "sourcePath": "catalog/quizgenerator.yaml",
+    "stars": 0,
+    "forks": 0,
+    "lastPushedAt": "2026-10-27T15:55:03Z",
+    "repoUrl": "https://github.com/educatres/QuizGenerator",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
+  },
+  {
     "name": "ScholarSkill",
     "description": "以 Obsidian 為核心的學術閱讀工作流，協助研究者把論文閱讀轉成可連結、可修訂、會持續演化的知識系統。",
     "educatorSummary": "ScholarSkill 是一個 OpenClaw skill，設計目標不是只產生一次性的論文摘要，而是協助代理人進行結構化閱讀、知識連結、舊理解修訂與批判性反思，並把成果沉澱到 Obsidian vault。它適合研究方法、文獻回顧、研究生讀書會或個人知識管理教學，讓學生練習把新論文放回既有研究脈絡，辨識概念關係、證據強弱與需要更新的舊筆記。",
@@ -906,7 +989,7 @@
     "license": "MIT",
     "submittedAt": "2026-07-16",
     "sourcePath": "catalog/talkq.yaml",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "lastPushedAt": "2026-07-30T05:47:14Z",
     "repoUrl": "https://github.com/educatres/talkq",
@@ -1120,7 +1203,7 @@
     "sourcePath": "catalog/math-challenge.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-10-22T05:29:13Z",
+    "lastPushedAt": "2026-10-25T05:10:03Z",
     "repoUrl": "https://github.com/je5577iee/math_challenge",
     "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
   },
@@ -1247,7 +1330,7 @@
     "sourcePath": "catalog/clock-challenge.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-10-22T05:37:26Z",
+    "lastPushedAt": "2026-10-25T04:54:22Z",
     "repoUrl": "https://github.com/je5577iee/clock_challenge",
     "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
   },
@@ -2005,7 +2088,7 @@
     "sourcePath": "catalog/stationery-shop.yaml",
     "stars": 0,
     "forks": 0,
-    "lastPushedAt": "2026-10-22T05:32:26Z",
+    "lastPushedAt": "2026-10-25T05:20:36Z",
     "repoUrl": "https://github.com/je5577iee/stationery-shop",
     "avatarUrl": "https://avatars.githubusercontent.com/u/127774549?v=4"
   },
@@ -2252,7 +2335,7 @@
     "submittedAt": "2026-07-09",
     "sourcePath": "catalog/infinite-whiteboard.yaml",
     "stars": 3,
-    "forks": 9,
+    "forks": 10,
     "lastPushedAt": "2026-07-13T22:33:09Z",
     "repoUrl": "https://github.com/educatres/infinite-whiteboard",
     "avatarUrl": "https://avatars.githubusercontent.com/u/80018723?v=4"
@@ -2761,9 +2844,9 @@
     "license": "MIT",
     "submittedAt": "2026-07-11",
     "sourcePath": "catalog/speak-human-tw.yaml",
-    "stars": 1072,
-    "forks": 116,
-    "lastPushedAt": "2026-10-23T04:20:47Z",
+    "stars": 1085,
+    "forks": 121,
+    "lastPushedAt": "2026-10-27T04:37:16Z",
     "repoUrl": "https://github.com/Raymondhou0917/speak-human-tw",
     "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4"
   },

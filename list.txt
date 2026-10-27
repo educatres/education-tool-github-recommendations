@@ -75,3 +75,5 @@ https://github.com/je5577iee/color-mix	小學	https://je5577iee.github.io/color-
 https://github.com/je5577iee/stationery-shop	小學	https://je5577iee.github.io/stationery-shop/
 https://github.com/je5577iee/pizza-compare	小學	https://je5577iee.github.io/pizza-compare/
 https://github.com/je5577iee/math_challenge	小學	https://je5577iee.github.io/math_challenge/
+https://github.com/educatres/MeetingTutor	教室工具、通用工具	https://educatres.github.io/MeetingTutor/
+https://github.com/educatres/QuizGenerator	大學	https://educatres.github.io/QuizGenerator/

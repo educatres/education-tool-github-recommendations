@@ -1,0 +1,46 @@
+---
+name: QuizGenerator｜AI 智慧出題與試卷製作工具
+authorName: educatres
+authorGitHub: educatres
+repo: educatres/QuizGenerator
+homepage: https://educatres.github.io/QuizGenerator/
+launchUrl: https://educatres.github.io/QuizGenerator/
+tags:
+  - education
+  - teaching
+  - assessment
+  - quiz
+  - ai-assistant
+  - pdf
+educationLevels:
+  - 大學
+language: TypeScript
+license: MIT
+submittedAt: "2026-10-28"
+---
+
+# QuizGenerator｜AI 智慧出題與試卷製作工具
+
+## 簡短描述
+
+在瀏覽器本機讀取 PDF、TXT 或 Markdown 教材，利用自備 AI API 產生候選試題，經教師審核後匯出可編輯試卷或 JSON 題庫的工具。
+
+## 教育工作者摘要
+
+QuizGenerator 採 browser-first 設計，可匯入教材、貼上文字或加入考古題，使用 CGU LLM Gateway、OpenAI、xAI／Grok 或 Google Gemini 產生單選、複選、是非與簡答題。教師可選擇繁體中文或英文命題，在獨立審核分頁編輯、接受、退回、排序及保留版本紀錄，再匯出一般卷或同題異序的 A／B 卷 DOCX、TXT、解答與 JSON 題庫。教材解析與題庫主要留在目前瀏覽器，只有按下產生候選題時才會將所選文字傳給指定 AI 服務。
+
+## 教學用途
+
+- 從課程教材快速建立不同題型的候選題，供教師依學習目標與難度審核修訂
+- 匯入考古題後選擇變換題型或避開既有題目，製作練習、形成性評量或測驗卷
+- 匯出 A／B 卷、答案與 JSON 題庫，降低試卷排版與後續題庫整理的時間
+
+## 導入注意
+
+- AI 產題可能有錯誤、偏誤或與教材不符的內容，所有題目、答案、難度與措辭均應由教師審核後再使用
+- 教材雖先在瀏覽器解析，但產生題目時會將選定文字送至 AI 服務；請避免上傳敏感資料，並確認 API 供應商的資料處理規範與費用
+- 掃描型 PDF 的 OCR、Word／圖片輸入與雲端題庫不在目前 MVP 範圍；API Key 儲存在目前瀏覽器，應只在受信任裝置使用並於需要時清除
+
+## 啟動或安裝方式
+
+直接開啟 GitHub Pages 線上版本，匯入 PDF、TXT、Markdown 或貼上教材文字；在「AI 設定」選擇服務商並輸入自己的 API Key，再產生與審核候選題。若要本機開發，依 README 執行 `npm install`、`npm run dev`；推送至 `main` 後可由 GitHub Actions 建置並發布。
